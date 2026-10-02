@@ -1,0 +1,69 @@
+{
+  "source": "ElevenLabs authenticated shared-voices API, language=ko",
+  "voices": [
+    {
+      "voice_id": "wRlh0NOM5bmw1KzaE4XZ",
+      "name": "JooHwan -  Creator",
+      "description": "A bright, youthful Korean male voice. Clear and engaging, great for informative content.",
+      "age": "young",
+      "language": "ko",
+      "accent": "seoul"
+    },
+    {
+      "voice_id": "wGZU4vSkwwD4Sj5jpW2V",
+      "name": "Martin - Teacher",
+      "description": "Gentle Korean teacher.",
+      "age": "young",
+      "language": "ko",
+      "accent": "standard"
+    },
+    {
+      "voice_id": "ZXhi0czBiSzyk3bQNu5W",
+      "name": "HoCho - Calm, Trustworthy, Documentary",
+      "description": "Calm and trustworthy adult Korean male narrator.\n",
+      "age": "young",
+      "language": "ko",
+      "accent": "standard"
+    },
+    {
+      "voice_id": "0KAffrKIwvdtnXfLpNRl",
+      "name": "Hongsuk - Korean Narrator",
+      "description": "A Korean voice for spoken explanations, service introductions, and informational narration. Recorded in Korean with a Seoul accent. Best suited to natural, conversational delivery.",
+      "age": "middle-aged",
+      "language": "ko",
+      "accent": "seoul"
+    },
+    {
+      "voice_id": "jctVgUrrEJoJjGpfN5Ef",
+      "name": "MJ - Clear, Calm, Natural",
+      "description": "Natural Korean adult male voice with a clear, balanced mid-range tone and crisp articulation. Calm, thoughtful, and trustworthy, with a conversational yet polished delivery. The voice is expressive without sounding theatrical, making it suitable for narration, explainers, education, reviews, storytelling, podcasts, branded content, and long-form videos. Approachable, mature, and easy to listen to over extended periods.",
+      "age": "young",
+      "language": "ko",
+      "accent": "seoul"
+    },
+    {
+      "voice_id": "GNmgFU0yNiLKxTCw3OT9",
+      "name": "Shin - Deep, warm, soothing Korean",
+      "description": "A deep, warm, soothing Korean voice.",
+      "age": "young",
+      "language": "ko",
+      "accent": "standard"
+    },
+    {
+      "voice_id": "UqW1DivwFt1NwUMSGnTn",
+      "name": "Suzie - Calm Korean ",
+      "description": "A composed woman in her 30s speaking standard Seoul Korean. Suitable for audiobooks, documentaries, personal stories, educational content, and customer service.\n",
+      "age": "middle_aged",
+      "language": "ko",
+      "accent": "seoul"
+    },
+    {
+      "voice_id": "Cm89zxZzEGaMu7ajYw2K",
+      "name": "Yoojin Kim - Bright, Clear & Friendly",
+      "description": "Young Korean female voice with a bright, clear, and naturally friendly tone. Great for commercials, product introductions, social media ads, brand content, and conversational narration. Native Korean with a standard Korean accent.",
+      "age": "young",
+      "language": "ko",
+      "accent": "standard"
+    }
+  ]
+}
