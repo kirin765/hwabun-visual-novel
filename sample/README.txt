@@ -1,4 +1,4 @@
-화분 — 제1화 푸른 집 / 0.3.1-miran-voice
+화분 — 제1화 푸른 집 / 0.3.2-character-motion
 
 Linux: 압축을 풀고 HwabunGarden.sh 실행.
 Windows: ZIP을 모두 풀고 HwabunGarden.exe 실행.
@@ -26,3 +26,5 @@ https://creativecommons.org/licenses/by/3.0/
 엔진: Ren’Py 8.5.4.26092102+nightly.
 Windows 패키지 구성은 검사하지만 Windows 직접 실행 검증은 없습니다.
 미술·음원·글꼴: ASSETS.md, asset-manifest.json
+
+0.3.2: 인물 호흡·발화 반응·등장/퇴장·놀람 움직임 추가. 설정에서 끌 수 있습니다.

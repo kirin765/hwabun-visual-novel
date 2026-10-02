@@ -12,6 +12,7 @@ testsuite garden:
         advance until screen "say"
         $ preferences.text_cps = 0
         advance until eval block_id == 4
+        pause 0.5
         screenshot "02-garden.png"
         assert eval renpy.music.get_playing(channel="music") == "audio/main_gymnopedie.ogg"
         assert eval not preferences.skip_unseen

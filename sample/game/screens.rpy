@@ -186,6 +186,7 @@ screen preferences():
                 hbox:
                     textbutton "창 모드" action Preference('display','window')
                     textbutton "전체 화면" action Preference('display','fullscreen')
+                textbutton "인물 움직임 켜기 / 끄기" action ToggleField(persistent, 'character_motion')
                 text "스킵은 이미 읽은 대사에만 적용됩니다." size 24 color "#a8b8a7"
                 textbutton "모든 소리 끄기" action Preference('all mute','toggle')
             vbox:

@@ -29,6 +29,7 @@ init -10 python:
         if not interact:
             return
         if event == 'begin':
+            begin_character_motion(who)
             stop_utterance()
             store.voice_generation += 1
             store.voice_speaker = who

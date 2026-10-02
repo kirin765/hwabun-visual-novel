@@ -10,8 +10,8 @@ S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사�
 
 제목 화면의 **새 장면 S03부터** 버튼으로 추가 부분을 바로 볼 수 있습니다.
 
-- [Linux 배포본](dist/HwabunGarden-0.3.1-miran-voice-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
-- [Windows 배포본](dist/HwabunGarden-0.3.1-miran-voice-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
+- [Linux 배포본](dist/HwabunGarden-0.3.2-character-motion-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
+- [Windows 배포본](dist/HwabunGarden-0.3.2-character-motion-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
 
 ## 이번 추가
 
@@ -31,3 +31,5 @@ python tools/check_packages.py
 ```
 
 엔진은 Ren’Py 8.5.4.26092102+nightly입니다. Linux 화면 멈춤에 대한 기존 VSync 우회를 유지했습니다. [기존 조사 기록](docs/freeze-diagnosis/README.md). 게임 실행에는 인터넷이나 API 키가 필요 없습니다.
+
+인물은 호흡에 따른 미세한 움직임과 발화 반응, 등장·퇴장, 놀람 동작을 사용합니다. 설정의 인물 움직임 버튼으로 끌 수 있습니다. 기존 스탠딩을 움직이는 연출이며 눈·입의 별도 애니메이션은 아직 없습니다.
