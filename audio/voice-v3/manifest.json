@@ -1,0 +1,573 @@
+{
+  "status": "audition-only-not-applied-to-game",
+  "source": "cached voice-v2 neural TTS",
+  "assets": [
+    {
+      "file": "miran_short_a.wav",
+      "speaker": "miran",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/miran_a.wav",
+      "source_sha256": "439c19940b1eade7075560b61d55bfb9bc76a2b520738c2ef38d56b350b93863"
+    },
+    {
+      "file": "miran_short_eo.wav",
+      "speaker": "miran",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/miran_eo.wav",
+      "source_sha256": "c9571a20b94c02bcdc9b101fc1a2603538683328e23c3ed9577ec1f77e40ea25"
+    },
+    {
+      "file": "miran_short_eu.wav",
+      "speaker": "miran",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/miran_eu.wav",
+      "source_sha256": "cd66a101071d9e0a3a331f35759a2f5553e2c30b9d7a2d8a38b7e70730c5a46d"
+    },
+    {
+      "file": "miran_medium_a.wav",
+      "speaker": "miran",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/miran_a.wav",
+      "source_sha256": "439c19940b1eade7075560b61d55bfb9bc76a2b520738c2ef38d56b350b93863"
+    },
+    {
+      "file": "miran_medium_eo.wav",
+      "speaker": "miran",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/miran_eo.wav",
+      "source_sha256": "c9571a20b94c02bcdc9b101fc1a2603538683328e23c3ed9577ec1f77e40ea25"
+    },
+    {
+      "file": "miran_medium_eu.wav",
+      "speaker": "miran",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/miran_eu.wav",
+      "source_sha256": "cd66a101071d9e0a3a331f35759a2f5553e2c30b9d7a2d8a38b7e70730c5a46d"
+    },
+    {
+      "file": "miran_long_a.wav",
+      "speaker": "miran",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/miran_a.wav",
+      "source_sha256": "439c19940b1eade7075560b61d55bfb9bc76a2b520738c2ef38d56b350b93863"
+    },
+    {
+      "file": "miran_long_eo.wav",
+      "speaker": "miran",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/miran_eo.wav",
+      "source_sha256": "c9571a20b94c02bcdc9b101fc1a2603538683328e23c3ed9577ec1f77e40ea25"
+    },
+    {
+      "file": "miran_long_eu.wav",
+      "speaker": "miran",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 270,
+      "source": "voice-v2/sources/miran_eu.wav",
+      "source_sha256": "cd66a101071d9e0a3a331f35759a2f5553e2c30b9d7a2d8a38b7e70730c5a46d"
+    },
+    {
+      "file": "seran_short_a.wav",
+      "speaker": "seran",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/seran_a.wav",
+      "source_sha256": "57bd2056e0409c3220646c73f432515a7b0135b6cd81ff1e5a6d3199a748c44c"
+    },
+    {
+      "file": "seran_short_eo.wav",
+      "speaker": "seran",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/seran_eo.wav",
+      "source_sha256": "c471cc6f844550c524f08ad0759cffb2fba7073b699960eed6b349a25cc76b3b"
+    },
+    {
+      "file": "seran_short_eu.wav",
+      "speaker": "seran",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/seran_eu.wav",
+      "source_sha256": "df161a43ae7681d52c04426cadfe0ec18b8b4f36b08c26cceaf58e68eb6e3cd1"
+    },
+    {
+      "file": "seran_medium_a.wav",
+      "speaker": "seran",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/seran_a.wav",
+      "source_sha256": "57bd2056e0409c3220646c73f432515a7b0135b6cd81ff1e5a6d3199a748c44c"
+    },
+    {
+      "file": "seran_medium_eo.wav",
+      "speaker": "seran",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/seran_eo.wav",
+      "source_sha256": "c471cc6f844550c524f08ad0759cffb2fba7073b699960eed6b349a25cc76b3b"
+    },
+    {
+      "file": "seran_medium_eu.wav",
+      "speaker": "seran",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/seran_eu.wav",
+      "source_sha256": "df161a43ae7681d52c04426cadfe0ec18b8b4f36b08c26cceaf58e68eb6e3cd1"
+    },
+    {
+      "file": "seran_long_a.wav",
+      "speaker": "seran",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/seran_a.wav",
+      "source_sha256": "57bd2056e0409c3220646c73f432515a7b0135b6cd81ff1e5a6d3199a748c44c"
+    },
+    {
+      "file": "seran_long_eo.wav",
+      "speaker": "seran",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/seran_eo.wav",
+      "source_sha256": "c471cc6f844550c524f08ad0759cffb2fba7073b699960eed6b349a25cc76b3b"
+    },
+    {
+      "file": "seran_long_eu.wav",
+      "speaker": "seran",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 270,
+      "source": "voice-v2/sources/seran_eu.wav",
+      "source_sha256": "df161a43ae7681d52c04426cadfe0ec18b8b4f36b08c26cceaf58e68eb6e3cd1"
+    },
+    {
+      "file": "danju_short_a.wav",
+      "speaker": "danju",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/danju_a.wav",
+      "source_sha256": "df36d39e90b7386a7045271b3a9394b2012eee4ba61be37431110522df745e32"
+    },
+    {
+      "file": "danju_short_eo.wav",
+      "speaker": "danju",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/danju_eo.wav",
+      "source_sha256": "072bd7334f126ca1d1b2552a16a34dd9b8ccff564c8269b7702f98e039637fcd"
+    },
+    {
+      "file": "danju_short_eu.wav",
+      "speaker": "danju",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/danju_eu.wav",
+      "source_sha256": "5f67a7dbf1daf296296e8aaed4f34391f5be81cc4749a7e870e4957ec066c1dd"
+    },
+    {
+      "file": "danju_medium_a.wav",
+      "speaker": "danju",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/danju_a.wav",
+      "source_sha256": "df36d39e90b7386a7045271b3a9394b2012eee4ba61be37431110522df745e32"
+    },
+    {
+      "file": "danju_medium_eo.wav",
+      "speaker": "danju",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/danju_eo.wav",
+      "source_sha256": "072bd7334f126ca1d1b2552a16a34dd9b8ccff564c8269b7702f98e039637fcd"
+    },
+    {
+      "file": "danju_medium_eu.wav",
+      "speaker": "danju",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/danju_eu.wav",
+      "source_sha256": "5f67a7dbf1daf296296e8aaed4f34391f5be81cc4749a7e870e4957ec066c1dd"
+    },
+    {
+      "file": "danju_long_a.wav",
+      "speaker": "danju",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 190,
+      "source": "voice-v2/sources/danju_a.wav",
+      "source_sha256": "df36d39e90b7386a7045271b3a9394b2012eee4ba61be37431110522df745e32"
+    },
+    {
+      "file": "danju_long_eo.wav",
+      "speaker": "danju",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/danju_eo.wav",
+      "source_sha256": "072bd7334f126ca1d1b2552a16a34dd9b8ccff564c8269b7702f98e039637fcd"
+    },
+    {
+      "file": "danju_long_eu.wav",
+      "speaker": "danju",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/danju_eu.wav",
+      "source_sha256": "5f67a7dbf1daf296296e8aaed4f34391f5be81cc4749a7e870e4957ec066c1dd"
+    },
+    {
+      "file": "hyunma_short_a.wav",
+      "speaker": "hyunma",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/hyunma_a.wav",
+      "source_sha256": "fe29cefeec8ce6d70dd1a36e909599ced8dcc85056dc5f0f83d0d74066de55b1"
+    },
+    {
+      "file": "hyunma_short_eo.wav",
+      "speaker": "hyunma",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/hyunma_eo.wav",
+      "source_sha256": "8363dbef618e9a5d1c82292896bf51f71e0241b1b09ec1515b6f75583386680d"
+    },
+    {
+      "file": "hyunma_short_eu.wav",
+      "speaker": "hyunma",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/hyunma_eu.wav",
+      "source_sha256": "8a866bcd0c9749f3c18f62b05a293612c806511e72bc9e38e91a3524de191daa"
+    },
+    {
+      "file": "hyunma_medium_a.wav",
+      "speaker": "hyunma",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/hyunma_a.wav",
+      "source_sha256": "fe29cefeec8ce6d70dd1a36e909599ced8dcc85056dc5f0f83d0d74066de55b1"
+    },
+    {
+      "file": "hyunma_medium_eo.wav",
+      "speaker": "hyunma",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/hyunma_eo.wav",
+      "source_sha256": "8363dbef618e9a5d1c82292896bf51f71e0241b1b09ec1515b6f75583386680d"
+    },
+    {
+      "file": "hyunma_medium_eu.wav",
+      "speaker": "hyunma",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/hyunma_eu.wav",
+      "source_sha256": "8a866bcd0c9749f3c18f62b05a293612c806511e72bc9e38e91a3524de191daa"
+    },
+    {
+      "file": "hyunma_long_a.wav",
+      "speaker": "hyunma",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 250,
+      "source": "voice-v2/sources/hyunma_a.wav",
+      "source_sha256": "fe29cefeec8ce6d70dd1a36e909599ced8dcc85056dc5f0f83d0d74066de55b1"
+    },
+    {
+      "file": "hyunma_long_eo.wav",
+      "speaker": "hyunma",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/hyunma_eo.wav",
+      "source_sha256": "8363dbef618e9a5d1c82292896bf51f71e0241b1b09ec1515b6f75583386680d"
+    },
+    {
+      "file": "hyunma_long_eu.wav",
+      "speaker": "hyunma",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/hyunma_eu.wav",
+      "source_sha256": "8a866bcd0c9749f3c18f62b05a293612c806511e72bc9e38e91a3524de191daa"
+    },
+    {
+      "file": "younghun_short_a.wav",
+      "speaker": "younghun",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/younghun_a.wav",
+      "source_sha256": "6d86fe65a4180eced0110f7f6e7d808e77586a9abc62b2ccdcedfdd33cdd2566"
+    },
+    {
+      "file": "younghun_short_eo.wav",
+      "speaker": "younghun",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/younghun_eo.wav",
+      "source_sha256": "f07bcd92cbefcd46a3b37f18282db198e7bd346d6af93c85fb24aef658b0facb"
+    },
+    {
+      "file": "younghun_short_eu.wav",
+      "speaker": "younghun",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/younghun_eu.wav",
+      "source_sha256": "1e0fa49cb963588f6e88dbea4064830849143fe7483d05debbc80ae7c5a9efa6"
+    },
+    {
+      "file": "younghun_medium_a.wav",
+      "speaker": "younghun",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/younghun_a.wav",
+      "source_sha256": "6d86fe65a4180eced0110f7f6e7d808e77586a9abc62b2ccdcedfdd33cdd2566"
+    },
+    {
+      "file": "younghun_medium_eo.wav",
+      "speaker": "younghun",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/younghun_eo.wav",
+      "source_sha256": "f07bcd92cbefcd46a3b37f18282db198e7bd346d6af93c85fb24aef658b0facb"
+    },
+    {
+      "file": "younghun_medium_eu.wav",
+      "speaker": "younghun",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/younghun_eu.wav",
+      "source_sha256": "1e0fa49cb963588f6e88dbea4064830849143fe7483d05debbc80ae7c5a9efa6"
+    },
+    {
+      "file": "younghun_long_a.wav",
+      "speaker": "younghun",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 190,
+      "source": "voice-v2/sources/younghun_a.wav",
+      "source_sha256": "6d86fe65a4180eced0110f7f6e7d808e77586a9abc62b2ccdcedfdd33cdd2566"
+    },
+    {
+      "file": "younghun_long_eo.wav",
+      "speaker": "younghun",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/younghun_eo.wav",
+      "source_sha256": "f07bcd92cbefcd46a3b37f18282db198e7bd346d6af93c85fb24aef658b0facb"
+    },
+    {
+      "file": "younghun_long_eu.wav",
+      "speaker": "younghun",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 140,
+      "source": "voice-v2/sources/younghun_eu.wav",
+      "source_sha256": "1e0fa49cb963588f6e88dbea4064830849143fe7483d05debbc80ae7c5a9efa6"
+    },
+    {
+      "file": "gaya_short_a.wav",
+      "speaker": "gaya",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/gaya_a.wav",
+      "source_sha256": "9a59ab78226c51724c0b50b67f208093c2704a4cb85e940c927235324138a39a"
+    },
+    {
+      "file": "gaya_short_eo.wav",
+      "speaker": "gaya",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/gaya_eo.wav",
+      "source_sha256": "7c52c1777be1b18c6551ca91e867053dcf1c6ac2038769dc34bf3a600e8a371e"
+    },
+    {
+      "file": "gaya_short_eu.wav",
+      "speaker": "gaya",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/gaya_eu.wav",
+      "source_sha256": "37c65ed457d58ccbc4887d09939fa6cb81906f5dde16b6e1dbb5c1d61a1d48d3"
+    },
+    {
+      "file": "gaya_medium_a.wav",
+      "speaker": "gaya",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/gaya_a.wav",
+      "source_sha256": "9a59ab78226c51724c0b50b67f208093c2704a4cb85e940c927235324138a39a"
+    },
+    {
+      "file": "gaya_medium_eo.wav",
+      "speaker": "gaya",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/gaya_eo.wav",
+      "source_sha256": "7c52c1777be1b18c6551ca91e867053dcf1c6ac2038769dc34bf3a600e8a371e"
+    },
+    {
+      "file": "gaya_medium_eu.wav",
+      "speaker": "gaya",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/gaya_eu.wav",
+      "source_sha256": "37c65ed457d58ccbc4887d09939fa6cb81906f5dde16b6e1dbb5c1d61a1d48d3"
+    },
+    {
+      "file": "gaya_long_a.wav",
+      "speaker": "gaya",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/gaya_a.wav",
+      "source_sha256": "9a59ab78226c51724c0b50b67f208093c2704a4cb85e940c927235324138a39a"
+    },
+    {
+      "file": "gaya_long_eo.wav",
+      "speaker": "gaya",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/gaya_eo.wav",
+      "source_sha256": "7c52c1777be1b18c6551ca91e867053dcf1c6ac2038769dc34bf3a600e8a371e"
+    },
+    {
+      "file": "gaya_long_eu.wav",
+      "speaker": "gaya",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 280,
+      "source": "voice-v2/sources/gaya_eu.wav",
+      "source_sha256": "37c65ed457d58ccbc4887d09939fa6cb81906f5dde16b6e1dbb5c1d61a1d48d3"
+    },
+    {
+      "file": "oknyeo_short_a.wav",
+      "speaker": "oknyeo",
+      "variant": "short",
+      "vowel": "아",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/oknyeo_a.wav",
+      "source_sha256": "669f1369334901e9d6b564d105393985d6f99abefe958ea5869d82df8df3e6a5"
+    },
+    {
+      "file": "oknyeo_short_eo.wav",
+      "speaker": "oknyeo",
+      "variant": "short",
+      "vowel": "어",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/oknyeo_eo.wav",
+      "source_sha256": "264f599b169068f3617c41f8c5ae5a0beaa43fe5b03e098946527c86cacbfafc"
+    },
+    {
+      "file": "oknyeo_short_eu.wav",
+      "speaker": "oknyeo",
+      "variant": "short",
+      "vowel": "으",
+      "duration_ms": 100,
+      "source": "voice-v2/sources/oknyeo_eu.wav",
+      "source_sha256": "b4afa146b14cb712a991b76a10b2fd81e46f6b5b4fc9a2f71339365bbe9d2594"
+    },
+    {
+      "file": "oknyeo_medium_a.wav",
+      "speaker": "oknyeo",
+      "variant": "medium",
+      "vowel": "아",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/oknyeo_a.wav",
+      "source_sha256": "669f1369334901e9d6b564d105393985d6f99abefe958ea5869d82df8df3e6a5"
+    },
+    {
+      "file": "oknyeo_medium_eo.wav",
+      "speaker": "oknyeo",
+      "variant": "medium",
+      "vowel": "어",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/oknyeo_eo.wav",
+      "source_sha256": "264f599b169068f3617c41f8c5ae5a0beaa43fe5b03e098946527c86cacbfafc"
+    },
+    {
+      "file": "oknyeo_medium_eu.wav",
+      "speaker": "oknyeo",
+      "variant": "medium",
+      "vowel": "으",
+      "duration_ms": 180,
+      "source": "voice-v2/sources/oknyeo_eu.wav",
+      "source_sha256": "b4afa146b14cb712a991b76a10b2fd81e46f6b5b4fc9a2f71339365bbe9d2594"
+    },
+    {
+      "file": "oknyeo_long_a.wav",
+      "speaker": "oknyeo",
+      "variant": "long",
+      "vowel": "아",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/oknyeo_a.wav",
+      "source_sha256": "669f1369334901e9d6b564d105393985d6f99abefe958ea5869d82df8df3e6a5"
+    },
+    {
+      "file": "oknyeo_long_eo.wav",
+      "speaker": "oknyeo",
+      "variant": "long",
+      "vowel": "어",
+      "duration_ms": 300,
+      "source": "voice-v2/sources/oknyeo_eo.wav",
+      "source_sha256": "264f599b169068f3617c41f8c5ae5a0beaa43fe5b03e098946527c86cacbfafc"
+    },
+    {
+      "file": "oknyeo_long_eu.wav",
+      "speaker": "oknyeo",
+      "variant": "long",
+      "vowel": "으",
+      "duration_ms": 280,
+      "source": "voice-v2/sources/oknyeo_eu.wav",
+      "source_sha256": "b4afa146b14cb712a991b76a10b2fd81e46f6b5b4fc9a2f71339365bbe9d2594"
+    }
+  ]
+}

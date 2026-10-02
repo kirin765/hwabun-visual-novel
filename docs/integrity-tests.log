@@ -1,0 +1,12 @@
+test_every_original_block_in_order (__main__.Content.test_every_original_block_in_order) ... ok
+test_only_expected_assets (__main__.Content.test_only_expected_assets) ... ok
+test_cancel_never_restarts_or_catches_up (__main__.Timing.test_cancel_never_restarts_or_catches_up) ... ok
+test_counts_only_valid_chars_but_waits_for_display (__main__.Timing.test_counts_only_valid_chars_but_waits_for_display) ... ok
+test_minimum_interval_and_maximum_three (__main__.Timing.test_minimum_interval_and_maximum_three) ... ok
+test_no_immediate_repetition (__main__.Timing.test_no_immediate_repetition) ... ok
+test_thought_muted_and_instant_text (__main__.Timing.test_thought_muted_and_instant_text) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

@@ -1,0 +1,90 @@
+[
+  {
+    "file": "audio/garden_piano.ogg",
+    "seconds": 196.0,
+    "sha256": "425294a0f580382aa5f90a9c20af02584662c71d2ee6105a1f0549da3bd187f7",
+    "source": "tools/create_audio.py",
+    "description": "M01: original gentle pentatonic piano-like waltz, 60 bpm",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/leaves.ogg",
+    "seconds": 32.0,
+    "sha256": "1b207ed59d24bb5530d4478d4477e24170f00ebdf203f2ead832546a0640aa6e",
+    "source": "tools/create_audio.py",
+    "description": "A01: layered filtered noise, slow leaf rustling loop",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/birds.ogg",
+    "seconds": 29.0,
+    "sha256": "e6ddc24ca1552af85fedd4488f69f3bf2be21f17384fa731c90f6187678e5fbb",
+    "source": "tools/create_audio.py",
+    "description": "A01: sparse distant synthesized birds, separate loop",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/grass.ogg",
+    "seconds": 1.6,
+    "sha256": "7fa5c097c7adf9398bc25f979a5850b7ef16422f3e30ed01ce4d1b071cd957c3",
+    "source": "tools/create_audio.py",
+    "description": "A02: brief dry grass rustle",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/steps.ogg",
+    "seconds": 2.0,
+    "sha256": "21f0dbb417e5b6a86c35f6393a5bf5d74ba0f3ddfa5586a7c374f3331b9b1f4a",
+    "source": "tools/create_audio.py",
+    "description": "A03: four soft wooden footsteps",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/door.ogg",
+    "seconds": 1.2,
+    "sha256": "a4d28ac0301d09bbfbc1727f7ca1ef5d0a654a6be5b3a1ec1c7f4e364c9dc107",
+    "source": "tools/create_audio.py",
+    "description": "A03: wooden door creak and soft latch",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/glass.ogg",
+    "seconds": 1.2,
+    "sha256": "a588fa6609e4feed540fbcc078072e43fb18287e93c8b754f3e7ae4f028f5b2e",
+    "source": "tools/create_audio.py",
+    "description": "A03: water glass gently set on a tray",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  },
+  {
+    "file": "audio/car.ogg",
+    "seconds": 4.5,
+    "sha256": "724bf0902afea9e06c68884bc78a0fa1d12d48c8b5c01ff7b69bc4fe7db8df6f",
+    "source": "tools/create_audio.py",
+    "description": "A06: distant low motor approaching, restrained and short",
+    "method": "original deterministic procedural synthesis; agent-authored",
+    "third_party_samples": false,
+    "ai_assisted": true,
+    "usage": "Created for this project; no third-party recording license required. No claim of exclusive copyright."
+  }
+]

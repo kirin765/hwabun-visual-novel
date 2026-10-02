@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-03",
+  "status": "style_preview_not_applied_to_game",
+  "user_feedback": "more younger",
+  "character": "미란",
+  "age_setting": 21,
+  "source_reference": "docs/art-style-v2/miran-webtoon-preview.png",
+  "generated_with": "OpenAI image_gen",
+  "generated_original": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-668ad5ac-44fa-4a98-904d-c7eac98bc50f.png",
+  "file": "miran-webtoon-younger-preview.png",
+  "sha256": "3b352ab1943704d211dbbf3ae70014ca1ea8a8e83a1f7c9c893e9abe4fba2106",
+  "direction": "얼굴 길이와 턱선을 부드럽게, 눈매를 둥글고 맑게, 화장과 윤곽 명암을 줄이고 가벼운 미소 추가. 기존 의상·포즈·웹툰 채색 유지."
+}

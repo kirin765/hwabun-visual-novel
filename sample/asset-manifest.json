@@ -1,0 +1,289 @@
+[
+  {
+    "file": "images/bg_apartment.png",
+    "bytes": 2103724,
+    "sha256": "3e07daecf80a0d61df7b1f032c291422aa1bba83b45296dcde819c6f31800638",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_apartment_candle.png",
+    "bytes": 1731786,
+    "sha256": "79c8e8d07be3bb9961afb809541f66dcd2c02139c71732ae596500adec8f0de0",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_apartment_dawn.png",
+    "bytes": 1982211,
+    "sha256": "f0c5fc58d11bacb7d403021d0422daef5629e5b84bf61bc33129a03aec78587a",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_cinema.png",
+    "bytes": 1759844,
+    "sha256": "eee1ae18c9110480bc1958714f3c9661562b758b1f9ab2271685322b1fff4312",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_corridor.png",
+    "bytes": 2697589,
+    "sha256": "e1a40d35641cb2a2dd724737e99564b3807057c5039f6cc580ab5f9d7318ee61",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_garden.png",
+    "bytes": 3332768,
+    "sha256": "3638269919e0a9535cc6d313eca0f0c8c9e1b42aaa2b08d18eec68bec758fa07",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_hall.png",
+    "bytes": 2706154,
+    "sha256": "31a687542ef063397eae0e9b0f06f62b08a5c4204035118b7ade08cf28e9c6bb",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_restaurant.png",
+    "bytes": 2282572,
+    "sha256": "4eb50fff31287a5365467d02a40d41f25a118e06c0f706ff701481bb966c720c",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/bg_street.png",
+    "bytes": 3114132,
+    "sha256": "8c00e03f064bcddedd7362a7c06b1ca0394de34c332659e0c1a32270aade5956",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/cg_candle.png",
+    "bytes": 2377646,
+    "sha256": "27b166d612e8f2280d20c3ca038b8d45c4f0dbfb646aeb4deffd87aee6119439",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/cg_sisters.png",
+    "bytes": 2919767,
+    "sha256": "e02b82b5be3bd3ac92855cd956aac1ad1dc25fa7ac5f74e50b9fc44d06be46dd",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/danju_neutral.png",
+    "bytes": 1767889,
+    "sha256": "2cfee9687700d78b6c53dc787dd4e4c86cc546ffb74d9efdac956a8d683a3d64",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/hyunma_neutral.png",
+    "bytes": 1520596,
+    "sha256": "38c3e2af51ab3e425a033b856d53a6b50bbb0af73736da8bc93aa829d5b7b786",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/miran_coat.png",
+    "bytes": 1833409,
+    "sha256": "d693509feeb86a6648a53b014eff0ab37f5c12ccd644be32f9befc404e47a1c5",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/miran_hopeful.png",
+    "bytes": 1608954,
+    "sha256": "fb3d05f4de8a1bf17303a8f97941ac90875a90d8442b625f629ebe4c6bfeab32",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/miran_neutral.png",
+    "bytes": 1653659,
+    "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/miran_playful.png",
+    "bytes": 1628509,
+    "sha256": "03bd317f01911e7a1170c646ed8461b167cf87df46aef06bce283418a30a998b",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/miran_startled.png",
+    "bytes": 1649988,
+    "sha256": "ada751b673f908e4bea9c841f594c02306651778dfae646a52a8a2a6ba304e2d",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/oknyeo_neutral.png",
+    "bytes": 1543553,
+    "sha256": "8841892a29d525796de173ae52fd5cae7a3976b6ded0920b41e9d3644e3c4aee",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/oknyeo_wry.png",
+    "bytes": 1455862,
+    "sha256": "7f6d8d1c8a133b5febf77417f6edbd4f039efad02a5a4827d606330e76cc7a94",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/seran_neutral.png",
+    "bytes": 1796922,
+    "sha256": "cbde3f37b9ad6549b3d6a05fce055300343b141f7917e6a32f335dde680c86ec",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/seran_playful.png",
+    "bytes": 1671158,
+    "sha256": "875555d33ab861cc0b303241307fd1b92c0a791d3d7a388b1ed34df9f5b6f2cd",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "images/seran_unsettled.png",
+    "bytes": 1672301,
+    "sha256": "c3bf0d3a2fc3d702c8ea04b0ea272f3b8b909125fed98953e06039b4a0ddf937",
+    "kind": "AI imagegen",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/birds.ogg",
+    "bytes": 21183,
+    "sha256": "e6ddc24ca1552af85fedd4488f69f3bf2be21f17384fa731c90f6187678e5fbb",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/car.ogg",
+    "bytes": 44845,
+    "sha256": "724bf0902afea9e06c68884bc78a0fa1d12d48c8b5c01ff7b69bc4fe7db8df6f",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/door.ogg",
+    "bytes": 14889,
+    "sha256": "a4d28ac0301d09bbfbc1727f7ca1ef5d0a654a6be5b3a1ec1c7f4e364c9dc107",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/garden_piano.ogg",
+    "bytes": 1336211,
+    "sha256": "425294a0f580382aa5f90a9c20af02584662c71d2ee6105a1f0549da3bd187f7",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/glass.ogg",
+    "bytes": 9996,
+    "sha256": "a588fa6609e4feed540fbcc078072e43fb18287e93c8b754f3e7ae4f028f5b2e",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/grass.ogg",
+    "bytes": 20831,
+    "sha256": "7fa5c097c7adf9398bc25f979a5850b7ef16422f3e30ed01ce4d1b071cd957c3",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/leaves.ogg",
+    "bytes": 322988,
+    "sha256": "1b207ed59d24bb5530d4478d4477e24170f00ebdf203f2ead832546a0640aa6e",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/main_gymnopedie.ogg",
+    "bytes": 3572664,
+    "sha256": "fe11aecd3d00cea0468a4002432f269a4c45e839c87488b1cd942b4632f8b5e7",
+    "kind": "user-provided music recording; converted to Ogg Vorbis",
+    "ai_assisted": false
+  },
+  {
+    "file": "audio/match.ogg",
+    "bytes": 8889,
+    "sha256": "7125e15783d1d8b33e6c8d0227490848823ac9749074a62b5432e371ad02662f",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/projector.ogg",
+    "bytes": 105932,
+    "sha256": "67bd14e3df4070845765abf0bba1838c4d163b650c2781675b5aa7ba0aca079a",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/radio_noise.ogg",
+    "bytes": 12124,
+    "sha256": "466192865031ee3c688f6cb22f69df2967f72f6682123700d3af75bd96f89347",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/rain.ogg",
+    "bytes": 157899,
+    "sha256": "c21b6adfe2b6b449624ab5e57aa6e2a4a8c3fb011c09b7dcf862866e6b64d4bb",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/steps.ogg",
+    "bytes": 14183,
+    "sha256": "21f0dbb417e5b6a86c35f6393a5bf5d74ba0f3ddfa5586a7c374f3331b9b1f4a",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/tableware.ogg",
+    "bytes": 6510,
+    "sha256": "ffcf5afb00f4415df12c8da45ec176796802cccc3612a4d8b076fd7e6ad38b8e",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/thunder.ogg",
+    "bytes": 26595,
+    "sha256": "76a558fea790bdac7f6cf0cc11205d48dedf64dc8a07c1fe7088e8658313f392",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/tram_bell.ogg",
+    "bytes": 10313,
+    "sha256": "d0bf5504d52231bdf8c2b12396e05689759b0f0660b4412967cca1b3d5f9f46a",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "fonts/NotoSansKR.otf",
+    "bytes": 16433088,
+    "sha256": "22d681a819becea0fbf50060dcda4d0747a68bb69bdf9903cbdc622ffb7d6be7",
+    "kind": "SIL OFL font",
+    "ai_assisted": false
+  },
+  {
+    "file": "fonts/NotoSerifKR.otf",
+    "bytes": 24539616,
+    "sha256": "45fcc3398f381947a025b01952606f696304336cb132428071560a05c48e62f5",
+    "kind": "SIL OFL font",
+    "ai_assisted": false
+  }
+]

@@ -1,0 +1,162 @@
+           PID: 354200 (HwabunGarden)
+           TID: 354210 (HwabunGarden)
+           UID: 1000 (giwan)
+           GID: 1000 (giwan)
+        Signal: 11 (SEGV) si_code: SI_KERNEL
+     Timestamp: Sat 2026-10-03 00:09:28 KST (1min 57s ago)
+  Command Line: /home/giwan/Projects/hwabun-visual-novel/dist/linux/HwabunGarden-0.1.1-atmosphere-linux/lib/py3-linux-x86_64/HwabunGarden --savedir /tmp/hwabun-native-repro
+    Executable: /home/giwan/Projects/hwabun-visual-novel/dist/linux/HwabunGarden-0.1.1-atmosphere-linux/lib/py3-linux-x86_64/HwabunGarden
+ Control Group: /user.slice/user-1000.slice/user@1000.service/tmux-spawn-e6c334a0-cd5f-451f-9c9e-9fe5cdccf915.scope
+          Unit: user@1000.service
+     User Unit: tmux-spawn-e6c334a0-cd5f-451f-9c9e-9fe5cdccf915.scope
+         Slice: user-1000.slice
+     Owner UID: 1000 (giwan)
+       Boot ID: a1f49045f9f2491e8aab01a252733266
+    Machine ID: 123b4c17b50440bc9288a647c3e997e5
+      Hostname: omarchy
+       Storage: /var/lib/systemd/coredump/core.HwabunGarden.1000.a1f49045f9f2491e8aab01a252733266.354200.1790953768000000.zst (present)
+  Size on Disk: 144M
+       Message: Process 354200 (HwabunGarden) of user 1000 dumped core.
+                
+                Stack trace of thread 354210:
+                #0  0x000078bd11c26025 n/a (librenpython.so + 0x1426025)
+                #1  0x000078bd11c2630c _Py_DumpTracebackThreads (librenpython.so + 0x142630c)
+                #2  0x000078bd11d09ee7 n/a (librenpython.so + 0x1509ee7)
+                #3  0x000078bd11c23806 n/a (librenpython.so + 0x1423806)
+                #4  0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #5  0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354200:
+                #0  0x000078bd11bda416 _Py_HashDouble (librenpython.so + 0x13da416)
+                #1  0x000078bd11ae70fa n/a (librenpython.so + 0x12e70fa)
+                #2  0x000078bd11abf876 n/a (librenpython.so + 0x12bf876)
+                #3  0x000078bd11627638 n/a (librenpython.so + 0xe27638)
+                #4  0x000078bd1166bedb n/a (librenpython.so + 0xe6bedb)
+                #5  0x000078bd11a87d10 PyObject_Vectorcall (librenpython.so + 0x1287d10)
+                #6  0x000078bd11b7eb3b _PyEval_EvalFrameDefault (librenpython.so + 0x137eb3b)
+                #7  0x000078bd11a89271 PyObject_VectorcallMethod (librenpython.so + 0x1289271)
+                #8  0x000078bd11626cb3 n/a (librenpython.so + 0xe26cb3)
+                #9  0x000078bd11672db6 n/a (librenpython.so + 0xe72db6)
+                #10 0x000078bd11a87d10 PyObject_Vectorcall (librenpython.so + 0x1287d10)
+                #11 0x000078bd11b7eb3b _PyEval_EvalFrameDefault (librenpython.so + 0x137eb3b)
+                #12 0x000078bd11a8a07b n/a (librenpython.so + 0x128a07b)
+                #13 0x000078bd11a87c06 n/a (librenpython.so + 0x1287c06)
+                #14 0x000078bd11b8090e _PyEval_EvalFrameDefault (librenpython.so + 0x138090e)
+                #15 0x000078bd11b737bd PyEval_EvalCode (librenpython.so + 0x13737bd)
+                #16 0x000078bd11be71c8 n/a (librenpython.so + 0x13e71c8)
+                #17 0x000078bd11be5766 _PyRun_SimpleFileObject (librenpython.so + 0x13e5766)
+                #18 0x000078bd11be51f3 _PyRun_AnyFileObject (librenpython.so + 0x13e51f3)
+                #19 0x000078bd11c35e94 n/a (librenpython.so + 0x1435e94)
+                #20 0x000078bd11c356e2 Py_RunMain (librenpython.so + 0x14356e2)
+                #21 0x000078bd1147b559 launcher_main (librenpython.so + 0xc7b559)
+                #22 0x000078bd10427781 n/a (libc.so.6 + 0x27781)
+                #23 0x000078bd104278b9 __libc_start_main (libc.so.6 + 0x278b9)
+                #24 0x00006041b4a4669e n/a (HwabunGarden + 0x169e)
+                
+                Stack trace of thread 354214:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10494cd9 n/a (libc.so.6 + 0x94cd9)
+                #2  0x000078bd1049fc16 n/a (libc.so.6 + 0x9fc16)
+                #3  0x000078bd11c23aa9 PyThread_acquire_lock_timed (librenpython.so + 0x1423aa9)
+                #4  0x000078bd11d5487d n/a (librenpython.so + 0x155487d)
+                #5  0x000078bd11d545fd n/a (librenpython.so + 0x15545fd)
+                #6  0x000078bd11a932e9 n/a (librenpython.so + 0x12932e9)
+                #7  0x000078bd11a87d10 PyObject_Vectorcall (librenpython.so + 0x1287d10)
+                #8  0x000078bd11b7eb3b _PyEval_EvalFrameDefault (librenpython.so + 0x137eb3b)
+                #9  0x000078bd11a8a0fa n/a (librenpython.so + 0x128a0fa)
+                #10 0x000078bd11d5401e n/a (librenpython.so + 0x155401e)
+                #11 0x000078bd11c23806 n/a (librenpython.so + 0x1423806)
+                #12 0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #13 0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354213:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10511a57 ppoll (libc.so.6 + 0x111a57)
+                #2  0x000078bd0e6476e4 pa_mainloop_poll (libpulse.so.0 + 0x1c6e4)
+                #3  0x000078bd0e651793 pa_mainloop_iterate (libpulse.so.0 + 0x26793)
+                #4  0x000078bd1232df8b n/a (librenpython.so + 0x1b2df8b)
+                #5  0x000078bd1226a2a2 n/a (librenpython.so + 0x1a6a2a2)
+                #6  0x000078bd122c3b53 n/a (librenpython.so + 0x1ac3b53)
+                #7  0x000078bd1235e496 n/a (librenpython.so + 0x1b5e496)
+                #8  0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #9  0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354216:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10494cd9 n/a (libc.so.6 + 0x94cd9)
+                #2  0x000078bd104a065b n/a (libc.so.6 + 0xa065b)
+                #3  0x000078bd1235e8cb n/a (librenpython.so + 0x1b5e8cb)
+                #4  0x000078bd122c3f5b n/a (librenpython.so + 0x1ac3f5b)
+                #5  0x000078bd122c3b53 n/a (librenpython.so + 0x1ac3b53)
+                #6  0x000078bd1235e496 n/a (librenpython.so + 0x1b5e496)
+                #7  0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #8  0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354211:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10494cd9 n/a (libc.so.6 + 0x94cd9)
+                #2  0x000078bd1049fc16 n/a (libc.so.6 + 0x9fc16)
+                #3  0x000078bd11c23aa9 PyThread_acquire_lock_timed (librenpython.so + 0x1423aa9)
+                #4  0x000078bd11d5487d n/a (librenpython.so + 0x155487d)
+                #5  0x000078bd11d545fd n/a (librenpython.so + 0x15545fd)
+                #6  0x000078bd11a932e9 n/a (librenpython.so + 0x12932e9)
+                #7  0x000078bd11a87d10 PyObject_Vectorcall (librenpython.so + 0x1287d10)
+                #8  0x000078bd11b7eb3b _PyEval_EvalFrameDefault (librenpython.so + 0x137eb3b)
+                #9  0x000078bd11a8a0fa n/a (librenpython.so + 0x128a0fa)
+                #10 0x000078bd11d5401e n/a (librenpython.so + 0x155401e)
+                #11 0x000078bd11c23806 n/a (librenpython.so + 0x1423806)
+                #12 0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #13 0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354212:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10511a57 ppoll (libc.so.6 + 0x111a57)
+                #2  0x000078bd0e6476e4 pa_mainloop_poll (libpulse.so.0 + 0x1c6e4)
+                #3  0x000078bd0e651793 pa_mainloop_iterate (libpulse.so.0 + 0x26793)
+                #4  0x000078bd0e651861 pa_mainloop_run (libpulse.so.0 + 0x26861)
+                #5  0x000078bd1232e60c n/a (librenpython.so + 0x1b2e60c)
+                #6  0x000078bd122c3b53 n/a (librenpython.so + 0x1ac3b53)
+                #7  0x000078bd1235e496 n/a (librenpython.so + 0x1b5e496)
+                #8  0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #9  0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354207:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10494cd9 n/a (libc.so.6 + 0x94cd9)
+                #2  0x000078bd104a0860 n/a (libc.so.6 + 0xa0860)
+                #3  0x000078bd11c23ac2 PyThread_acquire_lock_timed (librenpython.so + 0x1423ac2)
+                #4  0x000078bd11d5487d n/a (librenpython.so + 0x155487d)
+                #5  0x000078bd11d545fd n/a (librenpython.so + 0x15545fd)
+                #6  0x000078bd11a932e9 n/a (librenpython.so + 0x12932e9)
+                #7  0x000078bd11a87d10 PyObject_Vectorcall (librenpython.so + 0x1287d10)
+                #8  0x000078bd11b7eb3b _PyEval_EvalFrameDefault (librenpython.so + 0x137eb3b)
+                #9  0x000078bd11a8a0fa n/a (librenpython.so + 0x128a0fa)
+                #10 0x000078bd11b8090e _PyEval_EvalFrameDefault (librenpython.so + 0x138090e)
+                #11 0x000078bd11a8a0fa n/a (librenpython.so + 0x128a0fa)
+                #12 0x000078bd11d5401e n/a (librenpython.so + 0x155401e)
+                #13 0x000078bd11c23806 n/a (librenpython.so + 0x1423806)
+                #14 0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #15 0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354218:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10494cd9 n/a (libc.so.6 + 0x94cd9)
+                #2  0x000078bd1049754c pthread_cond_wait (libc.so.6 + 0x9754c)
+                #3  0x000078bd1235ec9b n/a (librenpython.so + 0x1b5ec9b)
+                #4  0x000078bd114a875b n/a (librenpython.so + 0xca875b)
+                #5  0x000078bd122c3b53 n/a (librenpython.so + 0x1ac3b53)
+                #6  0x000078bd1235e496 n/a (librenpython.so + 0x1b5e496)
+                #7  0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #8  0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                
+                Stack trace of thread 354220:
+                #0  0x000078bd104a0952 n/a (libc.so.6 + 0xa0952)
+                #1  0x000078bd10494cd9 n/a (libc.so.6 + 0x94cd9)
+                #2  0x000078bd1049754c pthread_cond_wait (libc.so.6 + 0x9754c)
+                #3  0x000078bd1235ec9b n/a (librenpython.so + 0x1b5ec9b)
+                #4  0x000078bd114a875b n/a (librenpython.so + 0xca875b)
+                #5  0x000078bd122c3b53 n/a (librenpython.so + 0x1ac3b53)
+                #6  0x000078bd1235e496 n/a (librenpython.so + 0x1b5e496)
+                #7  0x000078bd104980a2 n/a (libc.so.6 + 0x980a2)
+                #8  0x000078bd1052080c n/a (libc.so.6 + 0x12080c)
+                ELF object binary architecture: AMD x86-64

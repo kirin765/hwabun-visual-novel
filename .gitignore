@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Built distributions and Ren'Py runtime state
+/dist/
+*.rpyc
+*.pyc
+__pycache__/
+/sample/game/cache/
+/sample/game/saves/
+/sample/tests/runtime-state/
+/sample/log.txt
+/sample/traceback.txt
+/sample/errors.txt
+*.save
+# Local tooling
+.venv/
+node_modules/
+.DS_Store

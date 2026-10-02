@@ -1,0 +1,8 @@
+{
+  "status": "awaiting-user-voice-selection",
+  "speakers": {
+    "miran": {"approved": false, "clips": [], "commercial_evidence": null},
+    "seran": {"approved": false, "clips": [], "commercial_evidence": null},
+    "oknyeo": {"approved": false, "clips": [], "commercial_evidence": null}
+  }
+}

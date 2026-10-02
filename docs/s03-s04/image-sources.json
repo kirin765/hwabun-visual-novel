@@ -1,0 +1,57 @@
+{
+  "danju_neutral": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-6f9a2146-bbc6-484a-b96a-fe7c730b6db9.png",
+    "sha256": "2cfee9687700d78b6c53dc787dd4e4c86cc546ffb74d9efdac956a8d683a3d64",
+    "destination": "sample/game/images/danju_neutral.png"
+  },
+  "hyunma_neutral": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-2e59a57e-9d9a-4a1c-8b48-2ae6bdd36047.png",
+    "sha256": "38c3e2af51ab3e425a033b856d53a6b50bbb0af73736da8bc93aa829d5b7b786",
+    "destination": "sample/game/images/hyunma_neutral.png"
+  },
+  "bg_hall": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-8c2be9ca-e111-4b1c-93d2-f473143ad1dc.png",
+    "sha256": "31a687542ef063397eae0e9b0f06f62b08a5c4204035118b7ade08cf28e9c6bb",
+    "destination": "sample/game/images/bg_hall.png"
+  },
+  "bg_street": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-5cc30f6f-66a4-4ea9-b70d-a2fa00c469dc.png",
+    "sha256": "8c00e03f064bcddedd7362a7c06b1ca0394de34c332659e0c1a32270aade5956",
+    "destination": "sample/game/images/bg_street.png"
+  },
+  "bg_restaurant": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-65acf931-053c-4322-ae18-a6e494668f90.png",
+    "sha256": "4eb50fff31287a5365467d02a40d41f25a118e06c0f706ff701481bb966c720c",
+    "destination": "sample/game/images/bg_restaurant.png"
+  },
+  "bg_apartment": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-a5dd7b46-1a24-4417-b110-c3ac77245383.png",
+    "sha256": "3e07daecf80a0d61df7b1f032c291422aa1bba83b45296dcde819c6f31800638",
+    "destination": "sample/game/images/bg_apartment.png"
+  },
+  "bg_cinema": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-ffda7833-5777-4927-8f1d-fac7c93c6daf.png",
+    "sha256": "eee1ae18c9110480bc1958714f3c9661562b758b1f9ab2271685322b1fff4312",
+    "destination": "sample/game/images/bg_cinema.png"
+  },
+  "cg_candle": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-c3e080ec-3636-4b64-a868-f78b1ee2f335.png",
+    "sha256": "27b166d612e8f2280d20c3ca038b8d45c4f0dbfb646aeb4deffd87aee6119439",
+    "destination": "sample/game/images/cg_candle.png"
+  },
+  "miran_coat": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-025c2a09-877a-455b-a866-9a9c1456ba80.png",
+    "sha256": "d693509feeb86a6648a53b014eff0ab37f5c12ccd644be32f9befc404e47a1c5",
+    "destination": "sample/game/images/miran_coat.png"
+  },
+  "bg_apartment_dawn": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-e63f5fa2-e596-43b2-b1e7-eced26ce7f7b.png",
+    "sha256": "f0c5fc58d11bacb7d403021d0422daef5629e5b84bf61bc33129a03aec78587a",
+    "destination": "sample/game/images/bg_apartment_dawn.png"
+  },
+  "bg_apartment_candle": {
+    "source": "/home/giwan/.codex/generated_images/01a0fd5d-d9fb-7603-a3d3-0af9a2cc00f5/exec-e3665d8d-d742-40aa-9177-23bae7ea3725.png",
+    "sha256": "79c8e8d07be3bb9961afb809541f66dcd2c02139c71732ae596500adec8f0de0",
+    "destination": "sample/game/images/bg_apartment_candle.png"
+  }
+}

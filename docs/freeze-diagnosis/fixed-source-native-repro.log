@@ -1,0 +1,3 @@
+max event-loop stall: 0.1443793773651123 seconds; final state: {'time': 1790953671.2370563, 'drawing': False, 'block': 5, 'main_menu': False, 'preferences': False, 'game_menu': False, 'fullscreen': False, 'music': 'audio/garden_piano.ogg', 'music_position': 20.949, 'volume': 0.07943282347242814, 'mute': False, 'max_draw_seconds': 0.1443793773651123, 'duration': 0.0003204345703125, 'age': 0.0003204345703125}
+Renderer: ['swap interval: 0 frames']
+PASS: native keyboard advances and the event loop stays responsive

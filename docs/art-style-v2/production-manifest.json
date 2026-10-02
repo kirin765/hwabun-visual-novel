@@ -1,0 +1,211 @@
+{
+  "version": "0.2.0-atmosphere",
+  "date": "2026-10-03",
+  "approved_style": "miran-classic-otome-bust-preview.png",
+  "generator": "OpenAI image_gen",
+  "records": [
+    {
+      "name": "miran_neutral",
+      "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+      "prompt": "Exact user-approved image, used unchanged.",
+      "refs": [],
+      "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453",
+      "reference_snapshots": []
+    },
+    {
+      "name": "miran_playful",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-8c2c871c-8ae4-4918-8b5a-4e8e74c90ee0.png",
+      "prompt": "EXPRESSION-ONLY EDIT of this approved Miran visual novel sprite. Change ONLY the facial expression to a small closed-mouth teasing smile with one eyebrow subtly raised and amused eyes. Preserve her EXACT identity, eye color, age 21, hair and flower placement, head outline, head angle, body pose, hands, outfit, every clothing color, framing, canvas aspect and figure scale. Keep the same crisp shoujo/otome anime linework and simple soft cel shading. Do not redesign or zoom. Upper-body sprite in identical position. Background must remain fully transparent, clean alpha outside silhouette, no new glow or shadow, no text, no additional objects. The output will replace this exact sprite during dialogue; clothing and body alignment must stay steady.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png"
+      ],
+      "sha256": "03bd317f01911e7a1170c646ed8461b167cf87df46aef06bce283418a30a998b",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        }
+      ]
+    },
+    {
+      "name": "miran_hopeful",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-d6540553-fd75-4bc3-9883-c8d474b194a4.png",
+      "prompt": "EXPRESSION-ONLY EDIT of this approved Miran visual novel sprite. Change ONLY the facial expression to quiet hopeful anticipation, bright intent eyes and a warm restrained closed-mouth smile. Preserve her EXACT identity, eye color, age 21, hair and flower placement, head outline, head angle, body pose, hands, outfit, every clothing color, framing, canvas aspect and figure scale. Keep the same crisp shoujo/otome anime linework and simple soft cel shading. Do not redesign or zoom. Upper-body sprite in identical position. Background must remain fully transparent, clean alpha outside silhouette, no new glow or shadow, no text, no additional objects. The output will replace this exact sprite during dialogue; clothing and body alignment must stay steady.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png"
+      ],
+      "sha256": "fb3d05f4de8a1bf17303a8f97941ac90875a90d8442b625f629ebe4c6bfeab32",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        }
+      ]
+    },
+    {
+      "name": "miran_startled",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-c68a5678-ebe4-48ac-a45e-16707e33e1dd.png",
+      "prompt": "EXPRESSION-ONLY EDIT of this approved Miran visual novel sprite. Change ONLY the facial expression to clearly startled unease: widened eyes, raised inner eyebrows and a small open gasp, restrained rather than comic exaggeration. Preserve her EXACT identity, eye color, age 21, hair and flower placement, head outline, head angle, body pose, hands, outfit, every clothing color, framing, canvas aspect and figure scale. Keep the same crisp shoujo/otome anime linework and simple soft cel shading. Do not redesign or zoom. Upper-body sprite in identical position. Background must remain fully transparent, clean alpha outside silhouette, no new glow or shadow, no text, no additional objects. The output will replace this exact sprite during dialogue; clothing and body alignment must stay steady.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png"
+      ],
+      "sha256": "ada751b673f908e4bea9c841f594c02306651778dfae646a52a8a2a6ba304e2d",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        }
+      ]
+    },
+    {
+      "name": "seran_neutral",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png",
+      "prompt": "Production art for the same Korean literary visual novel. The first reference is the APPROVED drawing style: clean classic shoujo/otome game anime illustration, large clear expressive eyes, small simplified nose and mouth, delicate crisp colored outlines, smooth flat-color skin, defined cel shadows with limited soft gradients, illustrated graphic hair locks, luminous restrained colors. Match that level of stylization, never photorealistic or 3D. Create Seran, the older sister, age 30. Reference 2 supplies her identity/outfit ONLY: black hair elegantly tied in a low bun with small gold hairpin, aubergine purple traditional Korean jeogori with delicate pale floral embroidery and cream collar/cuffs, ivory chima, gold small ornament. Preserve outfit design/colors. Make her distinctly older and more composed than Miran through slightly narrower warm brown eyes, confident brows, softly defined lips, a warmer fuller face; still exactly the same anime drawing language, not a realistic portrait. Gentle composed neutral closed-mouth expression. Fixed VN standing sprite, upper body from complete hair crown to upper thighs, head near upper margin with some padding, relaxed hands together near waist, near-front slight three-quarter pose. Same figure scale and portrait framing as first reference. One person. Fully transparent clean background with NO halo, no backdrop, no ground or shadows, no lettering.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+        "/home/giwan/Projects/hwabun-visual-novel/sample/game/images/seran_neutral.png"
+      ],
+      "sha256": "cbde3f37b9ad6549b3d6a05fce055300343b141f7917e6a32f335dde680c86ec",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        },
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/before-approved-style/seran_neutral.png",
+          "sha256": "598daa0046d61f38007dd07472b4957f15737598052c3ba1adbb831b5fddd9d1"
+        }
+      ]
+    },
+    {
+      "name": "seran_playful",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-91411292-8e82-4eb4-95f9-b0e588d3681c.png",
+      "prompt": "EXPRESSION-ONLY EDIT of this exact visual-novel sprite. Change ONLY the facial expression to a knowing playful closed-mouth smile and gently teasing eyes, subtly lifted eyebrow. Preserve EXACT face identity, age, hairstyle, hair accessories, clothing design/colors/patterns, pose, hands, shoulder and head position, proportions, canvas framing and figure scale. Match the same approved clean shoujo/otome anime linework and soft cel shading. No redesign, no zoom/crop, do not move the body. Background stays completely transparent with clean alpha, no new backdrop, halo or shadow. One person, no text. Used as an in-place expression swap; the body must align closely with the neutral sprite.",
+      "refs": [
+        "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png"
+      ],
+      "sha256": "875555d33ab861cc0b303241307fd1b92c0a791d3d7a388b1ed34df9f5b6f2cd",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png",
+          "sha256": "cbde3f37b9ad6549b3d6a05fce055300343b141f7917e6a32f335dde680c86ec"
+        }
+      ]
+    },
+    {
+      "name": "seran_unsettled",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-52e30b68-6804-4e18-aa50-c402ddebbcb7.png",
+      "prompt": "EXPRESSION-ONLY EDIT of this exact visual-novel sprite. Change ONLY the facial expression to clearly worried unease, raised inner brows, slightly widened eyes and lips parted slightly. Preserve EXACT face identity, age, hairstyle, hair accessories, clothing design/colors/patterns, pose, hands, shoulder and head position, proportions, canvas framing and figure scale. Match the same approved clean shoujo/otome anime linework and soft cel shading. No redesign, no zoom/crop, do not move the body. Background stays completely transparent with clean alpha, no new backdrop, halo or shadow. One person, no text. Used as an in-place expression swap; the body must align closely with the neutral sprite.",
+      "refs": [
+        "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png"
+      ],
+      "sha256": "c3bf0d3a2fc3d702c8ea04b0ea272f3b8b909125fed98953e06039b4a0ddf937",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png",
+          "sha256": "cbde3f37b9ad6549b3d6a05fce055300343b141f7917e6a32f335dde680c86ec"
+        }
+      ]
+    },
+    {
+      "name": "oknyeo_neutral",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-be4fcfae-da49-4ef0-be0b-3f0f47d2ec0f.png",
+      "prompt": "Production art for the same Korean literary visual novel. The first reference is the APPROVED drawing style: clean classic shoujo/otome game anime illustration, large clear expressive eyes, small simplified nose and mouth, delicate crisp colored outlines, smooth flat-color skin, defined cel shadows with limited soft gradients, illustrated graphic hair locks, luminous restrained colors. Match that level of stylization, never photorealistic or 3D. Create Oknyeo, young adult Korean woman age 21 with a practical confident personality. Reference 2 supplies her identity/outfit ONLY: tied black braided hair, no flowers or jewelry, ochre Korean jeogori with cream collar and rolled cuffs, dark navy chima skirt, plain worn cream work apron, sturdy hands. Preserve this modest work outfit design and colors. Distinguish her from Miran with slightly straighter thicker brows, lively observant brown eyes, warmer skin and a more direct gaze. Neutral attentive expression, mouth closed. Fixed VN standing sprite, upper body from complete hair crown to upper thighs, head near upper margin with padding, hands loosely clasped near waist, near-front slight three-quarter pose. Same figure scale and portrait framing as first reference. One person. Fully transparent clean background with NO halo, no backdrop, no ground/shadows, no text.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+        "/home/giwan/Projects/hwabun-visual-novel/sample/game/images/oknyeo_neutral.png"
+      ],
+      "sha256": "8841892a29d525796de173ae52fd5cae7a3976b6ded0920b41e9d3644e3c4aee",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        },
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/before-approved-style/oknyeo_neutral.png",
+          "sha256": "b4feccdb3cebb697c545f9d23eb813874d080378d41dc471549de95c839c6e11"
+        }
+      ]
+    },
+    {
+      "name": "oknyeo_wry",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-5eb78e8a-04ea-4dc9-ba62-86ff515f14e7.png",
+      "prompt": "EXPRESSION-ONLY EDIT of this exact visual-novel sprite. Change ONLY the facial expression to a quick wry good-humored closed-mouth smile and lively observant eyes. Preserve EXACT face identity, age, hairstyle, hair accessories, clothing design/colors/patterns, pose, hands, shoulder and head position, proportions, canvas framing and figure scale. Match the same approved clean shoujo/otome anime linework and soft cel shading. No redesign, no zoom/crop, do not move the body. Background stays completely transparent with clean alpha, no new backdrop, halo or shadow. One person, no text. Used as an in-place expression swap; the body must align closely with the neutral sprite.",
+      "refs": [
+        "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-be4fcfae-da49-4ef0-be0b-3f0f47d2ec0f.png"
+      ],
+      "sha256": "7f6d8d1c8a133b5febf77417f6edbd4f039efad02a5a4827d606330e76cc7a94",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-be4fcfae-da49-4ef0-be0b-3f0f47d2ec0f.png",
+          "sha256": "8841892a29d525796de173ae52fd5cae7a3976b6ded0920b41e9d3644e3c4aee"
+        }
+      ]
+    },
+    {
+      "name": "bg_garden",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-a099b412-2a22-4b67-80b8-a8bfc02ccd9c.png",
+      "prompt": "Production art for the same Korean literary visual novel. The first reference is the APPROVED drawing style: clean classic shoujo/otome game anime illustration, large clear expressive eyes, small simplified nose and mouth, delicate crisp colored outlines, smooth flat-color skin, defined cel shadows with limited soft gradients, illustrated graphic hair locks, luminous restrained colors. Match that level of stylization, never photorealistic or 3D. Produce BACKGROUND ONLY, no characters. Reference 2 specifies the exact location and spatial layout to retain: lush enclosed May garden at a wealthy late-1930s Korean house almost swallowed by ivy, red brick chimney, narrow white path to rear wooden gate, lilac and white rose bushes, tree canopy. Restyle decisively as a polished 2D anime visual-novel background that harmonizes with the first reference: clean drawn contours, grouped graphic foliage, soft luminous jade/cream/lilac palette, clear simplified cel-shaped cast shadows, subtly painted color fills but no photographic textures. Fresh dappled daylight, slightly enclosing quiet literary mood. Keep a clear middle foreground for 2 character overlays and a visible white path. Landscape 16:9, target 1920x1080, no borders, no text, no logos.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+        "/home/giwan/Projects/hwabun-visual-novel/sample/game/images/bg_garden.png"
+      ],
+      "sha256": "3638269919e0a9535cc6d313eca0f0c8c9e1b42aaa2b08d18eec68bec758fa07",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        },
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/before-approved-style/bg_garden.png",
+          "sha256": "234248f44f889d34f3c2fdb025bb9a11366b26711c2c2f4b7288bef0da812bf4"
+        }
+      ]
+    },
+    {
+      "name": "bg_corridor",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-81d03b8e-b713-49b6-9df1-2c8561a5f485.png",
+      "prompt": "Production art for the same Korean literary visual novel. The first reference is the APPROVED drawing style: clean classic shoujo/otome game anime illustration, large clear expressive eyes, small simplified nose and mouth, delicate crisp colored outlines, smooth flat-color skin, defined cel shadows with limited soft gradients, illustrated graphic hair locks, luminous restrained colors. Match that level of stylization, never photorealistic or 3D. Produce BACKGROUND ONLY, no characters. Reference 2 supplies corridor layout and architecture to preserve: late-1930s wealthy Korean house with Korean/Western blended architecture, sunlit tall windows left with ivy shadows, polished wooden floor and rail, cream plaster, wooden doors right, chair and small low side table with a water glass and glass pitcher. Restyle fully as a clean 2D anime visual-novel background matching the approved heroine: drawn contours, simplified legible furniture forms, broad soft color fills, clear cel-shaped light/shadows, cream and muted warm wood/green palette, no photographic texture. Keep middle foreground empty for character sprites. Quiet warm afternoon. Landscape 16:9, target 1920x1080, no text, no borders.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+        "/home/giwan/Projects/hwabun-visual-novel/sample/game/images/bg_corridor.png"
+      ],
+      "sha256": "e1a40d35641cb2a2dd724737e99564b3807057c5039f6cc580ab5f9d7318ee61",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        },
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/before-approved-style/bg_corridor.png",
+          "sha256": "ece6e9bbddadc60945759e190dd1967ca1586bb7c82db5e53675796f2ad04a12"
+        }
+      ]
+    },
+    {
+      "name": "cg_sisters",
+      "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-3110e9cc-da24-4471-9083-7e96559b45c7.png",
+      "prompt": "Create the finished CG01 for a Korean literary visual novel, wide LANDSCAPE 16:9, target 1920x1080. The references are exact approved production designs: 1 Miran younger sister age21, shoulder-length softly waved black hair with lilac flowers, large amber-brown eyes, ivory collared blouse and cream cardigan, jade skirt/lilac ribbon; 2 Seran older sister age30, black low bun and small gold ornament, slightly narrower brown eyes, purple embroidered Korean jeogori and ivory chima; 3 their enclosed garden. Preserve their facial identities and all clothing details from refs 1 and 2. Use EXACTLY the same crisp shoujo/otome anime drawing language: expressive illustrated eyes, simplified noses/mouths, clear delicate colored lines, soft cel shading, no realistic skin or photographic textures. Compose the sisters close together beside a flowering lilac bush, Miran left examining a flower thoughtfully with fingertips near it, Seran right watching her with a gentle teasing closed-mouth smile. Modest domestic literary scene, warm sisterly familiarity. Show both from about waist up, faces clearly visible and entirely in the UPPER TWO THIRDS so the game's bottom dialogue box won't hide them. Leave lower part mainly clothing and foliage. Garden behind them with ivy-covered house, warm red brick chimney, a small visible white path winding toward the distant wooden gate. Luminous May daylight and soft green/lilac palette. No other characters, no words, no text, no logo, no borders. This is a single scene illustration, not a character sheet.",
+      "refs": [
+        "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+        "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png",
+        "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-a099b412-2a22-4b67-80b8-a8bfc02ccd9c.png"
+      ],
+      "sha256": "e02b82b5be3bd3ac92855cd956aac1ad1dc25fa7ac5f74e50b9fc44d06be46dd",
+      "reference_snapshots": [
+        {
+          "path": "/home/giwan/Projects/hwabun-visual-novel/docs/art-style-v2/miran-classic-otome-bust-preview.png",
+          "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453"
+        },
+        {
+          "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-b0ffd7ae-44d3-481f-ad07-6b5b495273ad.png",
+          "sha256": "cbde3f37b9ad6549b3d6a05fce055300343b141f7917e6a32f335dde680c86ec"
+        },
+        {
+          "path": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-a099b412-2a22-4b67-80b8-a8bfc02ccd9c.png",
+          "sha256": "3638269919e0a9535cc6d313eca0f0c8c9e1b42aaa2b08d18eec68bec758fa07"
+        }
+      ]
+    }
+  ]
+}

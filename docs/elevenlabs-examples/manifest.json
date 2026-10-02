@@ -1,0 +1,170 @@
+[
+  {
+    "emotion": "neutral",
+    "label": "평상",
+    "prompt": "음.",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_neutral_01.mp3",
+    "sha256": "387c5345aaa159d13e46592a2504544e552572549a140b2a0f941da005cb704f",
+    "bytes": 12582,
+    "history_item_id": "iZt6kFvtt3JrFiak5iZN",
+    "request_id": "5TAKmH3bRYQVo8oxkhvw",
+    "character_cost": "2",
+    "created_utc": "2026-10-02T18:13:35.728115+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 0.72
+  },
+  {
+    "emotion": "hesitant",
+    "label": "망설임",
+    "prompt": "음…",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_hesitant_01.mp3",
+    "sha256": "4d270e525946907088a5482fbca68de33645d84077749c39f9e4fbfaae81ca8b",
+    "bytes": 17598,
+    "history_item_id": "DRtRxpAijoRChiHgnmeA",
+    "request_id": "TTo56q1moqutBDPDMqiK",
+    "character_cost": "2",
+    "created_utc": "2026-10-02T18:13:36.883181+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.04
+  },
+  {
+    "emotion": "curious",
+    "label": "궁금함",
+    "prompt": "음?",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_curious_01.mp3",
+    "sha256": "17d775f9df2ef045dc228016e6f3f2dfdb3a7a37319e506b676549a2c3931e83",
+    "bytes": 18852,
+    "history_item_id": "gSlCzsRwb7hHYBJC4x3G",
+    "request_id": "N2y1G80QonyX8jYiEHOC",
+    "character_cost": "2",
+    "created_utc": "2026-10-02T18:13:38.040231+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.12
+  },
+  {
+    "emotion": "surprised",
+    "label": "놀람",
+    "prompt": "[gasps] 아!",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_surprised_01.mp3",
+    "sha256": "988d032bc79b6eb5bab3be36a9c427f4ab1bfb4801b77ac81abdeb475ecdb084",
+    "bytes": 30555,
+    "history_item_id": "igpq51IguHJo7QmCivO7",
+    "request_id": "SBAd2cgz11Bas5pEJ5Rs",
+    "character_cost": "10",
+    "created_utc": "2026-10-02T18:13:39.311050+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.84
+  },
+  {
+    "emotion": "relieved",
+    "label": "안도",
+    "prompt": "[sighs] 아…",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_relieved_01.mp3",
+    "sha256": "c4fb612e4ff2ec9f990bb0393024f6a4f34c70a00eab04e5b5728a2a3cb26097",
+    "bytes": 34316,
+    "history_item_id": "6gKoYvgwZAPrzlQqFB3j",
+    "request_id": "wMPfhUD9Egj1xPvclpsC",
+    "character_cost": "10",
+    "created_utc": "2026-10-02T18:13:40.364866+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 2.08
+  },
+  {
+    "emotion": "laugh",
+    "label": "웃음",
+    "prompt": "[laughs] 하하.",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_laugh_01.mp3",
+    "sha256": "ff0c8fcc6b24d5be92b8aa321a19301b830be76fc671ed455086a3580b7ec91d",
+    "bytes": 18852,
+    "history_item_id": "w8t6jKla8ojsJ9N7glJ5",
+    "request_id": "HNJTmZm0hZMoop5EAlN0",
+    "character_cost": "12",
+    "created_utc": "2026-10-02T18:14:04.541399+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.12
+  },
+  {
+    "emotion": "worried",
+    "label": "걱정",
+    "prompt": "[worried] 어…",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_worried_01.mp3",
+    "sha256": "6cdeb26ae9311aa848e78347ad1a0ffa7467580850492e7c7b53ee33863e609b",
+    "bytes": 18852,
+    "history_item_id": "5UcneZflQ8ocRDN5brHq",
+    "request_id": "q0UJOEpdiWlqzBTaIniS",
+    "character_cost": "12",
+    "created_utc": "2026-10-02T18:14:05.543253+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.12
+  },
+  {
+    "emotion": "frustrated",
+    "label": "불만",
+    "prompt": "[frustrated] 으…",
+    "voice_id": "cgSgspJ2msm6clMCkdW9",
+    "voice_name": "Jessica",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "jessica_frustrated_01.mp3",
+    "sha256": "e5524fa184bf00e6cedd16c259f76f4572469e4b9ea684b05d6e8651ac0b3ad8",
+    "bytes": 21359,
+    "history_item_id": "zIMOQEbTvOH1rIpKjuei",
+    "request_id": "no4S6ka85JKth1wcBauE",
+    "character_cost": "15",
+    "created_utc": "2026-10-02T18:14:06.744193+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.28
+  }
+]

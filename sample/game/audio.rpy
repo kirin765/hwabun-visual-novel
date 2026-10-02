@@ -1,0 +1,76 @@
+init -10 python:
+    import json
+    import random
+    from voice_policy import Pulse, choose_clip
+    renpy.music.register_channel('ambience', mixer='sfx', loop=True)
+    renpy.music.register_channel('birds', mixer='sfx', loop=True)
+    renpy.music.register_channel('utterance', mixer='voice', loop=False, tight=True)
+    # This manifest intentionally has no audition or old voice-v2 excerpts.
+    voice_manifest = json.loads(renpy.file('audio/voices.json').read())
+    voice_pools = {}
+    for speaker, entry in voice_manifest['speakers'].items():
+        clips = entry.get('clips', [])
+        if entry.get('approved') and entry.get('commercial_evidence') and len(set(clips)) >= 6:
+            if all(renpy.loadable(p) for p in clips):
+                voice_pools[speaker] = clips
+    voices_ready = all(s in voice_pools for s in ('miran', 'seran', 'oknyeo'))
+    voice_previous = {}
+    voice_pulse = None
+    voice_speaker = None
+    voice_generation = 0
+    voice_suppress_once = False
+
+    def stop_utterance():
+        if store.voice_pulse is not None:
+            store.voice_pulse.stop()
+        renpy.music.stop(channel='utterance', fadeout=0.0)
+
+    def voice_callback(event, interact=True, who=None, **kwargs):
+        if not interact:
+            return
+        if event == 'begin':
+            stop_utterance()
+            store.voice_generation += 1
+            store.voice_speaker = who
+            enabled = (who in voice_pools and persistent.utterances
+                       and not renpy.is_skipping() and not store.voice_suppress_once)
+            store.voice_pulse = Pulse(kwargs.get('what', ''), preferences.text_cps, enabled)
+            store.voice_suppress_once = False
+        elif event in ('slow_done', 'end'):
+            stop_utterance()
+
+    class VoicePulseDisplayable(renpy.Displayable):
+        def __init__(self, generation, **kwargs):
+            super(VoicePulseDisplayable, self).__init__(**kwargs)
+            self.generation = generation
+        def render(self, width, height, st, at):
+            if renpy.is_skipping() or renpy.get_screen('preferences') or not persistent.utterances:
+                stop_utterance()
+            elif self.generation == store.voice_generation and store.voice_pulse:
+                if store.voice_pulse.tick(st):
+                    sid = store.voice_speaker
+                    clip = choose_clip(voice_pools.get(sid, []), voice_previous.get(sid), random.choice)
+                    if clip and not renpy.music.is_playing(channel='utterance'):
+                        voice_previous[sid] = clip
+                        renpy.music.play(clip, channel='utterance')
+            renpy.redraw(self, 0.02)
+            return renpy.Render(0, 0)
+
+    def audio_interaction_guard():
+        if renpy.is_skipping() or renpy.context()._menu:
+            stop_utterance()
+    config.interact_callbacks.append(audio_interaction_guard)
+
+define miran = Character("미란", who_color="#a6cbbf", callback=renpy.curry(voice_callback)(who='miran'))
+define seran = Character("세란", who_color="#d5b4cc", callback=renpy.curry(voice_callback)(who='seran'))
+define oknyeo = Character("옥녀", who_color="#d8bc95", callback=renpy.curry(voice_callback)(who='oknyeo'))
+define inner = Character("미란 · 속말", who_color="#c9cebd", what_color="#e2e6db", callback=voice_callback)
+define danju = Character("단주", who_color="#b1c0d7", callback=renpy.curry(voice_callback)(who='danju'))
+define hyunma = Character("현마", who_color="#cfb59a", callback=renpy.curry(voice_callback)(who='hyunma'))
+define radio = Character("라디오", who_color="#c1c3c0", callback=voice_callback)
+define driver = Character("운전수", who_color="#c1c3c0", callback=voice_callback)
+
+label after_load:
+    $ stop_utterance()
+    $ voice_suppress_once = True
+    return

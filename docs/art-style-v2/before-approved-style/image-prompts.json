@@ -1,0 +1,59 @@
+{
+  "base": [
+    [
+      "bg_garden",
+      "Use case: illustration-story. A polished literary visual novel in mature Japanese animation style for adult women, restrained delicate linework, painterly soft light, authentic-feeling late 1930s Korean domestic setting, subtle jade cream lilac palette, no text or watermark. Wide 16:9 1920x1080 background only, no people. Lush enclosed May garden: house almost hidden behind ivy, red brick chimney emerging over leaves, white narrow path winding to a small gate at back, flowering lilac bushes and white wild roses close foreground. Dappled noon light, quiet and beautiful but a little enclosed. Clear middle space for character overlays."
+    ],
+    [
+      "bg_corridor",
+      "Use case: illustration-story. A polished literary visual novel in mature Japanese animation style for adult women, restrained delicate linework, painterly soft light, authentic-feeling late 1930s Korean domestic setting, subtle jade cream lilac palette, no text or watermark. Wide 16:9 1920x1080 background only, no people. Sunlit wooden corridor inside the same wealthy Korean house, colonial-era Korean and Western blended domestic architecture, wood floor and rail, large windows with ivy shadows, a chair beside a low table and water glass tray, doors into rooms. Quiet warm shaded greens, contemplative atmosphere, clear central stage."
+    ],
+    [
+      "miran_neutral",
+      "Use case: illustration-story. A polished literary visual novel in mature Japanese animation style for adult women, restrained delicate linework, painterly soft light, authentic-feeling late 1930s Korean domestic setting, subtle jade cream lilac palette, no text or watermark. One adult Korean woman Miran, age 21, 164 cm, slender upright mature proportions, shoulder-length black hair tucked behind left ear, deep brown clear eyes, cream blouse and thin cream cardigan, jade #719A91 calf-length skirt, tiny lilac accent. Neutral attentive expression, mouth closed, three-quarter nearly frontal, arms relaxed with hands loosely together near waist. Full figure from head through calves, centered with generous transparent padding, fixed standing sprite, no ground or shadow. Transparent background."
+    ],
+    [
+      "seran_neutral",
+      "Use case: illustration-story. A polished literary visual novel in mature Japanese animation style for adult women, restrained delicate linework, painterly soft light, authentic-feeling late 1930s Korean domestic setting, subtle jade cream lilac palette, no text or watermark. One adult Korean woman Seran, age 30, 167 cm, visibly mature soft jaw, defined lips, wavy black hair tied low, fuller stable silhouette than her younger sister. Aubergine #704A64 traditional Korean jeogori jacket, cream chima skirt, small gold hair ornament. Neutral warm composed expression, mouth closed, relaxed hands at waist. Three-quarter nearly frontal full figure head through calves, centered with transparent padding, fixed standing sprite, no ground or shadow. Transparent background."
+    ],
+    [
+      "oknyeo_neutral",
+      "Use case: illustration-story. A polished literary visual novel in mature Japanese animation style for adult women, restrained delicate linework, painterly soft light, authentic-feeling late 1930s Korean domestic setting, subtle jade cream lilac palette, no text or watermark. One adult Korean woman Oknyeo, age 21, 158 cm, practical confident mature face with quick observant eyes, black braided tied hair, ochre #A98864 Korean jeogori jacket, dark navy chima skirt, plain worn cream work apron, sturdy working hands clasped loosely near waist. Neutral attentive expression mouth closed. Three-quarter nearly frontal full figure head through calves centered with generous transparent padding, fixed standing sprite, no ground or shadow. Transparent background."
+    ]
+  ],
+  "variants": [
+    [
+      "miran_playful",
+      "miran_neutral",
+      "a small teasing smile, slightly arched eyebrow"
+    ],
+    [
+      "miran_hopeful",
+      "miran_neutral",
+      "quiet anticipation, bright intent eyes, soft hopeful smile"
+    ],
+    [
+      "miran_startled",
+      "miran_neutral",
+      "startled unease, slightly widened eyes and parted lips, restrained adult emotion"
+    ],
+    [
+      "seran_playful",
+      "seran_neutral",
+      "knowing playful smile, gently teasing eyes"
+    ],
+    [
+      "seran_unsettled",
+      "seran_neutral",
+      "unsettled and worried, raised inner brows, lips parted slightly"
+    ],
+    [
+      "oknyeo_wry",
+      "oknyeo_neutral",
+      "a quick wry good-humored smile and lively eyes"
+    ]
+  ],
+  "method": "Built-in imagegen. Variants reference the base image, expression-only edits. CG uses both sisters and garden as references.",
+  "variant_instruction": "Use case: identity-preserve. Edit the reference standing visual-novel sprite. Change ONLY the facial expression to the listed expression. Preserve exactly face identity, age, hair, outfit, hand position, body proportions, pose, scale, framing and resolution. Delicate mature anime illustration. Keep the background genuinely transparent with clean alpha outside the figure; no colored aura, no glow or backdrop. One character only, no words.",
+  "cg_prompt": "Use case: compositing. Create a wide 16:9 literary visual novel CG in delicate mature Japanese anime illustration style, no words. References 1 and 2 specify EXACT identity, age, clothing, color, hairstyles for sisters Miran (21, cream cardigan jade skirt) and Seran (30, purple jeogori cream skirt). Reference 3 is their garden. Show these two adult sisters close together beside flowering lilacs, Miran on left examining a flower thoughtfully, Seran on right smiling with gentle teasing affection. Waist-up cinematic composition, expressive mature faces, modest clothing, keep all face and clothing identities consistent. In the far background leave a small visible winding white path to the gate. Soft dappled May daylight, restrained painterly palette, quiet domestic intimacy. No text, no lettering."
+}

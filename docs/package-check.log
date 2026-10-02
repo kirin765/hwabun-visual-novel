@@ -1,0 +1,18 @@
+[
+  {
+    "package": "HwabunGarden-0.1.0-atmosphere-linux.tar.bz2",
+    "bytes": 78904093,
+    "sha256": "efa9b43fb0055978279118114a291da2abbbc5afd7b5d60527c1525d26781bc4",
+    "entries": 1537,
+    "assets_verified": 22,
+    "test_and_save_files_excluded": true
+  },
+  {
+    "package": "HwabunGarden-0.1.0-atmosphere-win.zip",
+    "bytes": 89605750,
+    "sha256": "ecbf3b2840c628a07b2b49f947f536535b3fe2d82f4241d6c4066a7c0db61792",
+    "entries": 1543,
+    "assets_verified": 22,
+    "test_and_save_files_excluded": true
+  }
+]

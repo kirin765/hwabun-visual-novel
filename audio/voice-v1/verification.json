@@ -1,0 +1,17 @@
+{
+  "asset_count": 39,
+  "audition_count": 13,
+  "checks_passed": [
+    "PCM mono 24kHz",
+    "60–90ms",
+    "zero endpoints",
+    "no clipping",
+    "nonspoken and mute silence",
+    "punctuation excluded",
+    "100ms minimum interval"
+  ],
+  "pending": [
+    "subjective listening",
+    "engine skip/instant/menu/auto/off interaction checks"
+  ]
+}

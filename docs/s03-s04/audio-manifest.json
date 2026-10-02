@@ -1,0 +1,51 @@
+[
+  {
+    "file": "audio/rain.ogg",
+    "duration_seconds": 24.0,
+    "sha256": "c21b6adfe2b6b449624ab5e57aa6e2a4a8c3fb011c09b7dcf862866e6b64d4bb",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  },
+  {
+    "file": "audio/thunder.ogg",
+    "duration_seconds": 4.0,
+    "sha256": "76a558fea790bdac7f6cf0cc11205d48dedf64dc8a07c1fe7088e8658313f392",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  },
+  {
+    "file": "audio/projector.ogg",
+    "duration_seconds": 16.0,
+    "sha256": "67bd14e3df4070845765abf0bba1838c4d163b650c2781675b5aa7ba0aca079a",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  },
+  {
+    "file": "audio/tram_bell.ogg",
+    "duration_seconds": 2.0,
+    "sha256": "d0bf5504d52231bdf8c2b12396e05689759b0f0660b4412967cca1b3d5f9f46a",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  },
+  {
+    "file": "audio/radio_noise.ogg",
+    "duration_seconds": 1.2,
+    "sha256": "466192865031ee3c688f6cb22f69df2967f72f6682123700d3af75bd96f89347",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  },
+  {
+    "file": "audio/tableware.ogg",
+    "duration_seconds": 2.0,
+    "sha256": "ffcf5afb00f4415df12c8da45ec176796802cccc3612a4d8b076fd7e6ad38b8e",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  },
+  {
+    "file": "audio/match.ogg",
+    "duration_seconds": 0.8,
+    "sha256": "7125e15783d1d8b33e6c8d0227490848823ac9749074a62b5432e371ad02662f",
+    "source": "original deterministic procedural synthesis",
+    "human_voice": false
+  }
+]

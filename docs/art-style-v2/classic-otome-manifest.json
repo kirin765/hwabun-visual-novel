@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-03",
+  "status": "user_approved_and_applied",
+  "character": "미란",
+  "generated_with": "OpenAI image_gen",
+  "generated_original": "/home/giwan/.codex/generated_images/01a0fca2-2789-7ab2-8c9b-6f2ed2718ff0/exec-abea4eef-dcd7-4bcb-a5e5-46d901d6ee26.png",
+  "file": "miran-classic-otome-bust-preview.png",
+  "sha256": "bd7a602428ccbbbf926ea01890cb0dfcadbb6bcfdcb6273a8688aae5592f8453",
+  "user_reference_url": "https://file.thisisgame.com/upload/rboard/2015/06/15/20150615133510_5610.jpg",
+  "reference_role": "Art direction only; reference image is not a game asset.",
+  "character_design_reference": "miran-romance-game-preview.png",
+  "direction": "2010년대 여성향 게임·순정 애니메이션풍. 또렷한 선과 셀 명암, 큰 눈과 간결한 이목구비. 얼굴을 검토할 수 있는 상반신 시안. 기존 의상과 팔레트 유지.",
+  "applied_as": "sample/game/images/miran_neutral.png",
+  "applied_version": "0.2.0-atmosphere"
+}

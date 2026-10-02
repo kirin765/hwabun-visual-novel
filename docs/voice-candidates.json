@@ -1,0 +1,84 @@
+[
+  {
+    "character": "미란",
+    "name": "esperar — Hmm question.wav",
+    "type": "실제 사람 녹음",
+    "source": "https://freesound.org/people/esperar/sounds/170768/",
+    "previewUrl": "https://cdn.freesound.org/previews/170/170768_377731-hq.mp3",
+    "description": "Young woman saying hmm?; 0.711 seconds. CC0.",
+    "link_check": {
+      "status": 200,
+      "content_type": "audio/mpeg"
+    }
+  },
+  {
+    "voiceId": "uyVNoMrnUku1dZyVEXwD",
+    "name": "Anna Kim - Tender, Calm and Clear",
+    "previewUrl": "https://api.us.elevenlabs.io/v1/voices/uyVNoMrnUku1dZyVEXwD/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiT0thQkRzWDRBd1dXak1hWkhCbWhDV0Z2dDlOMiIsImZpbGVuYW1lIjoiVzU1b1AxSXNMTmFOYWdsSnBVWmQubXAzIiwidGltZXN0YW1wIjoxNzkwNDA5NjAwMDAwMDAwfQ%3D%3D",
+    "category": "Narration",
+    "description": "Anna Kim - Young Korean female voice. Great for Narrations.",
+    "character": "미란",
+    "type": "AI 공개 미리듣기",
+    "source": "https://elevenlabs.io/text-to-speech/korean",
+    "link_check": {
+      "status": 200,
+      "content_type": "audio/mpeg"
+    }
+  },
+  {
+    "voiceId": "ETPP7D0aZVdEj12Aa7ho",
+    "name": "Selly Han - Warm, Calm and Steady",
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/oDwWVVb1w2T87IGLDxNdT7vBmEn2/voices/ETPP7D0aZVdEj12Aa7ho/DONiknEwqUfxGc2bH1MP.mp3",
+    "category": "Narration",
+    "description": "Selly Han - Calm, gentle, and thoughtful the perfect voice for literary fiction audiobook narration, documentary commentary, and meditative content.",
+    "character": "세란",
+    "type": "AI 공개 미리듣기",
+    "source": "https://elevenlabs.io/text-to-speech/korean",
+    "link_check": {
+      "status": 200,
+      "content_type": "text/plain"
+    }
+  },
+  {
+    "voiceId": "hWXqitL3DEOLD49pgNWR",
+    "name": "Ruach - Emotional audiobook narrator ",
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/f206ea1468524d6289642953f04dcad0/voices/hWXqitL3DEOLD49pgNWR/BSyyfYbgiYfmWD4E1jp7.mp3",
+    "category": "Narration",
+    "description": "A soulful, deep, and profoundly inspiring female voice designed to resonate with warmth and sincerity. With a smooth, gentle, and trustworthy tone, she breathes life into stories, bringing an emotional depth that captures the listener. Perfect for spiritual narrations, evocative audiobooks, healing content, and serene storytelling. Experience authentic human-like warmth and clarity. Multilingual-ready.",
+    "character": "세란",
+    "type": "AI 공개 미리듣기",
+    "source": "https://elevenlabs.io/text-to-speech/korean",
+    "link_check": {
+      "status": 200,
+      "content_type": "audio/mpeg"
+    }
+  },
+  {
+    "voiceId": "sf8Bpb1IU97NI9BHSMRf",
+    "name": "Rosa Oh - Calm, Polished and Measured",
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/dEjL6sdYqAd58pOMNPp4ut6Zltc2/voices/sf8Bpb1IU97NI9BHSMRf/5Emj4Ccmi1oZzFWx7g20.mp3",
+    "category": "Conversational",
+    "description": "Rosa Oh - Korean young female clean voice for book reading, narration, news, and radio.",
+    "character": "옥녀",
+    "type": "AI 공개 미리듣기",
+    "source": "https://elevenlabs.io/text-to-speech/korean",
+    "link_check": {
+      "status": 200,
+      "content_type": "text/plain"
+    }
+  },
+  {
+    "voiceId": "1YzIw7PZ7iaD4alelyHY",
+    "name": "Stella - Steady, Clear and Cheerful",
+    "previewUrl": "https://api.us.elevenlabs.io/v1/voices/1YzIw7PZ7iaD4alelyHY/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoib0R3V1ZWYjF3MlQ4N0lHTER4TmRUN3ZCbUVuMiIsImZpbGVuYW1lIjoiNWc0eTdOb1BFVU9UdXpZVnpwRk0ubXAzIiwidGltZXN0YW1wIjoxNzkwNDA5NjAwMDAwMDAwfQ%3D%3D",
+    "category": "Social Media",
+    "description": "Stella - Upbeat and cheerful—the ideal voice for public announcements, social media information delivery, and commercials.",
+    "character": "옥녀",
+    "type": "AI 공개 미리듣기",
+    "source": "https://elevenlabs.io/text-to-speech/korean",
+    "link_check": {
+      "status": 200,
+      "content_type": "audio/mpeg"
+    }
+  }
+]

@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "status": "audition-draft",
+  "sample_rate": 24000,
+  "defaults": {
+    "enabled": true,
+    "volume": 0.25,
+    "minimum_interval_ms": 100,
+    "eligible_chars_per_grain": 2
+  },
+  "speaker_aliases": {
+    "음악가": "younghun",
+    "운전수": "support_low",
+    "점원": "support_light",
+    "역무원": "support_low",
+    "관리인": "support_low",
+    "이모": "support_light",
+    "애영": "support_light",
+    "라디오": "radio"
+  },
+  "profiles": {
+    "miran": {
+      "id": "miran",
+      "name": "미란",
+      "f0_hz": 240,
+      "duration_ms": 74,
+      "formant_scale": 1.08,
+      "rolloff": 1.35,
+      "level": 0.9
+    },
+    "seran": {
+      "id": "seran",
+      "name": "세란",
+      "f0_hz": 205,
+      "duration_ms": 86,
+      "formant_scale": 0.88,
+      "rolloff": 1.7,
+      "level": 0.94
+    },
+    "danju": {
+      "id": "danju",
+      "name": "단주",
+      "f0_hz": 165,
+      "duration_ms": 78,
+      "formant_scale": 1.04,
+      "rolloff": 1.85,
+      "level": 0.92
+    },
+    "hyunma": {
+      "id": "hyunma",
+      "name": "현마",
+      "f0_hz": 110,
+      "duration_ms": 90,
+      "formant_scale": 0.75,
+      "rolloff": 1.1,
+      "level": 0.86
+    },
+    "younghun": {
+      "id": "younghun",
+      "name": "영훈",
+      "f0_hz": 140,
+      "duration_ms": 70,
+      "formant_scale": 1.12,
+      "rolloff": 1.15,
+      "level": 0.88
+    },
+    "gaya": {
+      "id": "gaya",
+      "name": "가야",
+      "f0_hz": 220,
+      "duration_ms": 82,
+      "formant_scale": 1.18,
+      "rolloff": 1.95,
+      "level": 0.88
+    },
+    "oknyeo": {
+      "id": "oknyeo",
+      "name": "옥녀",
+      "f0_hz": 255,
+      "duration_ms": 60,
+      "formant_scale": 1.15,
+      "rolloff": 1.4,
+      "level": 0.84
+    },
+    "gapjae": {
+      "id": "gapjae",
+      "name": "갑재",
+      "f0_hz": 125,
+      "duration_ms": 62,
+      "formant_scale": 0.9,
+      "rolloff": 1.05,
+      "level": 0.85
+    },
+    "jukseok": {
+      "id": "jukseok",
+      "name": "죽석",
+      "f0_hz": 210,
+      "duration_ms": 68,
+      "formant_scale": 0.94,
+      "rolloff": 1.65,
+      "level": 0.9
+    },
+    "mantae": {
+      "id": "mantae",
+      "name": "만태",
+      "f0_hz": 135,
+      "duration_ms": 88,
+      "formant_scale": 0.82,
+      "rolloff": 1.8,
+      "level": 0.92
+    },
+    "support_low": {
+      "id": "support_low",
+      "name": "조연 낮은 발성",
+      "f0_hz": 155,
+      "duration_ms": 80,
+      "formant_scale": 0.92,
+      "rolloff": 1.65,
+      "level": 0.88
+    },
+    "support_light": {
+      "id": "support_light",
+      "name": "조연 가벼운 발성",
+      "f0_hz": 225,
+      "duration_ms": 68,
+      "formant_scale": 1.09,
+      "rolloff": 1.75,
+      "level": 0.86
+    },
+    "radio": {
+      "id": "radio",
+      "name": "라디오",
+      "f0_hz": 155,
+      "duration_ms": 80,
+      "formant_scale": 0.92,
+      "rolloff": 1.65,
+      "level": 0.88,
+      "radio": true
+    }
+  },
+  "assets": [
+    {
+      "speaker": "miran",
+      "variant": "a",
+      "file": "miran_a.wav"
+    },
+    {
+      "speaker": "miran",
+      "variant": "eo",
+      "file": "miran_eo.wav"
+    },
+    {
+      "speaker": "miran",
+      "variant": "eu",
+      "file": "miran_eu.wav"
+    },
+    {
+      "speaker": "seran",
+      "variant": "a",
+      "file": "seran_a.wav"
+    },
+    {
+      "speaker": "seran",
+      "variant": "eo",
+      "file": "seran_eo.wav"
+    },
+    {
+      "speaker": "seran",
+      "variant": "eu",
+      "file": "seran_eu.wav"
+    },
+    {
+      "speaker": "danju",
+      "variant": "a",
+      "file": "danju_a.wav"
+    },
+    {
+      "speaker": "danju",
+      "variant": "eo",
+      "file": "danju_eo.wav"
+    },
+    {
+      "speaker": "danju",
+      "variant": "eu",
+      "file": "danju_eu.wav"
+    },
+    {
+      "speaker": "hyunma",
+      "variant": "a",
+      "file": "hyunma_a.wav"
+    },
+    {
+      "speaker": "hyunma",
+      "variant": "eo",
+      "file": "hyunma_eo.wav"
+    },
+    {
+      "speaker": "hyunma",
+      "variant": "eu",
+      "file": "hyunma_eu.wav"
+    },
+    {
+      "speaker": "younghun",
+      "variant": "a",
+      "file": "younghun_a.wav"
+    },
+    {
+      "speaker": "younghun",
+      "variant": "eo",
+      "file": "younghun_eo.wav"
+    },
+    {
+      "speaker": "younghun",
+      "variant": "eu",
+      "file": "younghun_eu.wav"
+    },
+    {
+      "speaker": "gaya",
+      "variant": "a",
+      "file": "gaya_a.wav"
+    },
+    {
+      "speaker": "gaya",
+      "variant": "eo",
+      "file": "gaya_eo.wav"
+    },
+    {
+      "speaker": "gaya",
+      "variant": "eu",
+      "file": "gaya_eu.wav"
+    },
+    {
+      "speaker": "oknyeo",
+      "variant": "a",
+      "file": "oknyeo_a.wav"
+    },
+    {
+      "speaker": "oknyeo",
+      "variant": "eo",
+      "file": "oknyeo_eo.wav"
+    },
+    {
+      "speaker": "oknyeo",
+      "variant": "eu",
+      "file": "oknyeo_eu.wav"
+    },
+    {
+      "speaker": "gapjae",
+      "variant": "a",
+      "file": "gapjae_a.wav"
+    },
+    {
+      "speaker": "gapjae",
+      "variant": "eo",
+      "file": "gapjae_eo.wav"
+    },
+    {
+      "speaker": "gapjae",
+      "variant": "eu",
+      "file": "gapjae_eu.wav"
+    },
+    {
+      "speaker": "jukseok",
+      "variant": "a",
+      "file": "jukseok_a.wav"
+    },
+    {
+      "speaker": "jukseok",
+      "variant": "eo",
+      "file": "jukseok_eo.wav"
+    },
+    {
+      "speaker": "jukseok",
+      "variant": "eu",
+      "file": "jukseok_eu.wav"
+    },
+    {
+      "speaker": "mantae",
+      "variant": "a",
+      "file": "mantae_a.wav"
+    },
+    {
+      "speaker": "mantae",
+      "variant": "eo",
+      "file": "mantae_eo.wav"
+    },
+    {
+      "speaker": "mantae",
+      "variant": "eu",
+      "file": "mantae_eu.wav"
+    },
+    {
+      "speaker": "support_low",
+      "variant": "a",
+      "file": "support_low_a.wav"
+    },
+    {
+      "speaker": "support_low",
+      "variant": "eo",
+      "file": "support_low_eo.wav"
+    },
+    {
+      "speaker": "support_low",
+      "variant": "eu",
+      "file": "support_low_eu.wav"
+    },
+    {
+      "speaker": "support_light",
+      "variant": "a",
+      "file": "support_light_a.wav"
+    },
+    {
+      "speaker": "support_light",
+      "variant": "eo",
+      "file": "support_light_eo.wav"
+    },
+    {
+      "speaker": "support_light",
+      "variant": "eu",
+      "file": "support_light_eu.wav"
+    },
+    {
+      "speaker": "radio",
+      "variant": "a",
+      "file": "radio_a.wav"
+    },
+    {
+      "speaker": "radio",
+      "variant": "eo",
+      "file": "radio_eo.wav"
+    },
+    {
+      "speaker": "radio",
+      "variant": "eu",
+      "file": "radio_eu.wav"
+    }
+  ],
+  "auditions": [
+    {
+      "speaker": "miran",
+      "label": "같은 문장",
+      "text": "오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "miran_common.wav"
+    },
+    {
+      "speaker": "miran",
+      "label": "실제 1화",
+      "text": "점잖게 언니 행세 좀 해요. 괴덕만 부리지 말구.",
+      "file": "miran_episode1.wav"
+    },
+    {
+      "speaker": "seran",
+      "label": "같은 문장",
+      "text": "오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "seran_common.wav"
+    },
+    {
+      "speaker": "seran",
+      "label": "실제 1화",
+      "text": "알거든 길이나 비켜 주지. 날마다 옷섶을 붙들구 놓질 않으니.",
+      "file": "seran_episode1.wav"
+    },
+    {
+      "speaker": "danju",
+      "label": "같은 문장",
+      "text": "오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "danju_common.wav"
+    },
+    {
+      "speaker": "danju",
+      "label": "실제 1화",
+      "text": "새 레코드예요. 봄 노래라기에 가져왔죠.",
+      "file": "danju_episode1.wav"
+    },
+    {
+      "speaker": "hyunma",
+      "label": "같은 문장",
+      "text": "오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "hyunma_common.wav"
+    },
+    {
+      "speaker": "hyunma",
+      "label": "실제 1화",
+      "text": "단주는 꽃두 레코드두 그냥 지나치질 못해.",
+      "file": "hyunma_episode1.wav"
+    },
+    {
+      "speaker": "oknyeo",
+      "label": "같은 문장",
+      "text": "오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "oknyeo_common.wav"
+    },
+    {
+      "speaker": "oknyeo",
+      "label": "실제 1화",
+      "text": "그럼요. 제가 아니면 물이 저 혼자 끓나요.",
+      "file": "oknyeo_episode1.wav"
+    },
+    {
+      "speaker": "miran",
+      "label": "긴 대사 반복",
+      "text": "집에선 말 한마디면 되는 줄 알지. 웃으라면 웃구, 잠자쿠 있으라면 있구. 내 마음은 어디 있나요. 오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요. 오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "miran_long.wav"
+    },
+    {
+      "speaker": "miran",
+      "label": "피아노·비와 함께",
+      "text": "집에선 말 한마디면 되는 줄 알지. 웃으라면 웃구, 잠자쿠 있으라면 있구. 내 마음은 어디 있나요. 오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요. 오늘 다 정하려구 말아요. 그럼 오늘은 비나 그치기를 기다릴까요.",
+      "file": "miran_mixed.wav"
+    },
+    {
+      "speaker": "radio",
+      "label": "실제 1화 라디오",
+      "text": "밤으로부터 새벽까지 폭풍우가 엄습합니다.",
+      "file": "radio_episode1.wav"
+    }
+  ]
+}

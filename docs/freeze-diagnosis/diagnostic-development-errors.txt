@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/test_freeze.rpy", line 55: Expected statement. game/test_freeze.rpy:2.
+    repeat 25:
+    ^
+
+Ren'Py Version: Ren'Py 8.5.4.26092102+nightly
+Fri Oct  2 23:25:56 2026

@@ -1,0 +1,194 @@
+[
+  {
+    "file": "bg_corridor.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "alpha_bbox": null
+  },
+  {
+    "file": "bg_garden.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "alpha_bbox": null
+  },
+  {
+    "file": "cg_sisters.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "alpha_bbox": null
+  },
+  {
+    "file": "miran_hopeful.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1027,
+      1448
+    ]
+  },
+  {
+    "file": "miran_neutral.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      56,
+      0,
+      1025,
+      1448
+    ]
+  },
+  {
+    "file": "miran_playful.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1026,
+      1448
+    ]
+  },
+  {
+    "file": "miran_startled.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      54,
+      0,
+      1027,
+      1448
+    ]
+  },
+  {
+    "file": "oknyeo_neutral.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      25,
+      0,
+      1005,
+      1448
+    ]
+  },
+  {
+    "file": "oknyeo_wry.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      58,
+      0,
+      1017,
+      1448
+    ]
+  },
+  {
+    "file": "seran_neutral.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      39,
+      0,
+      1072,
+      1448
+    ]
+  },
+  {
+    "file": "seran_playful.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      74,
+      0,
+      1036,
+      1448
+    ]
+  },
+  {
+    "file": "seran_unsettled.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      83,
+      0,
+      1035,
+      1448
+    ]
+  }
+]

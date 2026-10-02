@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "text_blocks": 415,
+  "body_chars_all_routes": 11282,
+  "route_a_chars": 11142,
+  "route_b_chars": 11094,
+  "reading_minutes_at_550_to_350_cpm": {
+    "A": [
+      20.3,
+      31.8
+    ],
+    "B": [
+      20.2,
+      31.7
+    ]
+  },
+  "checks": [
+    "S01–S04",
+    "one C01 with both paths to common merge",
+    "choice wording matches first utterance",
+    "adult age and two years",
+    "privacy request precedes both paths",
+    "external scene has no Miran inner speech",
+    "8 one-block mute cues",
+    "13 direct source excerpts",
+    "audition captions match script",
+    "all audio and page links exist",
+    "v2 source script hash"
+  ],
+  "page_links_checked": 119,
+  "pending": [
+    "actual reading time",
+    "subjective v2 listening",
+    "browser UI interactions",
+    "game engine implementation"
+  ]
+}

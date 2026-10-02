@@ -1,0 +1,2176 @@
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1645 in event_wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 3020 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35 in _execute_python_hide
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00start.rpy", line 301 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "renpy/common/_layout/screen_load_save.rpym", line 35 in <module>
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/python.py", line 1276 in py_exec_bytecode
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 1193 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/game.py", line 346 in call_in_new_context
+  File "renpy/common/00gamemenu.rpy", line 135 in _invoke_game_menu
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/behavior.py", line 411 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/behavior.py", line 559 in event
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/layout.py", line 1281 in event
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 3268 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1188 in kill_textures
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1206 in before_resize
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2818 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>
+Timeout (0:00:10)!
+Thread 0x00007ded537fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6e3ad6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded6f8996c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007ded730a7c00 (most recent call first):
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 1287 in draw_screen
+  File "game/test_diagnostics.rpy", line 16 in freeze_draw
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2843 in interact_core
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/display/core.py", line 2164 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ui.py", line 306 in interact
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 909 in display_say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1227 in do_display
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/character.py", line 1572 in __call__
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/exports/sayexports.py", line 129 in say
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 994 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/ast.py", line 2935 in execute
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 677 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/execution.py", line 1050 in run_context
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 137 in run
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/main.py", line 596 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/renpy/bootstrap.py", line 401 in bootstrap
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 300 in main
+  File "/home/giwan/.local/share/renpy/renpy-8.5.4.26092102+nightly-sdk/lib/py3-linux-x86_64/../../renpy.py", line 304 in <module>

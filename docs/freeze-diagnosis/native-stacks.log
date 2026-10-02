@@ -1,0 +1,23 @@
+Timeout (0:00:10)!
+Thread 0x000078bcf37fe6c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/Projects/hwabun-visual-novel/dist/linux/HwabunGarden-0.1.1-atmosphere-linux/renpy/audio/audio.py", line 1293 in periodic_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x000078bd0e2546c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 359 in wait
+  File "/home/giwan/Projects/hwabun-visual-novel/dist/linux/HwabunGarden-0.1.1-atmosphere-linux/renpy/savelocation.py", line 665 in run_scan_thread
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x000078bd0f8666c0 (most recent call first):
+  File "lib/python3.12/threading.py", line 355 in wait
+  File "/home/giwan/Projects/hwabun-visual-novel/dist/linux/HwabunGarden-0.1.1-atmosphere-linux/renpy/display/im.py", line 509 in preload_thread_main
+  File "lib/python3.12/threading.py", line 1012 in run
+  File "lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x000078bd10690c00 (most recent call first):

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "birds.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x70a0f8003440] mean_volume: -45.3 dB\n[Parsed_volumedetect_0 @ 0x70a0f8003440] max_volume: -24.6 dB"
+  },
+  {
+    "file": "car.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x7207f0003440] mean_volume: -27.2 dB\n[Parsed_volumedetect_0 @ 0x7207f0003440] max_volume: -16.2 dB"
+  },
+  {
+    "file": "door.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x720df4003440] mean_volume: -35.9 dB\n[Parsed_volumedetect_0 @ 0x720df4003440] max_volume: -24.4 dB"
+  },
+  {
+    "file": "garden_piano.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x7bd770003440] mean_volume: -27.1 dB\n[Parsed_volumedetect_0 @ 0x7bd770003440] max_volume: -12.2 dB"
+  },
+  {
+    "file": "glass.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x72d934003440] mean_volume: -34.7 dB\n[Parsed_volumedetect_0 @ 0x72d934003440] max_volume: -17.6 dB"
+  },
+  {
+    "file": "grass.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x7f4ef4003440] mean_volume: -27.1 dB\n[Parsed_volumedetect_0 @ 0x7f4ef4003440] max_volume: -11.4 dB"
+  },
+  {
+    "file": "leaves.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x71c8e4003440] mean_volume: -38.0 dB\n[Parsed_volumedetect_0 @ 0x71c8e4003440] max_volume: -23.2 dB"
+  },
+  {
+    "file": "steps.ogg",
+    "result": "[Parsed_volumedetect_0 @ 0x702128003440] mean_volume: -34.7 dB\n[Parsed_volumedetect_0 @ 0x702128003440] max_volume: -12.2 dB"
+  }
+]

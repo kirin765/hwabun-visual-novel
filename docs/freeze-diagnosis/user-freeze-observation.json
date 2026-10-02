@@ -1,0 +1,15 @@
+{
+  "time": 1790952713.992348,
+  "drawing": true,
+  "block": 8,
+  "main_menu": false,
+  "preferences": false,
+  "game_menu": false,
+  "fullscreen": false,
+  "music": "audio/garden_piano.ogg",
+  "music_position": 74.794,
+  "volume": 0.07943282347242814,
+  "mute": false,
+  "observed_at": 1790952714.0063505,
+  "stale_seconds": 0.014002561569213867
+}
