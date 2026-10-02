@@ -64,7 +64,7 @@ init -10 python:
 define miran = Character("미란", who_color="#a6cbbf", callback=renpy.curry(voice_callback)(who='miran'))
 define seran = Character("세란", who_color="#d5b4cc", callback=renpy.curry(voice_callback)(who='seran'))
 define oknyeo = Character("옥녀", who_color="#d8bc95", callback=renpy.curry(voice_callback)(who='oknyeo'))
-define inner = Character("미란 · 속말", who_color="#c9cebd", what_color="#e2e6db", callback=voice_callback)
+define inner = Character(None, what_color="#e2e6db", callback=voice_callback)
 define danju = Character("단주", who_color="#b1c0d7", callback=renpy.curry(voice_callback)(who='danju'))
 define hyunma = Character("현마", who_color="#cfb59a", callback=renpy.curry(voice_callback)(who='hyunma'))
 define radio = Character("라디오", who_color="#c1c3c0", callback=voice_callback)
