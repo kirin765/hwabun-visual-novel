@@ -2,6 +2,9 @@ testsuite garden:
     setup:
         $ _test.timeout = 15.0
         $ _test.transition_timeout = 0.1
+        $ preferences.afm_enable = False
+        $ config.skipping = None
+        pause 0.5
         $ _test.screenshot_directory = "tests/screenshots"
     teardown:
         exit

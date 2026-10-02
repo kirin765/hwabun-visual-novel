@@ -1,6 +1,6 @@
 # 화분 정원 샘플 자산 기록
 
-기록일: 2026-10-03. 버전: 0.3.2-character-motion. 개별 파일 해시는 `asset-manifest.json`을 따른다.
+기록일: 2026-10-03. 버전: 0.3.3-character-voices. 개별 파일 해시는 `asset-manifest.json`을 따른다.
 
 | 자산 | 수량 | 출처·제작 | 이용 근거 및 상태 |
 |---|---:|---|---|
@@ -57,3 +57,7 @@ OpenAI 내장 imagegen으로 11장을 제작했습니다: 단주·현마 스탠�
 ## 미란 음성 승인
 
 사용자가 `selly-han/previous.html`의 원본 8개를 미란 목소리로 승인했습니다. 놀람 “아!”, 안도 “아…”, 웃음 “하하.” 포함 버전입니다. 유료 플랜 전환 뒤 생성된 Eleven v3 / Selly Han 음원이며 Ogg로 변환했습니다. 생성 ID·프롬프트·원본 해시는 `docs/elevenlabs-examples/selly-han/manifest-previous.json`에 기록했습니다. 유료 플랜 확인 근거는 사용자 진술과 유료 플랜 전환 후 API 생성 성공이며 별도 결제 증빙은 수집하지 않았습니다. 게임은 로컬 음원만 재생합니다. 속말과 미승인 인물은 무음입니다.
+
+## 나머지 인물 승인 및 음원
+
+세란 Rosa Oh, 옥녀 Yoojin Kim, 단주 JooHwan, 현마 Shin, 영훈 HoCho를 사용자가 선택했습니다. 각 목소리의 감정 발성 8종, 합계 40개를 Ogg로 변환했습니다. `docs/voice-casting/selection.json`과 `docs/selected-voices/integration-manifest.json`에 선택·원본·해시를 기록했습니다. 비교용 문장은 배포 음원에서 제외했습니다. 영훈의 제1화 대사는 없어 이후 등장용으로 준비합니다.

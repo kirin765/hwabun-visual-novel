@@ -16,3 +16,7 @@
 ## 미란 최종 샘플 선택 업데이트
 
 사용자가 Selly Han `docs/elevenlabs-examples/selly-han/previous.html`의 원본 8개를 미란 목소리로 승인했습니다. 이전 미란 A(esperar) 선택보다 이번 지시가 우선합니다. 게임 버전 0.3.1-miran-voice에 원본을 Ogg로 변환해 연결했습니다. 수정 반응음 `_02` 버전은 사용하지 않습니다. 세란·옥녀와 속말은 무음이며, 기존 후보와 평가 기록은 보존합니다.
+
+## 나머지 인물 선택
+
+사용자 선택: 세란 B / Rosa Oh, 옥녀 B / Yoojin Kim, 단주 A / JooHwan, 현마 A / Shin, 영훈 B / HoCho. 미란 Selly Han 유지. 선택 음색마다 짧은 감정 발성 8종을 준비했으며 비교용 문장은 게임에서 제외했습니다. 영훈은 현재 제1화 대사에 없으므로 이후 등장용 정의와 음원만 준비했습니다. 캐스팅 선택은 `docs/voice-casting/selection.json`, 게임 복사 기록은 `docs/selected-voices/integration-manifest.json`을 따릅니다.

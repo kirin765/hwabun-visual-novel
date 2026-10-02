@@ -1,0 +1,45 @@
+{
+  "miran": "Selly Han (unchanged)",
+  "selected": [
+    {
+      "speaker": "seran",
+      "character": "세란",
+      "option": "B",
+      "voice_name": "Rosa Oh",
+      "voice_id": "sf8Bpb1IU97NI9BHSMRf",
+      "approved_by_user": true
+    },
+    {
+      "speaker": "oknyeo",
+      "character": "옥녀",
+      "option": "B",
+      "voice_name": "Yoojin Kim",
+      "voice_id": "Cm89zxZzEGaMu7ajYw2K",
+      "approved_by_user": true
+    },
+    {
+      "speaker": "danju",
+      "character": "단주",
+      "option": "A",
+      "voice_name": "JooHwan",
+      "voice_id": "wRlh0NOM5bmw1KzaE4XZ",
+      "approved_by_user": true
+    },
+    {
+      "speaker": "hyunma",
+      "character": "현마",
+      "option": "A",
+      "voice_name": "Shin",
+      "voice_id": "GNmgFU0yNiLKxTCw3OT9",
+      "approved_by_user": true
+    },
+    {
+      "speaker": "younghun",
+      "character": "영훈",
+      "option": "B",
+      "voice_name": "HoCho",
+      "voice_id": "ZXhi0czBiSzyk3bQNu5W",
+      "approved_by_user": true
+    }
+  ]
+}

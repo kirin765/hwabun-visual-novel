@@ -1,6 +1,6 @@
 # 화분 · 제1화 플레이 샘플
 
-S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사·속말 415블록을 수록하며, 한 경로에서는 409블록을 읽습니다. 미란에게 사용자 승인 Selly Han 감정 발성을 연결했습니다. 속말과 다른 인물은 무음입니다. 설정에서 발성을 끌 수 있습니다. 메인 음악은 사용자 지정 「Gymnopedie No 1」입니다.
+S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사·속말 415블록을 수록하며, 한 경로에서는 409블록을 읽습니다. 미란에게 사용자 승인 Selly Han 감정 발성을 연결했습니다. 세란 Rosa Oh, 옥녀 Yoojin Kim, 단주 JooHwan, 현마 Shin도 연결했습니다. 영훈 HoCho는 이후 등장용으로 준비했습니다. 속말은 무음입니다. 설정에서 발성을 끌 수 있습니다. 메인 음악은 사용자 지정 「Gymnopedie No 1」입니다.
 
 ## 실행
 
@@ -10,8 +10,8 @@ S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사�
 
 제목 화면의 **새 장면 S03부터** 버튼으로 추가 부분을 바로 볼 수 있습니다.
 
-- [Linux 배포본](dist/HwabunGarden-0.3.2-character-motion-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
-- [Windows 배포본](dist/HwabunGarden-0.3.2-character-motion-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
+- [Linux 배포본](dist/HwabunGarden-0.3.3-character-voices-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
+- [Windows 배포본](dist/HwabunGarden-0.3.3-character-voices-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
 
 ## 이번 추가
 

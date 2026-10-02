@@ -1,5 +1,5 @@
 {
-  "status": "miran-approved-selly-han",
+  "status": "six-characters-selected",
   "speakers": {
     "miran": {
       "approved": true,
@@ -122,14 +122,338 @@
       }
     },
     "seran": {
-      "approved": false,
-      "clips": [],
-      "commercial_evidence": null
+      "approved": true,
+      "voice_id": "sf8Bpb1IU97NI9BHSMRf",
+      "voice_name": "Rosa Oh",
+      "model_id": "eleven_v3",
+      "clips": [
+        "audio/voice_seran/neutral.ogg",
+        "audio/voice_seran/hesitant.ogg",
+        "audio/voice_seran/curious.ogg",
+        "audio/voice_seran/surprised.ogg",
+        "audio/voice_seran/relieved.ogg",
+        "audio/voice_seran/laugh.ogg",
+        "audio/voice_seran/worried.ogg",
+        "audio/voice_seran/frustrated.ogg"
+      ],
+      "emotion_clips": {
+        "neutral": [
+          "audio/voice_seran/neutral.ogg"
+        ],
+        "hesitant": [
+          "audio/voice_seran/hesitant.ogg"
+        ],
+        "curious": [
+          "audio/voice_seran/curious.ogg"
+        ],
+        "surprised": [
+          "audio/voice_seran/surprised.ogg"
+        ],
+        "relieved": [
+          "audio/voice_seran/relieved.ogg"
+        ],
+        "laugh": [
+          "audio/voice_seran/laugh.ogg"
+        ],
+        "worried": [
+          "audio/voice_seran/worried.ogg"
+        ],
+        "frustrated": [
+          "audio/voice_seran/frustrated.ogg"
+        ]
+      },
+      "dialogue_emotions": {
+        "32": "curious",
+        "97": "curious",
+        "103": "curious",
+        "136": "curious",
+        "165": "curious",
+        "15": "laugh",
+        "19": "laugh",
+        "46": "laugh",
+        "48": "laugh",
+        "50": "laugh",
+        "57": "laugh",
+        "124": "laugh",
+        "160": "laugh",
+        "162": "laugh",
+        "167": "laugh",
+        "59": "worried",
+        "64": "worried",
+        "68": "worried",
+        "73": "worried",
+        "75": "worried",
+        "79": "worried",
+        "187": "worried",
+        "191": "worried",
+        "71": "relieved",
+        "107": "relieved",
+        "109": "relieved",
+        "164": "frustrated",
+        "172": "frustrated",
+        "178": "frustrated",
+        "174": "surprised"
+      },
+      "commercial_evidence": {
+        "basis": "User reported paid plan before API generation; selected this voice explicitly.",
+        "selection": "docs/voice-casting/selection.json",
+        "generation_manifest": "docs/selected-voices/manifest.json"
+      }
     },
     "oknyeo": {
-      "approved": false,
-      "clips": [],
-      "commercial_evidence": null
+      "approved": true,
+      "voice_id": "Cm89zxZzEGaMu7ajYw2K",
+      "voice_name": "Yoojin Kim",
+      "model_id": "eleven_v3",
+      "clips": [
+        "audio/voice_oknyeo/neutral.ogg",
+        "audio/voice_oknyeo/hesitant.ogg",
+        "audio/voice_oknyeo/curious.ogg",
+        "audio/voice_oknyeo/surprised.ogg",
+        "audio/voice_oknyeo/relieved.ogg",
+        "audio/voice_oknyeo/laugh.ogg",
+        "audio/voice_oknyeo/worried.ogg",
+        "audio/voice_oknyeo/frustrated.ogg"
+      ],
+      "emotion_clips": {
+        "neutral": [
+          "audio/voice_oknyeo/neutral.ogg"
+        ],
+        "hesitant": [
+          "audio/voice_oknyeo/hesitant.ogg"
+        ],
+        "curious": [
+          "audio/voice_oknyeo/curious.ogg"
+        ],
+        "surprised": [
+          "audio/voice_oknyeo/surprised.ogg"
+        ],
+        "relieved": [
+          "audio/voice_oknyeo/relieved.ogg"
+        ],
+        "laugh": [
+          "audio/voice_oknyeo/laugh.ogg"
+        ],
+        "worried": [
+          "audio/voice_oknyeo/worried.ogg"
+        ],
+        "frustrated": [
+          "audio/voice_oknyeo/frustrated.ogg"
+        ]
+      },
+      "dialogue_emotions": {
+        "81": "worried",
+        "83": "worried",
+        "85": "worried",
+        "87": "worried",
+        "90": "laugh",
+        "92": "laugh",
+        "118": "laugh",
+        "120": "laugh",
+        "95": "curious"
+      },
+      "commercial_evidence": {
+        "basis": "User reported paid plan before API generation; selected this voice explicitly.",
+        "selection": "docs/voice-casting/selection.json",
+        "generation_manifest": "docs/selected-voices/manifest.json"
+      }
+    },
+    "danju": {
+      "approved": true,
+      "voice_id": "wRlh0NOM5bmw1KzaE4XZ",
+      "voice_name": "JooHwan",
+      "model_id": "eleven_v3",
+      "clips": [
+        "audio/voice_danju/neutral.ogg",
+        "audio/voice_danju/hesitant.ogg",
+        "audio/voice_danju/curious.ogg",
+        "audio/voice_danju/surprised.ogg",
+        "audio/voice_danju/relieved.ogg",
+        "audio/voice_danju/laugh.ogg",
+        "audio/voice_danju/worried.ogg",
+        "audio/voice_danju/frustrated.ogg"
+      ],
+      "emotion_clips": {
+        "neutral": [
+          "audio/voice_danju/neutral.ogg"
+        ],
+        "hesitant": [
+          "audio/voice_danju/hesitant.ogg"
+        ],
+        "curious": [
+          "audio/voice_danju/curious.ogg"
+        ],
+        "surprised": [
+          "audio/voice_danju/surprised.ogg"
+        ],
+        "relieved": [
+          "audio/voice_danju/relieved.ogg"
+        ],
+        "laugh": [
+          "audio/voice_danju/laugh.ogg"
+        ],
+        "worried": [
+          "audio/voice_danju/worried.ogg"
+        ],
+        "frustrated": [
+          "audio/voice_danju/frustrated.ogg"
+        ]
+      },
+      "dialogue_emotions": {
+        "200": "worried",
+        "213": "worried",
+        "215": "worried",
+        "227": "worried",
+        "229": "worried",
+        "282": "worried",
+        "294": "worried",
+        "301": "worried",
+        "306": "worried",
+        "308": "worried",
+        "347": "worried",
+        "349": "worried",
+        "351": "worried",
+        "194": "hesitant",
+        "311": "hesitant",
+        "385": "hesitant",
+        "387": "hesitant",
+        "126": "laugh",
+        "141": "laugh",
+        "221": "laugh",
+        "272": "laugh",
+        "274": "laugh",
+        "320": "laugh",
+        "327": "laugh",
+        "359": "laugh",
+        "366": "laugh",
+        "131": "curious",
+        "154": "curious",
+        "223": "curious",
+        "254": "curious",
+        "277": "curious",
+        "362": "curious",
+        "364": "curious",
+        "381": "curious",
+        "393": "curious",
+        "357": "relieved",
+        "389": "relieved",
+        "406": "relieved",
+        "413": "relieved"
+      },
+      "commercial_evidence": {
+        "basis": "User reported paid plan before API generation; selected this voice explicitly.",
+        "selection": "docs/voice-casting/selection.json",
+        "generation_manifest": "docs/selected-voices/manifest.json"
+      }
+    },
+    "hyunma": {
+      "approved": true,
+      "voice_id": "GNmgFU0yNiLKxTCw3OT9",
+      "voice_name": "Shin",
+      "model_id": "eleven_v3",
+      "clips": [
+        "audio/voice_hyunma/neutral.ogg",
+        "audio/voice_hyunma/hesitant.ogg",
+        "audio/voice_hyunma/curious.ogg",
+        "audio/voice_hyunma/surprised.ogg",
+        "audio/voice_hyunma/relieved.ogg",
+        "audio/voice_hyunma/laugh.ogg",
+        "audio/voice_hyunma/worried.ogg",
+        "audio/voice_hyunma/frustrated.ogg"
+      ],
+      "emotion_clips": {
+        "neutral": [
+          "audio/voice_hyunma/neutral.ogg"
+        ],
+        "hesitant": [
+          "audio/voice_hyunma/hesitant.ogg"
+        ],
+        "curious": [
+          "audio/voice_hyunma/curious.ogg"
+        ],
+        "surprised": [
+          "audio/voice_hyunma/surprised.ogg"
+        ],
+        "relieved": [
+          "audio/voice_hyunma/relieved.ogg"
+        ],
+        "laugh": [
+          "audio/voice_hyunma/laugh.ogg"
+        ],
+        "worried": [
+          "audio/voice_hyunma/worried.ogg"
+        ],
+        "frustrated": [
+          "audio/voice_hyunma/frustrated.ogg"
+        ]
+      },
+      "dialogue_emotions": {
+        "125": "laugh",
+        "140": "laugh",
+        "144": "laugh",
+        "148": "laugh",
+        "150": "laugh",
+        "152": "frustrated",
+        "182": "frustrated",
+        "185": "frustrated",
+        "193": "worried",
+        "195": "worried",
+        "129": "curious",
+        "165": "curious"
+      },
+      "commercial_evidence": {
+        "basis": "User reported paid plan before API generation; selected this voice explicitly.",
+        "selection": "docs/voice-casting/selection.json",
+        "generation_manifest": "docs/selected-voices/manifest.json"
+      }
+    },
+    "younghun": {
+      "approved": true,
+      "voice_id": "ZXhi0czBiSzyk3bQNu5W",
+      "voice_name": "HoCho",
+      "model_id": "eleven_v3",
+      "clips": [
+        "audio/voice_younghun/neutral.ogg",
+        "audio/voice_younghun/hesitant.ogg",
+        "audio/voice_younghun/curious.ogg",
+        "audio/voice_younghun/surprised.ogg",
+        "audio/voice_younghun/relieved.ogg",
+        "audio/voice_younghun/laugh.ogg",
+        "audio/voice_younghun/worried.ogg",
+        "audio/voice_younghun/frustrated.ogg"
+      ],
+      "emotion_clips": {
+        "neutral": [
+          "audio/voice_younghun/neutral.ogg"
+        ],
+        "hesitant": [
+          "audio/voice_younghun/hesitant.ogg"
+        ],
+        "curious": [
+          "audio/voice_younghun/curious.ogg"
+        ],
+        "surprised": [
+          "audio/voice_younghun/surprised.ogg"
+        ],
+        "relieved": [
+          "audio/voice_younghun/relieved.ogg"
+        ],
+        "laugh": [
+          "audio/voice_younghun/laugh.ogg"
+        ],
+        "worried": [
+          "audio/voice_younghun/worried.ogg"
+        ],
+        "frustrated": [
+          "audio/voice_younghun/frustrated.ogg"
+        ]
+      },
+      "dialogue_emotions": {},
+      "commercial_evidence": {
+        "basis": "User reported paid plan before API generation; selected this voice explicitly.",
+        "selection": "docs/voice-casting/selection.json",
+        "generation_manifest": "docs/selected-voices/manifest.json"
+      }
     }
   }
 }

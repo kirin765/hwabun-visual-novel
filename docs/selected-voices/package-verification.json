@@ -1,0 +1,16 @@
+[
+  {
+    "file": "HwabunGarden-0.3.3-character-voices-linux.tar.bz2",
+    "sha256": "55f2139ca33f54f2a77ffc36b40268e0ea916d076c5b47428edf748311df4627",
+    "bytes": 106673643,
+    "verified_media_assets": 89,
+    "windows_direct_execution": false
+  },
+  {
+    "file": "HwabunGarden-0.3.3-character-voices-win.zip",
+    "sha256": "f2ced0cfaef2f193603b96c1327873dd70605da4ca6e67eaf2cd28cb89312b33",
+    "bytes": 117428293,
+    "verified_media_assets": 89,
+    "windows_direct_execution": false
+  }
+]

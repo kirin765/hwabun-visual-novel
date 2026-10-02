@@ -1,4 +1,4 @@
-화분 — 제1화 푸른 집 / 0.3.2-character-motion
+화분 — 제1화 푸른 집 / 0.3.3-character-voices
 
 Linux: 압축을 풀고 HwabunGarden.sh 실행.
 Windows: ZIP을 모두 풀고 HwabunGarden.exe 실행.
@@ -8,7 +8,8 @@ S01–S04, 선택지 C01의 두 경로와 공통 합류를 수록했습니다.
 전체 대사 415블록, 각 경로 409블록. 제목 화면에서 S03부터 시작할 수 있습니다.
 미란 외출용 겉옷, 촛불 CG, 장소 및 촛불·새벽 전용 배경을 추가했습니다.
 미란은 사용자 승인 Selly Han 감정 발성 8개를 사용합니다.
-속말과 다른 인물은 무음이며, 설정에서 발성을 끌 수 있습니다.
+세란 Rosa Oh, 옥녀 Yoojin Kim, 단주 JooHwan, 현마 Shin 발성도 연결했습니다.
+영훈 HoCho는 이후 등장용으로 준비했습니다. 속말은 무음이며, 설정에서 발성을 끌 수 있습니다.
 
 클릭 / Enter / Space: 진행
 Esc / 오른쪽 클릭: 메뉴

@@ -81,7 +81,7 @@ screen main_menu():
         textbutton "조작 안내" action ShowMenu('help')
         textbutton "제작 정보" action ShowMenu('about')
         textbutton "종료" action Quit(confirm=False)
-    text "제1화 전체 샘플 · S01–S04\n미란: Selly Han / 음악·환경음" xpos 140 ypos 990 size 21 color "#b9c5b5"
+    text "제1화 전체 샘플 · S01–S04\n선택한 인물 목소리 / 음악·환경음" xpos 140 ypos 990 size 21 color "#b9c5b5"
 
 screen choice(items):
     modal True
@@ -201,7 +201,7 @@ screen preferences():
                 bar value Preference('voice volume')
                 textbutton "발성 켜기 / 끄기" action [Function(stop_utterance), ToggleField(persistent,'utterances')] sensitive voices_ready
                 if voices_ready:
-                    text "미란 · Selly Han (속말은 무음)" size 23 color "#a8b8a7"
+                    text "미란·세란·옥녀·단주·현마 발성 / 속말 무음" size 23 color "#a8b8a7"
                 if not voices_ready:
                     text "승인된 발성 음원이 없습니다.\n승인된 발성 음원을 연결하면 켤 수 있습니다." size 23 color "#a8b8a7"
 
@@ -257,7 +257,7 @@ screen about():
             text "{a=https://creativecommons.org/licenses/by/3.0/}Licensed under Creative Commons: By Attribution 3.0{/a}" size 24
             text "사용자 제공 음악·합성 환경음 / Noto 한국어 글꼴 (SIL OFL)" size 28
             text "Ren’Py 8.5.4.26092102+nightly"
-            text "미란: Selly Han 감정 발성 / 다른 인물·속말은 무음" color "#b7d6c3"
+            text "선택한 인물 감정 발성 / 속말은 무음" color "#b7d6c3"
             text "자산별 출처·제작 방식·이용 근거: 배포 폴더의 ASSETS.md" size 25
 
 screen confirm(message, yes_action, no_action):

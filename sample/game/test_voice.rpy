@@ -70,7 +70,7 @@ testsuite miran_voice:
         exit
     testcase approved_selly_routing:
         assert eval voices_ready
-        assert eval set(voice_pools) == {'miran'}
+        assert eval set(voice_pools) == {'miran','seran','oknyeo','danju','hyunma','younghun'}
         $ block_id = 63
         assert eval utterance_pool('miran') == ['audio/miran_selly/surprised.ogg']
         $ block_id = 72
@@ -79,7 +79,13 @@ testsuite miran_voice:
         assert eval utterance_pool('miran') == ['audio/miran_selly/laugh.ogg']
         $ block_id = 5
         assert eval len(utterance_pool('miran')) == 3
-        assert eval utterance_pool('seran') == []
+        assert eval len(utterance_pool('seran')) == 3
+        assert eval all(len(voice_pools[s]) == 8 for s in voice_pools)
+        assert eval voice_manifest['speakers']['seran']['voice_name'] == 'Rosa Oh'
+        assert eval voice_manifest['speakers']['oknyeo']['voice_name'] == 'Yoojin Kim'
+        assert eval voice_manifest['speakers']['danju']['voice_name'] == 'JooHwan'
+        assert eval voice_manifest['speakers']['hyunma']['voice_name'] == 'Shin'
+        assert eval voice_manifest['speakers']['younghun']['voice_name'] == 'HoCho'
         run Start('test_probe')
         advance until eval block_id == 900
         pause 0.8
