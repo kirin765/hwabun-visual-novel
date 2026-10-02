@@ -1,0 +1,170 @@
+[
+  {
+    "emotion": "neutral",
+    "label": "평상",
+    "prompt": "음.",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_neutral_01.mp3",
+    "sha256": "61275c3a97fef57752dbd472c38ae72922221d9ee5cf249fd3817e1c5add9592",
+    "bytes": 11328,
+    "history_item_id": "6oVFWbqjqlvAcRqiWQxy",
+    "request_id": "SkamMuiZdXiSewo9pfbp",
+    "character_cost": "1",
+    "created_utc": "2026-10-02T18:28:03.771050+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 0.64
+  },
+  {
+    "emotion": "hesitant",
+    "label": "망설임",
+    "prompt": "음…",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_hesitant_01.mp3",
+    "sha256": "4644f767426e792b7be7e3bcf9527d8f7743b3c52f4eba747e1cdbd93611c44c",
+    "bytes": 12582,
+    "history_item_id": "QhOrFc83pRSjICGdQgHX",
+    "request_id": "HH8hAXsffAfiu7k4NzV1",
+    "character_cost": "1",
+    "created_utc": "2026-10-02T18:28:05.038711+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 0.72
+  },
+  {
+    "emotion": "curious",
+    "label": "궁금함",
+    "prompt": "음?",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_curious_01.mp3",
+    "sha256": "d0e51c266be22b3097a392b82c238bc8375f63af64b3ef01e236b50a5ef667ad",
+    "bytes": 11328,
+    "history_item_id": "h621fTOM0nDBBppkUsDt",
+    "request_id": "iGbhv39iOWF2vfe9iaDc",
+    "character_cost": "1",
+    "created_utc": "2026-10-02T18:28:06.047607+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 0.64
+  },
+  {
+    "emotion": "surprised",
+    "label": "놀람",
+    "prompt": "[gasps] 아!",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_surprised_01.mp3",
+    "sha256": "0b7e1c7010dcf54f21a4ef28d7e6f753bd6843250de7e9231661c45f2fc34da6",
+    "bytes": 25539,
+    "history_item_id": "U5ngyl7ATsLqAQLEvI2Y",
+    "request_id": "7v40MGvFtdvX2vyUXZ7c",
+    "character_cost": "4",
+    "created_utc": "2026-10-02T18:28:07.184939+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.52
+  },
+  {
+    "emotion": "relieved",
+    "label": "안도",
+    "prompt": "[sighs] 아…",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_relieved_01.mp3",
+    "sha256": "643078ed79930ffa9ea108c78d8c276d2438b616fe7433aa85845c36a7f8d40b",
+    "bytes": 30555,
+    "history_item_id": "w1tUSk7NTmse2b6szPO0",
+    "request_id": "wFW2EJx3uiRWux1YnBu0",
+    "character_cost": "4",
+    "created_utc": "2026-10-02T18:28:08.227656+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.84
+  },
+  {
+    "emotion": "laugh",
+    "label": "웃음",
+    "prompt": "[laughs] 하하.",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_laugh_01.mp3",
+    "sha256": "7862d8dd150341a3dad52434ab6679c2a65e181b3be7edc846aabff8f77b1d16",
+    "bytes": 29301,
+    "history_item_id": "8r5XWsW4gGAGLQc4tFuE",
+    "request_id": "cL03DWKlOZCG41nhuuRr",
+    "character_cost": "5",
+    "created_utc": "2026-10-02T18:28:09.698814+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.76
+  },
+  {
+    "emotion": "worried",
+    "label": "걱정",
+    "prompt": "[worried] 어…",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_worried_01.mp3",
+    "sha256": "cee95cbfd59e82c75d452a38e0c9a5facc61e290a7eac576bfeecb34d56dc199",
+    "bytes": 28047,
+    "history_item_id": "CEoKlvoqsgbpvhRz8Xgi",
+    "request_id": "mEPu9aFaVctYbDMNPk35",
+    "character_cost": "5",
+    "created_utc": "2026-10-02T18:28:11.037438+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.68
+  },
+  {
+    "emotion": "frustrated",
+    "label": "불만",
+    "prompt": "[frustrated] 으…",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "file": "selly_frustrated_01.mp3",
+    "sha256": "5828ca844015f218f2d57f5d44375fc3928e3cb81f3f57d019625065cf95fcff",
+    "bytes": 20106,
+    "history_item_id": "kvpKzp98LaprkPmHDHoV",
+    "request_id": "aEXxPLMZKuPslPZXqRMA",
+    "character_cost": "6",
+    "created_utc": "2026-10-02T18:28:12.056036+00:00",
+    "approved": false,
+    "game_integrated": false,
+    "duration_seconds": 1.2
+  }
+]
