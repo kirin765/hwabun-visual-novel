@@ -2,7 +2,6 @@
 label start:
     $ sample_complete = False
     $ c01_choice = None
-    $ persistent.utterances = False
     $ renpy.music.set_volume(1.0, channel="music")
     $ renpy.music.set_volume(1.0, channel="ambience")
     $ scene_title = "S01 라일락 곁의 자매"
@@ -166,7 +165,6 @@ label start:
     $ renpy.music.set_volume(0.45, 0.8, channel="music")
 label sample_s02:
     $ sample_complete = False
-    $ persistent.utterances = False
     $ renpy.music.set_volume(1.0, channel="music")
     $ scene_title = "S02 풀 아래의 움직임"
     # 배경: BG01의 덤불 부분을 가까이 보여준다. 인물은 미란만 표시한다.
@@ -348,7 +346,6 @@ label sample_s02:
     pause 3.0
 label sample_s03:
     $ sample_complete = False
-    $ persistent.utterances = False
     $ renpy.music.set_volume(1.0, channel="music")
     $ scene_title = "S03 손님 앞의 농담"
     # 배경: BG02 대청 낮. 창의 담장이 그림자, 붉은 주단, 축음기. 인물: 현마 왼쪽, 단주 가운데, 세란 오른쪽. 미란은 처음에 화면 밖.
@@ -566,7 +563,6 @@ label c01_join:
     with fade
 label sample_s04:
     $ sample_complete = False
-    $ persistent.utterances = False
     $ renpy.music.set_volume(1.0, channel="music")
     $ scene_title = "S04 거리와 폭풍우"
     # 배경: BG03 흐린 늦은 오후. 소리: A02 걸음, 먼 전차 종. 음악 없음.

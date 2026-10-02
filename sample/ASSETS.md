@@ -1,6 +1,6 @@
 # 화분 정원 샘플 자산 기록
 
-기록일: 2026-10-03. 버전: 0.3.0-episode1. 개별 파일 해시는 `asset-manifest.json`을 따른다.
+기록일: 2026-10-03. 버전: 0.3.1-miran-voice. 개별 파일 해시는 `asset-manifest.json`을 따른다.
 
 | 자산 | 수량 | 출처·제작 | 이용 근거 및 상태 |
 |---|---:|---|---|
@@ -15,7 +15,7 @@
 | 한국어 공통 UI 번역 | 1개 | Ren’Py SDK launcher의 Korean common.rpy | Ren’Py 배포본 라이선스와 함께 보관. |
 | 엔진·런타임 | 1식 | 공식 Ren’Py 8.5.4.26092102+nightly SDK | Ren’Py 및 동봉 라이브러리 라이선스를 배포 패키지에 포함. |
 
-현재 버전에는 사람 발성, ElevenLabs 제작 음원, Freesound 녹음, 기존 voice-v1/v2가 들어 있지 않다. `voice-reference.html`은 원 제공자의 공개 미리듣기를 링크하는 청취 자료다. 링크와 게임 배포용 음원을 구분한다.
+현재 버전에는 사용자 승인 ElevenLabs Selly Han 발성 8개가 미란에게 연결되어 있다. Freesound 녹음과 기존 voice-v1/v2는 포함하지 않는다. `voice-reference.html`은 원 제공자의 공개 미리듣기를 링크하는 청취 자료다. 링크와 게임 배포용 음원을 구분한다.
 
 ## 음성 제작 후 추가할 기록
 
@@ -53,3 +53,7 @@ https://creativecommons.org/licenses/by/3.0/
 OpenAI 내장 imagegen으로 11장을 제작했습니다: 단주·현마 스탠딩 2, 미란 외출용 겉옷 1, 홀·거리·식당·영화관·아파트 및 촛불·새벽 아파트 배경 7, 촛불 CG 1. 승인된 인물 이미지를 참조했습니다. 원본 경로와 SHA-256은 `docs/s03-s04/image-sources.json`에 기록했습니다. 전체 역사 고증 및 한복 개편의 최종본은 아닙니다.
 
 비·천둥·영사기·전차 종·라디오 잡음·식기·성냥 7개는 `tools/create_scene_audio.py`의 결정론적 신호 합성입니다. 외부 녹음과 사람 목소리는 사용하지 않았습니다. 새 음원 기록은 `docs/s03-s04/audio-manifest.json`에 있습니다.
+
+## 미란 음성 승인
+
+사용자가 `selly-han/previous.html`의 원본 8개를 미란 목소리로 승인했습니다. 놀람 “아!”, 안도 “아…”, 웃음 “하하.” 포함 버전입니다. 유료 플랜 전환 뒤 생성된 Eleven v3 / Selly Han 음원이며 Ogg로 변환했습니다. 생성 ID·프롬프트·원본 해시는 `docs/elevenlabs-examples/selly-han/manifest-previous.json`에 기록했습니다. 유료 플랜 확인 근거는 사용자 진술과 유료 플랜 전환 후 API 생성 성공이며 별도 결제 증빙은 수집하지 않았습니다. 게임은 로컬 음원만 재생합니다. 속말과 미승인 인물은 무음입니다.

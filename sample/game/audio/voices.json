@@ -1,8 +1,135 @@
 {
-  "status": "awaiting-user-voice-selection",
+  "status": "miran-approved-selly-han",
   "speakers": {
-    "miran": {"approved": false, "clips": [], "commercial_evidence": null},
-    "seran": {"approved": false, "clips": [], "commercial_evidence": null},
-    "oknyeo": {"approved": false, "clips": [], "commercial_evidence": null}
+    "miran": {
+      "approved": true,
+      "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+      "voice_name": "Selly Han",
+      "model_id": "eleven_v3",
+      "clips": [
+        "audio/miran_selly/neutral.ogg",
+        "audio/miran_selly/hesitant.ogg",
+        "audio/miran_selly/curious.ogg",
+        "audio/miran_selly/surprised.ogg",
+        "audio/miran_selly/relieved.ogg",
+        "audio/miran_selly/laugh.ogg",
+        "audio/miran_selly/worried.ogg",
+        "audio/miran_selly/frustrated.ogg"
+      ],
+      "emotion_clips": {
+        "neutral": [
+          "audio/miran_selly/neutral.ogg"
+        ],
+        "hesitant": [
+          "audio/miran_selly/hesitant.ogg"
+        ],
+        "curious": [
+          "audio/miran_selly/curious.ogg"
+        ],
+        "surprised": [
+          "audio/miran_selly/surprised.ogg"
+        ],
+        "relieved": [
+          "audio/miran_selly/relieved.ogg"
+        ],
+        "laugh": [
+          "audio/miran_selly/laugh.ogg"
+        ],
+        "worried": [
+          "audio/miran_selly/worried.ogg"
+        ],
+        "frustrated": [
+          "audio/miran_selly/frustrated.ogg"
+        ]
+      },
+      "commercial_evidence": {
+        "basis": "User reported paid plan before generation; original API generations succeeded after upgrade. User approved previous.html samples for Miran.",
+        "generation_manifest": "docs/elevenlabs-examples/selly-han/manifest-previous.json"
+      },
+      "dialogue_emotions": {
+        "63": "surprised",
+        "65": "surprised",
+        "67": "surprised",
+        "138": "surprised",
+        "155": "surprised",
+        "302": "surprised",
+        "72": "relieved",
+        "74": "relieved",
+        "84": "relieved",
+        "89": "relieved",
+        "329": "relieved",
+        "405": "relieved",
+        "407": "relieved",
+        "78": "laugh",
+        "119": "laugh",
+        "264": "laugh",
+        "266": "laugh",
+        "271": "laugh",
+        "324": "laugh",
+        "326": "laugh",
+        "350": "laugh",
+        "358": "laugh",
+        "361": "laugh",
+        "365": "laugh",
+        "102": "worried",
+        "106": "worried",
+        "147": "worried",
+        "259": "worried",
+        "280": "worried",
+        "295": "worried",
+        "297": "worried",
+        "305": "worried",
+        "315": "worried",
+        "331": "worried",
+        "333": "worried",
+        "338": "worried",
+        "340": "worried",
+        "345": "worried",
+        "348": "worried",
+        "374": "worried",
+        "376": "worried",
+        "378": "worried",
+        "16": "frustrated",
+        "24": "frustrated",
+        "37": "frustrated",
+        "41": "frustrated",
+        "43": "frustrated",
+        "53": "frustrated",
+        "161": "frustrated",
+        "163": "frustrated",
+        "171": "frustrated",
+        "173": "frustrated",
+        "175": "frustrated",
+        "177": "frustrated",
+        "179": "frustrated",
+        "181": "frustrated",
+        "201": "frustrated",
+        "203": "frustrated",
+        "205": "frustrated",
+        "207": "frustrated",
+        "210": "frustrated",
+        "212": "frustrated",
+        "216": "frustrated",
+        "224": "frustrated",
+        "226": "frustrated",
+        "233": "frustrated",
+        "235": "frustrated",
+        "269": "frustrated",
+        "273": "frustrated",
+        "283": "frustrated",
+        "285": "frustrated",
+        "289": "frustrated"
+      }
+    },
+    "seran": {
+      "approved": false,
+      "clips": [],
+      "commercial_evidence": null
+    },
+    "oknyeo": {
+      "approved": false,
+      "clips": [],
+      "commercial_evidence": null
+    }
   }
 }

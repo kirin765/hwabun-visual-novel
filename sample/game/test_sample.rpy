@@ -36,7 +36,7 @@ testsuite garden:
         assert screen "preferences"
         pause 0.3
         screenshot "04-preferences.png"
-        assert eval not voices_ready
+        assert eval voices_ready
         assert eval not renpy.music.is_playing(channel='utterance')
         click "돌아가기"
         advance until eval block_id == 11

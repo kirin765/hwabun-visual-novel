@@ -1,0 +1,16 @@
+[
+  {
+    "package": "HwabunGarden-0.3.1-miran-voice-linux.tar.bz2",
+    "bytes": 106288550,
+    "sha256": "13541e5e8031475c45bd47bfd99fbf7853c7a25ff3dcd25f1fa6945a49efce73",
+    "assets_verified": 49,
+    "windows_direct_run": false
+  },
+  {
+    "package": "HwabunGarden-0.3.1-miran-voice-win.zip",
+    "bytes": 116844894,
+    "sha256": "b45387f830fd11a65dcf579c716b9fcccbe8fb99824bf818c055c14a6a0000a4",
+    "assets_verified": 49,
+    "windows_direct_run": false
+  }
+]

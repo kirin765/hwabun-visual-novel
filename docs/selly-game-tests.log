@@ -1,0 +1,117 @@
+test_every_original_block_in_order (__main__.Content.test_every_original_block_in_order) ... ok
+test_only_expected_assets (__main__.Content.test_only_expected_assets) ... ok
+test_cancel_never_restarts_or_catches_up (__main__.Timing.test_cancel_never_restarts_or_catches_up) ... ok
+test_counts_only_valid_chars_but_waits_for_display (__main__.Timing.test_counts_only_valid_chars_but_waits_for_display) ... ok
+test_minimum_interval_and_maximum_three (__main__.Timing.test_minimum_interval_and_maximum_three) ... ok
+test_no_immediate_repetition (__main__.Timing.test_no_immediate_repetition) ... ok
+test_thought_muted_and_instant_text (__main__.Timing.test_thought_muted_and_instant_text) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.009s
+
+OK
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.garden
+[rpytest] [log] - global.garden
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-7.2.5-3-omarchy-x86_64-with-glibc2.44
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.4.26092102+nightly
+[rpytest] Game Version:  0.3.1-miran-voice
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + garden
+[rpytest] [exc]     - full_playthrough
+[rpytest] [exc]     - full_playthrough (5.218 s)
+[rpytest] [exc]     - auto_and_read_skip
+[rpytest] [exc]     - auto_and_read_skip (6.152 s)
+[rpytest] [exc]     - new_scene_save_and_restore
+[rpytest] [exc]     - new_scene_save_and_restore (2.993 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (14.920 s)
+[rpytest]   PASSED  garden               - (14.396 s)
+[rpytest]     PASSED  full_playthrough     - (5.218 s)
+[rpytest]     PASSED  auto_and_read_skip   - (6.152 s)
+[rpytest]     PASSED  new_scene_save_and_restore - (2.993 s)
+[rpytest]   NOT RUN voice_routing       
+[rpytest]     NOT RUN real_channel_cancellation
+[rpytest]   NOT RUN miran_voice         
+[rpytest]     NOT RUN approved_selly_routing
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     4 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     2 not run
+[rpytest] Test cases :     3 |     3 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test hooks :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    28 |    28 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 14.920 s
+[rpytest] Status: PASSED 
+
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.voice_routing
+[rpytest] [log] - global.voice_routing
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-7.2.5-3-omarchy-x86_64-with-glibc2.44
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.4.26092102+nightly
+[rpytest] Game Version:  0.3.1-miran-voice
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + voice_routing
+[rpytest] [exc]     - real_channel_cancellation
+[rpytest] [exc]     - real_channel_cancellation (4.159 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (4.665 s)
+[rpytest]   PASSED  voice_routing        - (4.176 s)
+[rpytest]     PASSED  real_channel_cancellation - (4.159 s)
+[rpytest]   NOT RUN miran_voice         
+[rpytest]     NOT RUN approved_selly_routing
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     4 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     1 skipped |     1 not run
+[rpytest] Test cases :     4 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     3 skipped |     0 not run
+[rpytest] Test hooks :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :     8 |     8 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 4.666 s
+[rpytest] Status: PASSED 
+
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.miran_voice
+[rpytest] [log] - global.miran_voice
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-7.2.5-3-omarchy-x86_64-with-glibc2.44
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.4.26092102+nightly
+[rpytest] Game Version:  0.3.1-miran-voice
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + miran_voice
+[rpytest] [exc]     - approved_selly_routing
+[rpytest] [exc]     - approved_selly_routing (1.751 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (2.243 s)
+[rpytest]   PASSED  miran_voice          - (1.766 s)
+[rpytest]     PASSED  approved_selly_routing - (1.751 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     4 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     2 skipped |     0 not run
+[rpytest] Test cases :     5 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     4 skipped |     0 not run
+[rpytest] Test hooks :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    10 |    10 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 2.243 s
+[rpytest] Status: PASSED 
+

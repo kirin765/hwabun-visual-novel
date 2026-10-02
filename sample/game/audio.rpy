@@ -5,7 +5,7 @@ init -10 python:
     renpy.music.register_channel('ambience', mixer='sfx', loop=True)
     renpy.music.register_channel('birds', mixer='sfx', loop=True)
     renpy.music.register_channel('utterance', mixer='voice', loop=False, tight=True)
-    # This manifest intentionally has no audition or old voice-v2 excerpts.
+    # Only user-approved generated clips are enabled by this manifest.
     voice_manifest = json.loads(renpy.file('audio/voices.json').read())
     voice_pools = {}
     for speaker, entry in voice_manifest['speakers'].items():
@@ -13,7 +13,7 @@ init -10 python:
         if entry.get('approved') and entry.get('commercial_evidence') and len(set(clips)) >= 6:
             if all(renpy.loadable(p) for p in clips):
                 voice_pools[speaker] = clips
-    voices_ready = all(s in voice_pools for s in ('miran', 'seran', 'oknyeo'))
+    voices_ready = bool(voice_pools)
     voice_previous = {}
     voice_pulse = None
     voice_speaker = None
@@ -39,6 +39,14 @@ init -10 python:
         elif event in ('slow_done', 'end'):
             stop_utterance()
 
+    def utterance_pool(speaker):
+        available = voice_pools.get(speaker, [])
+        entry = voice_manifest['speakers'].get(speaker, {})
+        emotion = entry.get('dialogue_emotions', {}).get(str(block_id))
+        kinds = entry.get('emotion_clips', {})
+        selected = kinds.get(emotion, []) if emotion else sum((kinds.get(k, []) for k in ('neutral', 'hesitant', 'curious')), [])
+        return [p for p in selected if p in available] or available
+
     class VoicePulseDisplayable(renpy.Displayable):
         def __init__(self, generation, **kwargs):
             super(VoicePulseDisplayable, self).__init__(**kwargs)
@@ -49,7 +57,7 @@ init -10 python:
             elif self.generation == store.voice_generation and store.voice_pulse:
                 if store.voice_pulse.tick(st):
                     sid = store.voice_speaker
-                    clip = choose_clip(voice_pools.get(sid, []), voice_previous.get(sid), random.choice)
+                    clip = choose_clip(utterance_pool(sid), voice_previous.get(sid), random.choice)
                     if clip and not renpy.music.is_playing(channel='utterance'):
                         voice_previous[sid] = clip
                         renpy.music.play(clip, channel='utterance')
@@ -73,4 +81,10 @@ define driver = Character("운전수", who_color="#c1c3c0", callback=voice_callb
 label after_load:
     $ stop_utterance()
     $ voice_suppress_once = True
+    return
+
+label before_main_menu:
+    if not persistent.miran_selly_enabled:
+        $ persistent.utterances = True
+        $ persistent.miran_selly_enabled = True
     return

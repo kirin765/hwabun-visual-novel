@@ -56,3 +56,37 @@ testsuite voice_routing:
         keysym "K_RETURN"
         pause 0.07
         assert eval not renpy.music.is_playing(channel='utterance')
+
+testsuite miran_voice:
+    setup:
+        $ _test.timeout = 20.0
+        $ _test.transition_timeout = 0.1
+        $ preferences.afm_enable = False
+        $ config.skipping = None
+        $ persistent.utterances = True
+        $ preferences.text_cps = 10
+    teardown:
+        $ stop_utterance()
+        exit
+    testcase approved_selly_routing:
+        assert eval voices_ready
+        assert eval set(voice_pools) == {'miran'}
+        $ block_id = 63
+        assert eval utterance_pool('miran') == ['audio/miran_selly/surprised.ogg']
+        $ block_id = 72
+        assert eval utterance_pool('miran') == ['audio/miran_selly/relieved.ogg']
+        $ block_id = 350
+        assert eval utterance_pool('miran') == ['audio/miran_selly/laugh.ogg']
+        $ block_id = 5
+        assert eval len(utterance_pool('miran')) == 3
+        assert eval utterance_pool('seran') == []
+        run Start('test_probe')
+        advance until eval block_id == 900
+        pause 0.8
+        assert eval renpy.music.get_playing(channel='utterance') in voice_pools['miran']
+        keysym "K_RETURN"
+        pause 0.07
+        assert eval not renpy.music.is_playing(channel='utterance')
+        advance until eval block_id == 901
+        pause 0.8
+        assert eval not renpy.music.is_playing(channel='utterance')
