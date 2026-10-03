@@ -1,0 +1,66 @@
+[
+  {
+    "emotion": "neutral",
+    "file": "audio/miran_selly/neutral.ogg",
+    "duration": 0.64,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "120f8d7447060f78e385aac7164058e49e590d9e54718e6c838ab51d76850456"
+  },
+  {
+    "emotion": "hesitant",
+    "file": "audio/miran_selly/hesitant.ogg",
+    "duration": 0.72,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "1b318da29c94fda22b2797b02c2d77be10db5734be52941902e1eb1562f7ec94"
+  },
+  {
+    "emotion": "curious",
+    "file": "audio/miran_selly/curious.ogg",
+    "duration": 0.64,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "ed5e52c005a47d2e0ac03bb284febe1ac5b74b8172a2199c144c0dc66a5bce92"
+  },
+  {
+    "emotion": "surprised",
+    "file": "audio/miran_selly/surprised.ogg",
+    "duration": 1.52,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "4f44d46a5f107c076255a3d580a55228303e5ee13800458e07166b56ca7a22fb"
+  },
+  {
+    "emotion": "relieved",
+    "file": "audio/miran_selly/relieved.ogg",
+    "duration": 1.84,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "a84d10482124323fdfb67d971f5428f1f9dd31d6d937bdd7c9472d87b4835aa1"
+  },
+  {
+    "emotion": "laugh",
+    "file": "audio/miran_selly/laugh.ogg",
+    "duration": 1.76,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "4ffa0b1405d73e81e616fa9913ccc888c87fb69bc3ced1b8876de8b7fdfc0491"
+  },
+  {
+    "emotion": "worried",
+    "file": "audio/miran_selly/worried.ogg",
+    "duration": 1.68,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "5033b4fb85e38433676f0fd59e5153bfb3e08e288d51868e402c1f6e80a6bb33"
+  },
+  {
+    "emotion": "frustrated",
+    "file": "audio/miran_selly/frustrated.ogg",
+    "duration": 1.2,
+    "sample_rate": "44100",
+    "channels": 1,
+    "sha256": "7e563b8133092e90fc66484b7843ff5992a1235b66b728c3006596eab71eba9e"
+  }
+]

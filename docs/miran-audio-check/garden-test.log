@@ -1,0 +1,137 @@
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.garden
+[rpytest] [log] - global.garden
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-7.2.5-3-omarchy-x86_64-with-glibc2.44
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.4.26092102+nightly
+[rpytest] Game Version:  0.3.4-quieter-voices
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + garden
+[rpytest] [exc]     - full_playthrough
+File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 23, in global.garden::full_playthrough
+AssertionError: assert screen "save"
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 551, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 473, in execute
+    self.node_state = self.node.execute(self.node_state, elapsed)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testast.py", line 1458, in execute
+    renpy.test.testreporter.reporter.log_assert(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "renpy/test/testreporter.py", line 888, in log_assert
+    raise RenpyTestAssertionError(f"{status.value}: {assert_node}")
+renpy.test.types.RenpyTestAssertionError: failed: <Assert (game/test_sample.rpy:23)>
+
+While running game code:
+renpy.test.types.RenpyTestAssertionError: failed: <Assert (game/test_sample.rpy:23)>
+File "/home/giwan/Projects/hwabun-visual-novel/sample/game/story.rpy", line 28, in script
+  miran "아까는 그늘이었잖우. 볕 드니 딴것 같네." id sample_005
+
+During testcase execution:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/.", line 0, in None
+
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 1, in testsuite global
+    testsuite garden:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 11, in testsuite garden
+    testcase full_playthrough:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 23, in testcase full_playthrough
+    assert screen "save"
+
+====================
+[rpytest] [exc]     - full_playthrough (0.875 s)
+[rpytest] [exc]     - full_playthrough (0.875 s)
+[rpytest] [exc]     - auto_and_read_skip
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 551, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 473, in execute
+    self.node_state = self.node.execute(self.node_state, elapsed)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testast.py", line 1312, in execute
+    raise RenpyTestTimeoutError(msg)
+renpy.test.types.RenpyTestTimeoutError: Until Statement timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: Until Statement timed out after 15.0 seconds.
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/story.rpy", line 477, in script
+    menu:
+
+During testcase execution:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/.", line 0, in None
+
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 1, in testsuite global
+    testsuite garden:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 82, in testsuite garden
+    testcase auto_and_read_skip:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 102, in testcase auto_and_read_skip
+    advance until eval block_id == 183
+
+====================
+[rpytest] [exc]     - auto_and_read_skip (20.891 s)
+[rpytest] [exc]     - auto_and_read_skip (20.891 s)
+[rpytest] [exc]     - new_scene_save_and_restore
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 551, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 473, in execute
+    self.node_state = self.node.execute(self.node_state, elapsed)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testast.py", line 1458, in execute
+    renpy.test.testreporter.reporter.log_assert(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "renpy/test/testreporter.py", line 888, in log_assert
+    raise RenpyTestAssertionError(f"{status.value}: {assert_node}")
+renpy.test.types.RenpyTestAssertionError: failed: <Assert (game/test_sample.rpy:110)>
+
+While running game code:
+renpy.test.types.RenpyTestAssertionError: failed: <Assert (game/test_sample.rpy:110)>
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/story.rpy", line 477, in script
+    menu:
+
+During testcase execution:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/.", line 0, in None
+
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 1, in testsuite global
+    testsuite garden:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 109, in testsuite garden
+    testcase new_scene_save_and_restore:
+  File "/home/giwan/Projects/hwabun-visual-novel/sample/game/test_sample.rpy", line 110, in testcase new_scene_save_and_restore
+    assert screen "main_menu"
+
+====================
+[rpytest] [exc]     - new_scene_save_and_restore (0.036 s)
+[rpytest] [exc]     - new_scene_save_and_restore (0.036 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] FAILED  global               - (22.787 s)
+[rpytest]   FAILED  garden               - (22.320 s)
+[rpytest]     FAILED  full_playthrough     - (0.875 s)
+[rpytest]     FAILED  auto_and_read_skip   - (20.891 s)
+[rpytest]     FAILED  new_scene_save_and_restore - (0.036 s)
+[rpytest]   NOT RUN voice_routing
+[rpytest]     NOT RUN real_channel_cancellation
+[rpytest]   NOT RUN miran_voice
+[rpytest]     NOT RUN approved_selly_routing
+[rpytest]   NOT RUN voice_tail
+[rpytest]     NOT RUN natural_reveal_keeps_tail
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     5 |     0 passed |     0 xfailed |     2 failed |     0 xpassed |     0 skipped |     3 not run
+[rpytest] Test cases :     3 |     0 passed |     0 xfailed |     3 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test hooks :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :     6 |     4 passed |     0 xfailed |     2 failed |     0 xpassed |
+
+[rpytest] Time: 22.788 s
+[rpytest] Status: FAILED

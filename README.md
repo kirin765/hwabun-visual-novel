@@ -10,8 +10,8 @@ S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사�
 
 제목 화면의 **새 장면 S03부터** 버튼으로 추가 부분을 바로 볼 수 있습니다.
 
-- [Linux 배포본](dist/HwabunGarden-0.3.3-character-voices-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
-- [Windows 배포본](dist/HwabunGarden-0.3.3-character-voices-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
+- [Linux 배포본](dist/HwabunGarden-0.3.4-quieter-voices-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
+- [Windows 배포본](dist/HwabunGarden-0.3.4-quieter-voices-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
 
 ## 이번 추가
 
@@ -33,3 +33,5 @@ python tools/check_packages.py
 엔진은 Ren’Py 8.5.4.26092102+nightly입니다. Linux 화면 멈춤에 대한 기존 VSync 우회를 유지했습니다. [기존 조사 기록](docs/freeze-diagnosis/README.md). 게임 실행에는 인터넷이나 API 키가 필요 없습니다.
 
 인물은 호흡에 따른 미세한 움직임과 발화 반응, 등장·퇴장, 놀람 동작을 사용합니다. 설정의 인물 움직임 버튼으로 끌 수 있습니다. 기존 스탠딩을 움직이는 연출이며 눈·입의 별도 애니메이션은 아직 없습니다.
+
+0.3.4에서는 발성 기회를 기존의 50%로 줄였습니다. 자연스러운 글자 표시 완료 시 재생 중인 발성을 중간에 자르던 처리를 수정했습니다. 미란의 평상·망설임·궁금함·불만, 단주의 걱정 파일을 같은 선택 목소리로 다시 생성했습니다. [교체 발성 확인](docs/miran-audio-check/index.html), [미란 전체 대사 샘플](docs/miran-full-line/index.html).

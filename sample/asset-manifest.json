@@ -225,22 +225,22 @@
   },
   {
     "file": "audio/miran_selly/curious.ogg",
-    "bytes": 9653,
-    "sha256": "ed5e52c005a47d2e0ac03bb284febe1ac5b74b8172a2199c144c0dc66a5bce92",
+    "bytes": 9915,
+    "sha256": "f0fb06978366d701675b27e16b4649ca39851086a4ef420228992f732c95e5f1",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
   {
     "file": "audio/miran_selly/frustrated.ogg",
-    "bytes": 13651,
-    "sha256": "7e563b8133092e90fc66484b7843ff5992a1235b66b728c3006596eab71eba9e",
+    "bytes": 13715,
+    "sha256": "2337dce497345d42c587c793fd025f7e28d1d1f261d9a6942fc85a6509eb7945",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
   {
     "file": "audio/miran_selly/hesitant.ogg",
-    "bytes": 10238,
-    "sha256": "1b318da29c94fda22b2797b02c2d77be10db5734be52941902e1eb1562f7ec94",
+    "bytes": 13657,
+    "sha256": "70971e3be017757c6d6f482342060feb12c46fbdc9c0c1f12a621cbf9d0d1ede",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
@@ -253,8 +253,8 @@
   },
   {
     "file": "audio/miran_selly/neutral.ogg",
-    "bytes": 9914,
-    "sha256": "120f8d7447060f78e385aac7164058e49e590d9e54718e6c838ab51d76850456",
+    "bytes": 12875,
+    "sha256": "dc81c9298e762b46e1de3776f07b10102a2355be0bb77d594b332bdb8e2012e4",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
@@ -379,8 +379,8 @@
   },
   {
     "file": "audio/voice_danju/worried.ogg",
-    "bytes": 17565,
-    "sha256": "3ebf68f04aa5594faf4224578a0c48492f9a9b4a96024c7862220607ccbf9147",
+    "bytes": 15679,
+    "sha256": "6bfdd6d5e7d15020a1bb2d56063e57be53035c340c3c21504ed847fd4497a0ab",
     "kind": "original procedural audio",
     "ai_assisted": true
   },

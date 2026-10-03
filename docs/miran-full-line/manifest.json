@@ -1,0 +1,23 @@
+[
+  {
+    "speaker": "miran",
+    "character": "미란",
+    "option": "replacement",
+    "voice_id": "ETPP7D0aZVdEj12Aa7ho",
+    "voice_name": "Selly Han",
+    "casting_direction": "전자음처럼 들린 짧은 발성 교체",
+    "prompt_id": "detective",
+    "prompt_label": "전체 대사",
+    "prompt": "탐정인가 뒤를 쫓게.",
+    "model_id": "eleven_v4",
+    "file": "miran/replacement/detective.mp3",
+    "sha256": "85f9508571de3553f2179770f0b21484649f8846a05860d1d9b6c5de5dec7c85",
+    "duration_seconds": 2.0,
+    "history_item_id": "Y3V7KyTbk9E8iKeyON94",
+    "request_id": "LX0LpEuO8oE5RCEDt1qX",
+    "character_cost": "1",
+    "created_utc": "2026-10-03T01:50:16.388393+00:00",
+    "approved": false,
+    "game_integrated": false
+  }
+]

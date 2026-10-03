@@ -20,9 +20,11 @@ testsuite voice_routing:
         $ preferences.afm_enable = False
         $ config.skipping = None
         $ persistent.utterances = True
+        $ voice_density = 1.0
         $ preferences.text_cps = 10
         $ voice_pools = {s:['audio/grass.ogg','audio/door.ogg'] for s in ('miran','seran','oknyeo')}
     teardown:
+        $ voice_density = 0.5
         $ voice_pools = {}
         $ persistent.utterances = False
         $ preferences.text_cps = 28
@@ -70,6 +72,8 @@ testsuite miran_voice:
         exit
     testcase approved_selly_routing:
         assert eval voices_ready
+        assert eval voice_density == 0.5
+        $ voice_trigger_count = 1
         assert eval set(voice_pools) == {'miran','seran','oknyeo','danju','hyunma','younghun'}
         $ block_id = 63
         assert eval utterance_pool('miran') == ['audio/miran_selly/surprised.ogg']
@@ -96,3 +100,23 @@ testsuite miran_voice:
         advance until eval block_id == 901
         pause 0.8
         assert eval not renpy.music.is_playing(channel='utterance')
+
+init python:
+    def verify_voice_tail():
+        store.voice_reveal_deadline = renpy.get_game_runtime() - 1.0
+        renpy.music.play('audio/miran_selly/frustrated.ogg', channel='utterance')
+        voice_callback('slow_done')
+        assert renpy.music.get_playing(channel='utterance') == 'audio/miran_selly/frustrated.ogg', 'Natural text completion cut the vocal reaction short.'
+        store.voice_reveal_deadline = renpy.get_game_runtime() + 10.0
+        voice_callback('slow_done')
+
+testsuite voice_tail:
+    setup:
+        $ _test.timeout = 10.0
+    teardown:
+        $ stop_utterance()
+        exit
+    testcase natural_reveal_keeps_tail:
+        $ verify_voice_tail()
+        pause 0.07
+        assert eval not renpy.music.get_playing(channel="utterance")

@@ -1,7 +1,7 @@
 init -10 python:
     import json
     import random
-    from voice_policy import Pulse, choose_clip
+    from voice_policy import Pulse, choose_clip, allow_density
     renpy.music.register_channel('ambience', mixer='sfx', loop=True)
     renpy.music.register_channel('birds', mixer='sfx', loop=True)
     renpy.music.register_channel('utterance', mixer='voice', loop=False, tight=True)
@@ -23,7 +23,7 @@ init -10 python:
     def stop_utterance():
         if store.voice_pulse is not None:
             store.voice_pulse.stop()
-        renpy.music.stop(channel='utterance', fadeout=0.0)
+        renpy.music.stop(channel='utterance', fadeout=0.02)
 
     def voice_callback(event, interact=True, who=None, **kwargs):
         if not interact:
@@ -33,11 +33,20 @@ init -10 python:
             stop_utterance()
             store.voice_generation += 1
             store.voice_speaker = who
+            text = kwargs.get('what', '')
+            store.voice_reveal_deadline = renpy.get_game_runtime() + (len(text) / preferences.text_cps if preferences.text_cps > 0 else 0.0)
             enabled = (who in voice_pools and persistent.utterances
                        and not renpy.is_skipping() and not store.voice_suppress_once)
             store.voice_pulse = Pulse(kwargs.get('what', ''), preferences.text_cps, enabled)
             store.voice_suppress_once = False
-        elif event in ('slow_done', 'end'):
+        elif event == 'slow_done':
+            if store.voice_pulse is not None:
+                store.voice_pulse.stop()
+            # Natural completion stops scheduling, but lets the current reaction finish.
+            # Clicking to reveal the text early still cancels the reaction immediately.
+            if renpy.get_game_runtime() + 0.08 < store.voice_reveal_deadline:
+                stop_utterance()
+        elif event == 'end':
             stop_utterance()
 
     def utterance_pool(speaker):
@@ -60,8 +69,11 @@ init -10 python:
                     sid = store.voice_speaker
                     clip = choose_clip(utterance_pool(sid), voice_previous.get(sid), random.choice)
                     if clip and not renpy.music.is_playing(channel='utterance'):
-                        voice_previous[sid] = clip
-                        renpy.music.play(clip, channel='utterance')
+                        allowed = allow_density(store.voice_trigger_count, store.voice_density)
+                        store.voice_trigger_count += 1
+                        if allowed:
+                            voice_previous[sid] = clip
+                            renpy.music.play(clip, channel='utterance')
             renpy.redraw(self, 0.02)
             return renpy.Render(0, 0)
 
@@ -79,6 +91,10 @@ define hyunma = Character("현마", who_color="#cfb59a", callback=renpy.curry(vo
 define younghun = Character("영훈", who_color="#bdd2bd", callback=renpy.curry(voice_callback)(who='younghun'))
 define radio = Character("라디오", who_color="#c1c3c0", callback=voice_callback)
 define driver = Character("운전수", who_color="#c1c3c0", callback=voice_callback)
+
+default voice_trigger_count = 0
+default voice_reveal_deadline = 0.0
+define voice_density = 0.5
 
 label after_load:
     $ stop_utterance()

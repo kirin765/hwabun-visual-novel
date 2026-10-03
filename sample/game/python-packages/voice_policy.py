@@ -1,5 +1,12 @@
 """Offline short-utterance scheduler; no service clients or network access."""
 import unicodedata
+import math
+
+
+def allow_density(index, density=0.5):
+    """Keep a deterministic share of otherwise playable voice opportunities."""
+    density = max(0.0, min(1.0, density))
+    return math.floor((index + 1) * density) > math.floor(index * density)
 
 
 def opportunities(text, cps):

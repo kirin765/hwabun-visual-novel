@@ -3,7 +3,7 @@ import json,re,sys,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'sample/game/python-packages'))
-from voice_policy import Pulse,opportunities,choose_clip
+from voice_policy import Pulse,opportunities,choose_clip,allow_density
 
 class Content(unittest.TestCase):
     def test_every_original_block_in_order(self):
@@ -34,6 +34,12 @@ class Content(unittest.TestCase):
             self.assertTrue((game/p).is_file(),p)
 
 class Timing(unittest.TestCase):
+    def test_half_the_playable_voice_opportunities(self):
+        old = [i for i in range(100) if allow_density(i, 1.0)]
+        reduced = [i for i in range(100) if allow_density(i, 0.5)]
+        self.assertEqual(len(reduced), len(old) // 2)
+        self.assertEqual(reduced, list(range(1,100,2)))
+        self.assertFalse(any(allow_density(i, 0.0) for i in range(100)))
     def test_counts_only_valid_chars_but_waits_for_display(self):
         self.assertEqual(opportunities('아, 나. 다 라!',10),[.9])
         self.assertEqual(opportunities('가'*40,10),[.4,2.,3.6])

@@ -119,7 +119,18 @@
         "283": "frustrated",
         "285": "frustrated",
         "289": "frustrated"
-      }
+      },
+      "clip_models": {
+        "neutral": "eleven_v4",
+        "hesitant": "eleven_v4",
+        "curious": "eleven_v4",
+        "surprised": "eleven_v3",
+        "relieved": "eleven_v3",
+        "laugh": "eleven_v3",
+        "worried": "eleven_v3",
+        "frustrated": "eleven_v4"
+      },
+      "replacement_manifest": "docs/miran-audio-check/replacements/manifest.json"
     },
     "seran": {
       "approved": true,
@@ -344,7 +355,18 @@
         "basis": "User reported paid plan before API generation; selected this voice explicitly.",
         "selection": "docs/voice-casting/selection.json",
         "generation_manifest": "docs/selected-voices/manifest.json"
-      }
+      },
+      "clip_models": {
+        "neutral": "eleven_v3",
+        "hesitant": "eleven_v3",
+        "curious": "eleven_v3",
+        "surprised": "eleven_v3",
+        "relieved": "eleven_v3",
+        "laugh": "eleven_v3",
+        "worried": "eleven_v4",
+        "frustrated": "eleven_v3"
+      },
+      "replacement_manifest": "docs/miran-audio-check/replacements/manifest.json"
     },
     "hyunma": {
       "approved": true,
