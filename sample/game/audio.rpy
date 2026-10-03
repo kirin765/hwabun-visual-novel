@@ -94,7 +94,7 @@ define driver = Character("운전수", who_color="#c1c3c0", callback=voice_callb
 
 default voice_trigger_count = 0
 default voice_reveal_deadline = 0.0
-define voice_density = 0.5
+define voice_density = 1.0
 
 label after_load:
     $ stop_utterance()
@@ -102,6 +102,14 @@ label after_load:
     return
 
 label before_main_menu:
+    if not persistent.original_voice_frequency_restored:
+        $ persistent.utterances = True
+        $ preferences.set_mute('voice', False)
+        if preferences.get_volume('voice') <= 0:
+            $ preferences.set_volume('voice', config.default_voice_volume)
+        if preferences.text_cps <= 0:
+            $ preferences.text_cps = config.default_text_cps
+        $ persistent.original_voice_frequency_restored = True
     if not persistent.miran_selly_enabled:
         $ persistent.utterances = True
         $ persistent.miran_selly_enabled = True

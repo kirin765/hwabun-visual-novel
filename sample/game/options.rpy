@@ -11,7 +11,7 @@ init -20 python:
 
 define config.name = "화분 · 푸른 집"
 define config.language = "korean"
-define config.version = "0.3.6-cinema-thunder"
+define config.version = "0.3.7-original-voice-frequency"
 define build.name = "HwabunGarden"
 define config.save_directory = "HwabunGarden-20261002"
 define config.window_title = "화분 — 제1화 푸른 집"
@@ -33,6 +33,7 @@ define config.default_voice_volume = 0.25
 define config.main_menu_music = "audio/main_gymnopedie.ogg"
 default persistent.utterances = True
 default persistent.miran_selly_enabled = False
+default persistent.original_voice_frequency_restored = False
 default scene_title = "S01 라일락 곁의 자매"
 default block_id = 0
 default sample_complete = False

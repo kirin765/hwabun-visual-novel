@@ -24,7 +24,7 @@ testsuite voice_routing:
         $ preferences.text_cps = 10
         $ voice_pools = {s:['audio/grass.ogg','audio/door.ogg'] for s in ('miran','seran','oknyeo')}
     teardown:
-        $ voice_density = 0.5
+        $ voice_density = 1.0
         $ voice_pools = {}
         $ persistent.utterances = False
         $ preferences.text_cps = 28
@@ -72,8 +72,8 @@ testsuite miran_voice:
         exit
     testcase approved_selly_routing:
         assert eval voices_ready
-        assert eval voice_density == 0.5
-        $ voice_trigger_count = 1
+        assert eval voice_density == 1.0
+        $ voice_trigger_count = 0
         assert eval set(voice_pools) == {'miran','seran','oknyeo','danju','hyunma','younghun'}
         $ block_id = 63
         assert eval utterance_pool('miran') == ['audio/miran_selly/surprised.ogg']

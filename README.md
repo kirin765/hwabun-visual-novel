@@ -10,8 +10,8 @@ S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사�
 
 제목 화면의 **새 장면 S03부터** 버튼으로 추가 부분을 바로 볼 수 있습니다.
 
-- [Linux 배포본](dist/HwabunGarden-0.3.6-cinema-thunder-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
-- [Windows 배포본](dist/HwabunGarden-0.3.6-cinema-thunder-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
+- [Linux 배포본](dist/HwabunGarden-0.3.7-original-voice-frequency-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
+- [Windows 배포본](dist/HwabunGarden-0.3.7-original-voice-frequency-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
 
 ## 이번 추가
 
@@ -41,3 +41,5 @@ python tools/check_packages.py
 [비바람 실외·실내 비교](docs/s03-s04/weather-preview.html)
 
 0.3.6: 극장에서 폭풍우가 시작될 때 큰 천둥 1회를 먼저 들려주고, 0.6초 뒤 실내 비바람을 시작합니다.
+
+0.3.7: 요청에 따라 발성 빈도를 원래 100%로 복원했습니다. 첫 실행에서 발성을 켜고 음성 음소거를 해제합니다. 음성 음량 0 또는 즉시 글자 표시 설정인 경우 기본값으로 복원합니다.
