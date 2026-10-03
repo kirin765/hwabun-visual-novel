@@ -10,8 +10,8 @@ S01–S04와 C01 선택지를 포함한 Ren’Py 샘플입니다. 원문 대사�
 
 제목 화면의 **새 장면 S03부터** 버튼으로 추가 부분을 바로 볼 수 있습니다.
 
-- [Linux 배포본](dist/HwabunGarden-0.3.5-storm-weather-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
-- [Windows 배포본](dist/HwabunGarden-0.3.5-storm-weather-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
+- [Linux 배포본](dist/HwabunGarden-0.3.6-cinema-thunder-linux.tar.bz2): 압축 해제 후 `HwabunGarden.sh` 실행.
+- [Windows 배포본](dist/HwabunGarden-0.3.6-cinema-thunder-win.zip): 압축 해제 후 `HwabunGarden.exe` 실행. Windows 직접 실행 검증은 아직 없습니다.
 
 ## 이번 추가
 
@@ -39,3 +39,5 @@ python tools/check_packages.py
 0.3.5: S3 후반 바람 → S4 실외 강풍/폭우 → 극장·아파트 실내의 작고 먹먹한 비바람 → 새벽 잦아드는 비로 전환합니다. 환경음 볼륨 설정을 따릅니다.
 
 [비바람 실외·실내 비교](docs/s03-s04/weather-preview.html)
+
+0.3.6: 극장에서 폭풍우가 시작될 때 큰 천둥 1회를 먼저 들려주고, 0.6초 뒤 실내 비바람을 시작합니다.

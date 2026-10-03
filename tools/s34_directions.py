@@ -27,7 +27,7 @@ def directions(text):
         '창밖 조명을': ['scene bg restaurant_dark', 'show miran neutral at miran_left', 'show danju neutral at man_right', 'with dissolve'],
         '배경: BG03 극장': ['$ set_weather("inside", wind=0.10)', 'scene bg cinema', 'stop music fadeout 1.0', 'play ambience "audio/projector.ogg" fadein 1.0', 'with fade'],
         '화면에는 나무': ['pass'],
-        '소리: 영사기와': ['$ set_weather("inside", rain=0.20, wind=0.16, fade=2.0)'],
+        '소리: 영사기와': ['play sound "audio/thunder_cinema.ogg"', 'pause 0.6', '$ set_weather("inside", rain=0.20, wind=0.16, fade=2.0)'],
         '배경: BG06 출입구': ['$ set_weather("outside", rain=0.85, wind=0.70)', 'scene bg street_rain', 'show screen rain_overlay', 'stop ambience fadeout 1.0', 'show miran coat at miran_left', 'show danju neutral at man_right', 'with fade'],
         '단주가 팔을 내밀고': ['$ set_weather("inside", rain=0.25, wind=0.20)', 'scene black', 'with fade', 'play sound "audio/door.ogg"'],
         '시간 전환: ‘잠시 뒤’.': ['hide screen rain_overlay', 'scene bg apartment', 'show miran neutral at miran_left', 'show danju neutral at man_right', '$ set_weather("inside", rain=0.25, wind=0.20)', 'stop birds fadeout 1.0', 'with fade'],

@@ -66,5 +66,22 @@
         "duration": "48.000000"
       }
     }
+  },
+  {
+    "file": "thunder_cinema.ogg",
+    "decoded": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "sample_rate": "24000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "6.000000"
+      }
+    }
   }
 ]

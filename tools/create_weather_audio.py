@@ -50,5 +50,16 @@ save('storm_wind_inside', np.column_stack((muffled(wind), muffled(wind))))
 src = OUT/'thunder.ogg'; dest = OUT/'thunder_inside.ogg'
 subprocess.run(['ffmpeg','-v','error','-y','-i',str(src),'-af','lowpass=f=650,volume=0.45','-c:a','libvorbis','-q:a','5',str(dest)],check=True)
 records.append(dict(file='audio/'+dest.name,sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),source='original thunder.ogg; lowpass 650Hz, gain 0.45',human_voice=False))
+# A close, forceful thunder strike announces the storm in the cinema.
+strike_n = SR * 6
+strike_t = np.arange(strike_n) / SR
+strike_freq = np.fft.rfftfreq(strike_n, 1/SR)
+raw = np.fft.rfft(rng.normal(size=strike_n))
+rumble = np.fft.irfft(raw / (1 + (strike_freq/220)**4), n=strike_n)
+crack = np.fft.irfft(raw / (1 + (strike_freq/2600)**4), n=strike_n)
+strike = rumble * np.exp(-strike_t*.65) + crack * .25 * np.exp(-strike_t*16)
+strike *= np.minimum(strike_t/.012, 1) * np.minimum((6-strike_t)/.4, 1)
+strike *= .72 / np.max(np.abs(strike))
+save('thunder_cinema', np.column_stack((strike, strike)))
 (ROOT/'docs/s03-s04/weather-manifest.json').write_text(json.dumps(records,indent=2)+'\n')
-print('Generated four 48-second stereo weather loops and indoor thunder.')
+print('Generated four weather loops, indoor thunder and cinema thunder.')

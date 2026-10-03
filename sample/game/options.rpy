@@ -11,7 +11,7 @@ init -20 python:
 
 define config.name = "화분 · 푸른 집"
 define config.language = "korean"
-define config.version = "0.3.5-storm-weather"
+define config.version = "0.3.6-cinema-thunder"
 define build.name = "HwabunGarden"
 define config.save_directory = "HwabunGarden-20261002"
 define config.window_title = "화분 — 제1화 푸른 집"

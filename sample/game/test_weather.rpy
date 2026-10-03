@@ -18,6 +18,8 @@ testsuite weather:
         assert eval weather_place == 'inside' and weather_levels == (0.0, 0.12)
         assert eval renpy.music.get_playing(channel='weather_wind') == 'audio/storm_wind_inside.ogg'
         advance until eval block_id == 301
+        pause 0.2
+        assert eval renpy.music.get_playing(channel='sound') == 'audio/thunder_cinema.ogg'
         pause 2.1
         assert eval renpy.music.get_playing(channel='ambience') == 'audio/projector.ogg'
         assert eval renpy.music.get_playing(channel='weather_rain') == 'audio/storm_rain_inside.ogg'

@@ -310,28 +310,28 @@
   {
     "file": "audio/storm_rain_inside.ogg",
     "bytes": 279877,
-    "sha256": "8b22480cdbc91a78dbfffe83fadc27ea3451c234f4e2e5358665a084a1742981",
+    "sha256": "fb8a53864611ef46db55ca0f396ff9878007b27f4185e27525c1fa6a85c1edc7",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
   {
     "file": "audio/storm_rain_outside.ogg",
     "bytes": 360516,
-    "sha256": "cac3dbb23e0a6c145eef09afb1242a0c3eeba5f2ab65a2fdf830434842ee3af7",
+    "sha256": "efd2d25b06af642e35cbc4fee5eb1d05bcfadf480cd1b91f007171c2e9e68493",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
   {
     "file": "audio/storm_wind_inside.ogg",
     "bytes": 219579,
-    "sha256": "b59ba08756c8e90a5ba7cf1d0afb88aa3c3bca276bc907504c3a9556aef4dc8d",
+    "sha256": "93110fc04485b03d18a01f3780181ce53247750ec063d86cef1fa85190828e12",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
   {
     "file": "audio/storm_wind_outside.ogg",
     "bytes": 314489,
-    "sha256": "550f5e0809825c421494bfcb975963ccd6760df36c791eb648da7fa38b3d7600",
+    "sha256": "805f79886e5402101e121f41b7c1450311f0937566cad819f6eb9b2d1799fb34",
     "kind": "original procedural audio",
     "ai_assisted": true
   },
@@ -350,9 +350,16 @@
     "ai_assisted": true
   },
   {
+    "file": "audio/thunder_cinema.ogg",
+    "bytes": 33606,
+    "sha256": "dc9680c6427261da7d34020f1992c98ca06eed2749c2fc478b2b11f8518f6009",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
     "file": "audio/thunder_inside.ogg",
     "bytes": 15709,
-    "sha256": "1560624d11646d5177f5c59a507c43866ea47dee8ad0aa04deaf0cb26d9b551e",
+    "sha256": "b4ee83aa5150f4119eac7f50f8f057726c84f8c51405faec244d01908f32f815",
     "kind": "original procedural audio",
     "ai_assisted": true
   },

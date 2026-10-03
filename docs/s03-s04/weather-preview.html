@@ -4,9 +4,11 @@
 <button onclick="mix('outside',.85,.70)">폭우 속 거리</button>
 <button onclick="mix('inside',.25,.20)">닫힌 창문 안쪽</button>
 <button onclick="mix('inside',.06,.03)">새벽, 잦아드는 비</button>
+<button onclick="cinema()">극장: 천둥 뒤 비바람</button>
 <button onclick="stop()">정지</button><p id="state" role="status">재생할 공간을 선택하세요.</p>
 <script>
-const rain=new Audio(), wind=new Audio();rain.loop=wind.loop=true;
-function stop(){rain.pause();wind.pause();document.querySelector('#state').textContent='정지';}
+const rain=new Audio(), wind=new Audio(), thunder=new Audio("../../sample/game/audio/thunder_cinema.ogg");let stormTimer;rain.loop=wind.loop=true;
+function stop(){clearTimeout(stormTimer);rain.pause();wind.pause();thunder.pause();document.querySelector('#state').textContent='정지';}
 async function mix(place,r,w){stop();rain.src='../../sample/game/audio/storm_rain_'+place+'.ogg';wind.src='../../sample/game/audio/storm_wind_'+place+'.ogg';rain.volume=r;wind.volume=w;try{await Promise.all([rain.play(),wind.play()]);document.querySelector('#state').textContent=place==='outside'?'실외 비바람':'실내 비바람';}catch(e){document.querySelector('#state').textContent='재생 버튼을 다시 눌러주세요.';}}
+async function cinema(){stop();thunder.currentTime=0;thunder.volume=1;await thunder.play();document.querySelector('#state').textContent='극장: 천둥';stormTimer=setTimeout(async()=>{rain.src='../../sample/game/audio/storm_rain_inside.ogg';wind.src='../../sample/game/audio/storm_wind_inside.ogg';rain.volume=.20;wind.volume=.16;await Promise.all([rain.play(),wind.play()]);document.querySelector('#state').textContent='극장: 천둥 뒤 비바람';},600);}
 </script></body></html>

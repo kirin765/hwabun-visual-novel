@@ -23,7 +23,7 @@ class Content(unittest.TestCase):
     def test_only_expected_assets(self):
         game=ROOT/'sample/game'
         self.assertEqual(len(list((game/'images').glob('*.png'))),23)
-        self.assertEqual(len(list((game/'audio').rglob('*.ogg'))),69)
+        self.assertEqual(len(list((game/'audio').rglob('*.ogg'))),70)
         manifest=json.loads((game/'audio/voices.json').read_text())
         self.assertTrue(manifest['speakers']['miran']['approved'])
         self.assertEqual(len(manifest['speakers']['miran']['clips']),8)

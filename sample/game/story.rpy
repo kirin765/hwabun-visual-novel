@@ -838,6 +838,8 @@ label sample_s04:
     $ block_id = 300
     inner "그 무서운 금령을 거역할 용기는 어디서 오는 것일까.\n돌아서면 그만일 텐데 돌아서지 않는다. 나는 그들이 두렵고도 궁금했다. 그러다가 집으로 돌아가지 않은 내 생각이 났다." id sample_300
     # 소리: 영사기와 구분되는 빗소리가 서서히 커진다.
+    play sound "audio/thunder_cinema.ogg"
+    pause 0.6
     $ set_weather("inside", rain=0.20, wind=0.16, fade=2.0)
     $ block_id = 301
     danju "비가 아닐까." id sample_301

@@ -1,7 +1,8 @@
 {
-  "linux_media_verified": 94,
-  "windows_media_verified": 94,
-  "weather_engine_assertions": 13,
+  "linux_media_verified": 95,
+  "windows_media_verified": 95,
+  "version": "0.3.6-cinema-thunder",
+  "weather_engine_assertions": 14,
   "weather_engine_passed": true,
   "integrity_tests": 8,
   "windows_launched": false
