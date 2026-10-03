@@ -1,0 +1,12 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>비바람 공간 비교</title>
+<body style="background:#17232c;color:#eee;font:18px sans-serif;padding:40px;max-width:800px">
+<h1>비바람 · 실외와 실내</h1><p>게임과 같은 음원과 상대 음량으로 비교합니다. 먼저 기기 음량을 편안한 수준으로 맞추세요.</p>
+<button onclick="mix('outside',.85,.70)">폭우 속 거리</button>
+<button onclick="mix('inside',.25,.20)">닫힌 창문 안쪽</button>
+<button onclick="mix('inside',.06,.03)">새벽, 잦아드는 비</button>
+<button onclick="stop()">정지</button><p id="state" role="status">재생할 공간을 선택하세요.</p>
+<script>
+const rain=new Audio(), wind=new Audio();rain.loop=wind.loop=true;
+function stop(){rain.pause();wind.pause();document.querySelector('#state').textContent='정지';}
+async function mix(place,r,w){stop();rain.src='../../sample/game/audio/storm_rain_'+place+'.ogg';wind.src='../../sample/game/audio/storm_wind_'+place+'.ogg';rain.volume=r;wind.volume=w;try{await Promise.all([rain.play(),wind.play()]);document.querySelector('#state').textContent=place==='outside'?'실외 비바람':'실내 비바람';}catch(e){document.querySelector('#state').textContent='재생 버튼을 다시 눌러주세요.';}}
+</script></body></html>

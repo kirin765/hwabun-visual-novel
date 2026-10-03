@@ -2,6 +2,7 @@
 label start:
     $ sample_complete = False
     $ c01_choice = None
+    $ set_weather("off", fade=0.0)
     $ renpy.music.set_volume(1.0, channel="music")
     $ renpy.music.set_volume(1.0, channel="ambience")
     $ scene_title = "S01 라일락 곁의 자매"
@@ -349,6 +350,7 @@ label sample_s03:
     $ renpy.music.set_volume(1.0, channel="music")
     $ scene_title = "S03 손님 앞의 농담"
     # 배경: BG02 대청 낮. 창의 담장이 그림자, 붉은 주단, 축음기. 인물: 현마 왼쪽, 단주 가운데, 세란 오른쪽. 미란은 처음에 화면 밖.
+    $ set_weather("off")
     scene bg hall
     stop ambience fadeout 1.0
     stop birds fadeout 1.0
@@ -537,6 +539,7 @@ label c01_join:
     # 배경: BG02 복도→BG01 늦은 오후. 소리: A03 문, A02 빠른 걸음. 음악 M02는 문밖에서 멀어진다.
     play sound "audio/door.ogg"
     scene bg garden_evening
+    $ set_weather("outside", wind=0.22)
     show miran coat at miran_left
     with fade
     play sound "audio/steps.ogg"
@@ -548,6 +551,7 @@ label c01_join:
     $ block_id = 192
     inner "뒤도 돌아보지 않았다.\n언니는 어쩌느냐는 말만 들렸다. 나는 어찌해야 하느냐고 묻는 사람은 없었다." id sample_192
     # 짧은 외부 장면. 미란의 내면 없음. 대청의 현마·단주만 표시.
+    $ set_weather("inside", wind=0.06)
     scene bg hall
     show hyunma neutral at man_left
     show danju neutral at man_right
@@ -559,6 +563,7 @@ label c01_join:
     $ block_id = 195
     hyunma "저렇게 가는데 어딜 갈 줄 아나." id sample_195
     # 단주가 음반을 두고 일어난다. 전환: BG03 시내로 이어지는 길.
+    $ set_weather("outside", wind=0.32)
     scene bg street
     with fade
 label sample_s04:
@@ -566,6 +571,7 @@ label sample_s04:
     $ renpy.music.set_volume(1.0, channel="music")
     $ scene_title = "S04 거리와 폭풍우"
     # 배경: BG03 흐린 늦은 오후. 소리: A02 걸음, 먼 전차 종. 음악 없음.
+    $ set_weather("outside", wind=0.42)
     scene bg street
     stop music fadeout 1.0
     stop ambience fadeout 1.0
@@ -630,6 +636,7 @@ label sample_s04:
     $ block_id = 220
     inner "멀리 가자는 약속도 아니었다.\n전차 타는 데까지라니, 고작 그만큼이었다. 그래도 그만큼은 내 말을 따라 정한 듯해서 걸음을 늦추었다." id sample_220
     # 시간 전환: ‘시내’. 전차 종과 짧은 이동 소리 뒤 BG04 식당 창가. 강과 먼 언덕은 창밖의 간단한 실루엣.
+    $ set_weather("inside", wind=0.12)
     scene bg restaurant
     show miran neutral at miran_left
     show danju neutral at man_right
@@ -803,6 +810,7 @@ label sample_s04:
     $ block_id = 290
     danju "그럼 같이 고르지요." id sample_290
     # 배경: BG03 극장 앞을 짧게 표시→BG06 영화관. 소리: A04 영사기, 좌석의 낮은 움직임.
+    $ set_weather("inside", wind=0.10)
     scene bg cinema
     stop music fadeout 1.0
     play ambience "audio/projector.ogg" fadein 1.0
@@ -830,7 +838,7 @@ label sample_s04:
     $ block_id = 300
     inner "그 무서운 금령을 거역할 용기는 어디서 오는 것일까.\n돌아서면 그만일 텐데 돌아서지 않는다. 나는 그들이 두렵고도 궁금했다. 그러다가 집으로 돌아가지 않은 내 생각이 났다." id sample_300
     # 소리: 영사기와 구분되는 빗소리가 서서히 커진다.
-    play birds "audio/rain.ogg" fadein 2.0
+    $ set_weather("inside", rain=0.20, wind=0.16, fade=2.0)
     $ block_id = 301
     danju "비가 아닐까." id sample_301
     $ block_id = 302
@@ -840,6 +848,7 @@ label sample_s04:
     $ block_id = 304
     inner "작던 소리가 금시에 말을 삼켜 버렸다.\n막을 바라보던 사람들이 하나씩 위를 쳐다보았다. 영사기의 소리와는 달리, 지붕 위를 후려치는 소리였다." id sample_304
     # 배경: BG06 출입구 부분 크롭→BG03 폭우. 소리: A04 폭우.
+    $ set_weather("outside", rain=0.85, wind=0.70)
     scene bg street_rain
     show screen rain_overlay
     stop ambience fadeout 1.0
@@ -857,6 +866,7 @@ label sample_s04:
     $ block_id = 309
     miran "응." id sample_309
     # 단주가 팔을 내밀고 미란이 짧게 붙잡아 뛰어간다. 화면 어둡게 전환. 차 문과 비 소리.
+    $ set_weather("inside", rain=0.25, wind=0.20)
     scene black
     with fade
     play sound "audio/door.ogg"
@@ -879,7 +889,7 @@ label sample_s04:
     scene bg apartment
     show miran neutral at miran_left
     show danju neutral at man_right
-    play ambience "audio/rain.ogg" fadein 1.0
+    $ set_weather("inside", rain=0.25, wind=0.20)
     stop birds fadeout 1.0
     with fade
     $ block_id = 317
@@ -951,7 +961,7 @@ label sample_s04:
     $ block_id = 345
     miran "비는 밖에만 있었으면." id sample_345
     # 단주가 라디오 음량을 줄인다. 바깥 천둥 1회, 밝기 변화 1회 후 방 조명 소등. 라디오와 음악도 함께 끊긴다.
-    play sound "audio/thunder.ogg"
+    play sound "audio/thunder_inside.ogg"
     stop music fadeout 0.3
     scene bg apartment_dark
     show miran startled at miran_left
@@ -1060,7 +1070,7 @@ label sample_s04:
     $ block_id = 385
     danju "저도……" id sample_385
     # 단주가 말을 멈춘다. 빗소리를 조금 낮춰 침묵을 들을 수 있게 한다.
-    $ renpy.music.set_volume(0.35, 1.0, channel="ambience")
+    $ set_weather("inside", rain=0.22, wind=0.16)
     # 발성 무음
     $ voice_suppress_once = True
     $ block_id = 386
@@ -1109,7 +1119,7 @@ label sample_s04:
     $ block_id = 404
     inner "낮의 뱀은 담 밑으로 사라지고 나는 어두운 방에 남았다.\n문을 나서는 용기는 어디서 얻을 것인가. 그 의문을 되씹다가, 오늘 밤에 꼭 답을 얻어야 할 까닭도 없지 않은가 생각했다." id sample_404
     # 시간 경과: 창밖의 비 소리가 약해진다. 강제 대기 없이 다음 블록으로 넘긴다.
-    $ renpy.music.set_volume(0.18, 1.0, channel="ambience")
+    $ set_weather("inside", rain=0.12, wind=0.08, fade=3.0)
     $ block_id = 405
     miran "좀 잦았어요." id sample_405
     $ block_id = 406
@@ -1125,6 +1135,7 @@ label sample_s04:
     $ block_id = 411
     inner "어제보다 그를 조금 더 알게 된 듯했다.\n내 마음은 도리어 모를 것이 많아졌다." id sample_411
     # 배경: BG07 새벽. 음악: M03의 미해결된 짧은 끝부분을 작은 음량으로 재생하고 종료.
+    $ set_weather("inside", rain=0.06, wind=0.03, fade=3.0)
     scene bg apartment_dawn
     show miran hopeful at miran_left
     show danju neutral at man_right
@@ -1149,6 +1160,7 @@ label sample_s04:
     stop music fadeout 1.0
     stop ambience fadeout 1.0
     stop birds fadeout 1.0
+    $ set_weather("off")
     stop sound
     scene black
     with fade

@@ -1,0 +1,70 @@
+[
+  {
+    "file": "storm_rain_outside.ogg",
+    "decoded": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "sample_rate": "24000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "48.000000"
+      }
+    }
+  },
+  {
+    "file": "storm_wind_outside.ogg",
+    "decoded": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "sample_rate": "24000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "48.000000"
+      }
+    }
+  },
+  {
+    "file": "storm_rain_inside.ogg",
+    "decoded": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "sample_rate": "24000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "48.000000"
+      }
+    }
+  },
+  {
+    "file": "storm_wind_inside.ogg",
+    "decoded": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "sample_rate": "24000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "48.000000"
+      }
+    }
+  }
+]

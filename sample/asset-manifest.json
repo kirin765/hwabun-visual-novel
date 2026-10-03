@@ -308,6 +308,34 @@
     "ai_assisted": true
   },
   {
+    "file": "audio/storm_rain_inside.ogg",
+    "bytes": 279877,
+    "sha256": "8b22480cdbc91a78dbfffe83fadc27ea3451c234f4e2e5358665a084a1742981",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/storm_rain_outside.ogg",
+    "bytes": 360516,
+    "sha256": "cac3dbb23e0a6c145eef09afb1242a0c3eeba5f2ab65a2fdf830434842ee3af7",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/storm_wind_inside.ogg",
+    "bytes": 219579,
+    "sha256": "b59ba08756c8e90a5ba7cf1d0afb88aa3c3bca276bc907504c3a9556aef4dc8d",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/storm_wind_outside.ogg",
+    "bytes": 314489,
+    "sha256": "550f5e0809825c421494bfcb975963ccd6760df36c791eb648da7fa38b3d7600",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
     "file": "audio/tableware.ogg",
     "bytes": 6510,
     "sha256": "ffcf5afb00f4415df12c8da45ec176796802cccc3612a4d8b076fd7e6ad38b8e",
@@ -318,6 +346,13 @@
     "file": "audio/thunder.ogg",
     "bytes": 26595,
     "sha256": "76a558fea790bdac7f6cf0cc11205d48dedf64dc8a07c1fe7088e8658313f392",
+    "kind": "original procedural audio",
+    "ai_assisted": true
+  },
+  {
+    "file": "audio/thunder_inside.ogg",
+    "bytes": 15709,
+    "sha256": "1560624d11646d5177f5c59a507c43866ea47dee8ad0aa04deaf0cb26d9b551e",
     "kind": "original procedural audio",
     "ai_assisted": true
   },

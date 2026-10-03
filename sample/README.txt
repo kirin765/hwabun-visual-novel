@@ -1,4 +1,4 @@
-화분 — 제1화 푸른 집 / 0.3.4-quieter-voices
+화분 — 제1화 푸른 집 / 0.3.5-storm-weather
 
 Linux: 압축을 풀고 HwabunGarden.sh 실행.
 Windows: ZIP을 모두 풀고 HwabunGarden.exe 실행.

@@ -1,0 +1,8 @@
+{
+  "linux_media_verified": 94,
+  "windows_media_verified": 94,
+  "weather_engine_assertions": 13,
+  "weather_engine_passed": true,
+  "integrity_tests": 8,
+  "windows_launched": false
+}

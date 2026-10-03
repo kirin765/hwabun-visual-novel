@@ -1,6 +1,6 @@
 # 화분 정원 샘플 자산 기록
 
-기록일: 2026-10-03. 버전: 0.3.4-quieter-voices. 개별 파일 해시는 `asset-manifest.json`을 따른다.
+기록일: 2026-10-03. 버전: 0.3.5-storm-weather. 개별 파일 해시는 `asset-manifest.json`을 따른다.
 
 | 자산 | 수량 | 출처·제작 | 이용 근거 및 상태 |
 |---|---:|---|---|
@@ -63,3 +63,5 @@ OpenAI 내장 imagegen으로 11장을 제작했습니다: 단주·현마 스탠�
 세란 Rosa Oh, 옥녀 Yoojin Kim, 단주 JooHwan, 현마 Shin, 영훈 HoCho를 사용자가 선택했습니다. 각 목소리의 감정 발성 8종, 합계 40개를 Ogg로 변환했습니다. `docs/voice-casting/selection.json`과 `docs/selected-voices/integration-manifest.json`에 선택·원본·해시를 기록했습니다. 비교용 문장은 배포 음원에서 제외했습니다. 영훈의 제1화 대사는 없어 이후 등장용으로 준비합니다.
 
 0.3.4: Miran neutral/hesitant/curious/frustrated and Danju worried were regenerated with eleven_v4, using the previously selected voices. Exact per-clip provenance: `docs/miran-audio-check/replacements/manifest.json`; remaining clips retain eleven_v3.
+
+0.3.5: 실외·실내용 비와 바람 4루프, 실내용 천둥 1음을 추가했습니다. 48초 스테레오 루프는 독자적인 결정론적 신호 합성이며, 실내용은 700Hz 저역 통과 필터로 고음을 줄였습니다. 기록: `docs/s03-s04/weather-manifest.json`.
